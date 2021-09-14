@@ -6,20 +6,17 @@ public class VowelConsonant {
     public static void main(String[] args) {
 
         Scanner VowelConsonantobj = new Scanner(System.in);
-        String alpha;
+        String ch;
+        int num;
         do{
-            System.out.println("enter your character:");
+            System.out.println("enter your alphabet:");
            while(!VowelConsonantobj.hasNext() ){
-               String input=VowelConsonantobj.next();
-               System.out.println(input+"  is not a valid type");
-               while(!VowelConsonantobj.hasNextInt() );
-              // String input=VowelConsonantobj.next();
+               //String alpha=VowelConsonantobj.next();
+               int input=VowelConsonantobj.nextInt();
                System.out.println(input+"  is not a valid type");
              }
-             alpha=VowelConsonantobj.next();
-           } while(alpha=="a,e,i,o,u");
-
-
+             num=VowelConsonantobj.nextInt();
+           } while(num>=0);
 
 
 
