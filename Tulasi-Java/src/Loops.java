@@ -8,6 +8,7 @@ public class Loops {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num= sc.nextInt();
+        label1:
         do{
             System.out.print(i+" ");
             if(i==6);
@@ -27,6 +28,7 @@ public class Loops {
                 //continue label1;
             System.out.print("#");
             System.out.println("");
+            sc.close();
         }
 
     }

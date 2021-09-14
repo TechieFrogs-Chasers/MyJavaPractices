@@ -29,7 +29,6 @@ public class ForPractice {
     }
     void EmployeeDetails(Scanner sc3){
         System.out.println("---------Enter your details -----------");
-
         System.out.println("Enter your name:" + " ");
         int name=sc3.nextInt();
 

@@ -38,7 +38,8 @@ public class Loops {
             //System.out.println(j);
        /*break bb; no need of brk for label
         bb here because if we close the inner for loop it automatically scope of label closed*/
-        if(i==4&&j==4)
+        //if(j==3&&i==3)
+        if(i==5&&j==4)
              break aa;
     /*in inner loop we can brk the outer loop execution, 
         but we can't brk inner loop label in outer loop*/
@@ -47,6 +48,40 @@ public class Loops {
         System.out.println(i+" "+j);
     }
 
-    }
+    // Infinite loop
+    /*for(;;){
+        System.out.println("Infinite looop");
+    }*/
+    System.out.println(i);//i=5
+    //while(i<=j) // not accepting
+while(i<=10){
+   // i++;
+System.out.println("Value of i "+ i);
+i++;
+}// if we didn't give this in loop it goes to infinite loop
+
+int k = 10;
+do{
+    if(k==13){
+    k++;
+    // break; brk  from 13 and after nxt execution also
+ continue;// only skip the if condition i.e it doesn't print 13 and prints next ones 14 and 15
+}
+System.out.println(k);
+k++;
+
+}while(k<=15);
+/*{
+   //System.out.println(k);
+   // if(k==13)
+  //  break; // the condition doesn't execute here brk or continue not accepts here
+}*/
+
+   //if(k==13)
+   // continue;
+
+    //throwing error as continue should not be outside of loop, it should be in loop og do
+
+}
     
 }

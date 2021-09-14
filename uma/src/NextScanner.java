@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ScannerMethods {
+public class NextScanner {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
        
@@ -14,6 +14,8 @@ public class ScannerMethods {
        System.out.println("enter your gender m/f:  ");
         String gender=obj.next();
         System.out.println(gender.charAt(0));
+        
+        System.out.println(gender.length());
 
         System.out.println("enter your marital status ");
         
@@ -36,9 +38,9 @@ public class ScannerMethods {
         //String s= obj.next();
         if(age<=17)
         System.out.println("minor");
-        //else
-        //System.out.println("major");}
-            if(age>18 && age<=60)
+        else if
+        //System.out.println("major");
+            (age>18 && age<=60)
               System.out.println("in service  and voter");
            else
            System.out.println("senior citizen");
@@ -50,6 +52,9 @@ public class ScannerMethods {
 
         System.out.println("your net income is:    ");
         obj.nextFloat();
+
+        System.out.println("your pocket money");
+        obj.nextByte();
 
         boolean b=obj.nextBoolean();
         //obj.nextBoolean();

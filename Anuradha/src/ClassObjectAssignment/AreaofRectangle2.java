@@ -11,8 +11,8 @@ public class AreaofRectangle2 {
         obj.close();
     }
     AreaofRectangle2(int a,int b){
-        this.a = a;
-        this.b = b;
+        AreaofRectangle2.a = a;
+        AreaofRectangle2.b = b;
        int area =  returnArea(a,b);
        System.out.println("area of rectangle is :"+area);
     }
