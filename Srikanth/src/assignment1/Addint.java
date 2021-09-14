@@ -1,32 +1,36 @@
 package assignment1;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Addint {
     public static void main(String[] args) {
-        Scanner Object = new Scanner(System.in);
+        Scanner object = new Scanner(System.in);
 
-        System.out.println("Enter a integer: ");
-        int x = Addint.validate(Object);
+        System.out.println("Enter a value: ");
+        int x = Addint.validate(object);
 
-        System.out.println("Enter the second Integer: ");
-        int y = Addint.validate(Object);
+        System.out.println("Enter another value: ");
+        int y = Addint.validate(object);
 
-        int sum = x + y;
+        int sum = add(x, y);
         System.out.println("Sum of two no is: " + sum);
-        Object.close();
+        object.close();
+    }
+
+    static int add(int x, int y) {
+        return x + y;
     }
 
     static int validate(Scanner object) {
         int num;
 
         do {
-            System.out.println("Enter a Integer:");
-            while (!Object.hasNextInt()) {
+            while (!object.hasNextInt()) {
+                System.out.println("Enter Integer:");
+                object.next();
                 System.out.println("this is not an integer");
-                Object.next();
             }
-            num = Object.nextInt();
+            num = object.nextInt();
         } while (num <= 0);
         return num;
 
