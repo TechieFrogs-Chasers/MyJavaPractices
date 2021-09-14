@@ -169,13 +169,97 @@ System.out.println();
   //case 7, 8 -> System.out.println(" the value is  matched");
   //case  9 -> System.out.println( " the value is not matched");
 //}
-String name = "009";
+/*String name = "009";
 switch ("009") {
   case "008":
     System.out.println("not a valid string");
+    case " 00":{
+    System.out.println("inavalid");
+    System.out.println("null");
+    }
+    case "009":
+    System.out.println("it's a valid string");
     break;
   default: System.out.println("default");
     break;
+}*/
+// Switch using yelid//
+/*char v = 'N';
+int k = switch (v){
+  case 'K' :
+  System.out.println("print value");
+  //System.out.println(g);
+  yield 'k';
+  
+  case 'N':{
+    int g = 78;
+    System.out.println(g);
+  System.out.println("its same value");
+  yield 'n';
 }
-   }
+  default:  
+  yield 89;
+};
+System.out.println("value: " +k);
+int h = 99;
+switch (h) {
+  case 88 -> System.out.println("it's not a number 99");
+  case 99, 76, 567 -> 
+  System.out.println("it's a number 99");
+  }*/
+  int a = 10;
+  switch (a) {
+    case 1: {
+    if(a > 1)
+    System.out.println("a is greater than 1");
+      else 
+      System.out.println("a is lesser than 1");
+    }
+      break;
+  case 4:{
+    if(a > 4)
+System.out.println("a is greater than 4");
+System.out.println("a is lesser than 4");
   }
+  break;
+  case 10:{
+    if(a >= 10)
+    System.out.println(" a is greater than or equal to 10");
+    else 
+    System.out.println("a is lesser than 10");
+  }
+  break;
+    default:System.out.println("invalid");
+      break; 
+    }
+      int l = 'd';
+     switch (l) {
+        case 'D'| 'd' | 'e' |'r':{
+          int f = 5 ;
+          int d = 3;
+          int sum = (f + d);
+        System.out.println('d'+" " + sum);
+        }
+          break;
+      
+        default : System.out.println("invalid");
+          break;
+      }
+//System.out.println();
+Scanner myObj = new Scanner(System.in);
+System.out.println("enter age");
+int age = myObj.nextInt();
+System.out.println("enter place:");
+char c = myObj.next().charAt(5);
+System.out.println(c);
+System.out.println("print boolean:");
+boolean b = myObj.hasNextBoolean();
+System.out.println(b);
+myObj.useDelimiter("/");
+String City = myObj.next();
+//System.out.println("Enter city:" City);
+
+
+}
+}
+  

@@ -1,9 +1,9 @@
+import java.util.Scanner;
+
 public class SwitchEnhancements {
 
-    static short a = 15;
-
     public static void main(String[] args) {
-        int i = 33;
+    /*    int i = 33;
         String month = "  ";
         char ch = 'B';
         long j = 33;
@@ -36,5 +36,17 @@ public class SwitchEnhancements {
                 System.out.println(" default");
         }
     }
-}
+}*/
+        System.out.println("Enter value: ");//Scanner
+        Scanner sc = new Scanner(System.in);
+        int k = sc.nextInt();
+        switch (k) {
+            case 1, 2, 3, 4 -> System.out.println("Enter value between 1 to 4");
+            // yield 3;
+            case 5, 6, 7, 8 -> System.out.println("Enter value between 5 to 8");
+            //yield 8;
 
+            default -> System.out.println("invalid");
+        }
+    }
+}
