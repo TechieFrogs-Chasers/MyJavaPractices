@@ -1,3 +1,4 @@
+package JavaPrograms;
 public class DataType {
 
     byte b = 126;

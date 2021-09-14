@@ -1,3 +1,4 @@
+package JavaPrograms;
 import javax.lang.model.util.ElementScanner14;
 
 public class ControlSwitchExamp {

@@ -1,3 +1,4 @@
+package Assignment;
 public class HalfPyramidAlpha {
     public static void main(String[] args) {
         char ch = 'E';
