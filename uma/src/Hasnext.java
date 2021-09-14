@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Scan2 {
+public class Hasnext {
     static String per,temp,contract,type;
     static{
         
@@ -23,7 +23,29 @@ public class Scan2 {
         System.out.println("name is :"+name);
         scan2obj.nextLine();
 
-        //name=scan2obj.nextLine();
+        System.out.println("your address");
+        scan2obj.nextLine();
+        //scan2obj.hasNextLine();
+       //scan2obj.nextfindln()
+
+  System.out.println("enter true / false");
+  scan2obj.hasNext();
+
+     System.out.println("enter male/female");
+     scan2obj.hasNext();
+
+     //scan2obj.hasNextBoolean();
+    // System.out.println("boolean value"+scan2obj.hasNextBoolean());
+
+
+
+
+
+
+
+
+
+       /* //name=scan2obj.nextLine();
         System.out.println("enter the type of employee");
         per=scan2obj.nextLine();
         boolean b=scan2obj.nextBoolean();
@@ -36,7 +58,7 @@ public class Scan2 {
        // }
        // else
         
-       // System.out.println("do not give access");
+       // System.out.println("do not give access");*/
         
         scan2obj.close();
 

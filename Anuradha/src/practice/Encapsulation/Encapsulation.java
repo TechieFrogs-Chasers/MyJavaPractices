@@ -2,6 +2,16 @@ package Encapsulation;
 
  class EncapsulationTest {
      private String  sum;
+     static int Sal;
+     protected int age;
+     private int empNum;
+     private String empName;
+     final String str = "Anu";
+     public String getStr() {
+        return str;
+    }
+
+    int id;
     public String getSum() {
         return sum;
     }
@@ -9,13 +19,21 @@ package Encapsulation;
     public void setSum(String sum) {
         this.sum = sum;
     }
-    protected int age;
+   
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+    
+    public static int getSal() {
+        return Sal;
+    }
+
+    public static void setSal(int sal) {
+        Sal = sal;
     }
 
     public int getId() {
@@ -25,9 +43,7 @@ package Encapsulation;
     public void setId(int id) {
         this.id = id;
     }
-    private int empNum;
-    private String empName;
-    int id;
+    
     public int getempNum(){
         return empNum;
     }

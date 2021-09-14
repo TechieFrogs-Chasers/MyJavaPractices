@@ -246,6 +246,19 @@ System.out.println("a is lesser than 4");
           break;
       }
 //System.out.println();
+Scanner myObj = new Scanner(System.in);
+System.out.println("enter age");
+int age = myObj.nextInt();
+System.out.println("enter place:");
+char c = myObj.next().charAt(5);
+System.out.println(c);
+System.out.println("print boolean:");
+boolean b = myObj.hasNextBoolean();
+System.out.println(b);
+myObj.useDelimiter("/");
+String City = myObj.next();
+//System.out.println("Enter city:" City);
+
 
 }
 }
