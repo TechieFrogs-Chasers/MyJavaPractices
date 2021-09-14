@@ -7,7 +7,7 @@ public class ScannerExample {
         float salaryForfacality, feePerStudent, salaryForWorker;
 
         System.out.println("----------Enter the School Details-----------");
-        //System.out.println("Enter School Name");
+        
         Scanner scObj = new Scanner(System.in);
         String schoolname = "Niveditha Adarsa MRR";
         schoolname = scObj.findInLine("Niveditha");
