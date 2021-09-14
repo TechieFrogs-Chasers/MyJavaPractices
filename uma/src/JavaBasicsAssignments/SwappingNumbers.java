@@ -16,11 +16,15 @@ public class SwappingNumbers {
             System.out.println("Enter first  integer");
 
            while (!SwappingNumbersobj.hasNextInt() ){
+
                String input = SwappingNumbersobj.next();
+
                System.out.println(input+"  is not a valid type");
              }
              one = SwappingNumbersobj.nextInt();
+
            } while (one<=0);
+
            System.out.println("first integer is:   "+one);
 
 
@@ -28,14 +32,21 @@ public class SwappingNumbers {
 
            do{
             System.out.println("Enter second  integer ");
+
            // System.out.println("second integer is:   ");
+
            while (!SwappingNumbersobj.hasNextInt() ){
+
                String input = SwappingNumbersobj.next();
+
                System.out.println(input+"  is not a valid type");
              }
              two = SwappingNumbersobj.nextInt();
+
            } while (two<=0);
+
            System.out.println("second integer is:   "+two);
+           
        one = one + two;
        two = one - two;
 

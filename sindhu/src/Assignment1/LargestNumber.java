@@ -32,21 +32,26 @@ public class LargestNumber {
 
 
 //nested if
-int a=50,b=110,c=100;
+int a=50,b=100,c=110;
 if(a>b){
     if(a>c){
         System.out.println("a is the largest");
     } 
+}
 else if(b>a){
         if(b>c){
             System.out.println("b is the largest");
         } 
-else{
+        else{
             System.out.println("c is the largest");
         }
+    }
+else{
+            System.out.println("c is the largest");
+        
     }
 
 }
     
     }
-}
+

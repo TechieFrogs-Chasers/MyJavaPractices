@@ -1,3 +1,4 @@
+package JavaPrograms;
 public class Sample4 {
 
     int i = 30;
