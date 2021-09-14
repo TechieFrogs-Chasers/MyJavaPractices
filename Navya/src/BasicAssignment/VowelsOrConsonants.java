@@ -14,5 +14,6 @@ public class VowelsOrConsonants {
             }
             else 
             System.out.println(ch +" is a consonants");
+            myObj.close();
     }
 }
