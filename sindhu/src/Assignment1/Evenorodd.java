@@ -8,6 +8,7 @@ public class Evenorodd {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int a;
+        //validation method
         do{
             System.out.println("Enter the number");
 
