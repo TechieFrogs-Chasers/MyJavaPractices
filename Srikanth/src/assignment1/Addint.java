@@ -7,10 +7,10 @@ public class Addint {
         Scanner Object = new Scanner(System.in);
 
         System.out.println("Enter a integer: ");
-        int x = Object.nextInt();
+        int x = Addint.validate(Object);
 
         System.out.println("Enter the second Integer: ");
-        int y = Object.nextInt();
+        int y = Addint.validate(Object);
 
         int sum = x + y;
         System.out.println("Sum of two no is: " + sum);
@@ -18,7 +18,17 @@ public class Addint {
     }
 
     static int validate(Scanner object) {
-        return 0;
+        int num;
+
+        do {
+            System.out.println("Enter a Integer:");
+            while (!Object.hasNextInt()) {
+                System.out.println("this is not an integer");
+                Object.next();
+            }
+            num = Object.nextInt();
+        } while (num <= 0);
+        return num;
 
     }
 }
