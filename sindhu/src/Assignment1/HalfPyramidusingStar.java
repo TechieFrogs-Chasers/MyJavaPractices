@@ -1,5 +1,7 @@
 package Assignment1;
 
+import java.util.Scanner;
+
 public class HalfPyramidusingStar {
     public static void main(String[] args) {
         int rows = 5;
@@ -10,6 +12,10 @@ public class HalfPyramidusingStar {
           }
           System.out.println();
         }
+
+        Scanner input = new Scanner(System.in);
+        //validation 
+
     }
     
 }
