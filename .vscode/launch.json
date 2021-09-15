@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
             "name": "Launch NaturalSum",
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.NaturalSum",
