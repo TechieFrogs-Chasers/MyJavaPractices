@@ -19,6 +19,7 @@ public class QuoRem {
         int j = x%y;// to find remainder
         System.out.println("enter Quotient is : " +i);
         System.out.println("enter remainder is : " +j);
+        in.close();
 
 
 
