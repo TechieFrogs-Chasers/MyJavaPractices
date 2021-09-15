@@ -16,11 +16,10 @@ public class VowelOrConsonant {
             }
             letter = myScannerObj.next().charAt(0);
         }
-        while ((letter < 65) | (letter > 90));
-
+        while(!((letter <= 65) && (letter >= 90)||(letter >= 97) && (letter <= 122)));
         if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
             System.out.println(letter + " - " + "Its a lowercase vowel.");
-            while ((letter < 97) | (letter > 122)) ;
+
         } else if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
             System.out.println(letter + " - " + "Its a uppercase vowel.");
         } else
