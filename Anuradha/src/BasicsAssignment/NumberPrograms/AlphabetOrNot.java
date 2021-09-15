@@ -1,4 +1,4 @@
-package BasicsAssignment.NumberPrograms;
+package NumberPrograms;
 import java.util.Scanner;
 public class AlphabetOrNot {
     public static void main(String args[])

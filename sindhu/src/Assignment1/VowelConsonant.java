@@ -9,6 +9,7 @@ public class VowelConsonant {
       System.out.println("enter any character");
       char ch = input.next().charAt(0); 
       
+      
       //boolean isVowel = false;
 
         switch (ch) {

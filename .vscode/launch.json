@@ -1,0 +1,252 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalSum",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.NaturalSum",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.FactorialNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetOrNot",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.AlphabetOrNot",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetOrNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.AlphabetOrNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Case",
+            "request": "launch",
+            "mainClass": "Case",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Conditional",
+            "request": "launch",
+            "mainClass": "Conditional",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Doubt",
+            "request": "launch",
+            "mainClass": "Doubt",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enhance",
+            "request": "launch",
+            "mainClass": "Enhance",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hasnext",
+            "request": "launch",
+            "mainClass": "Hasnext",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Human",
+            "request": "launch",
+            "mainClass": "Human",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Increment",
+            "request": "launch",
+            "mainClass": "Increment",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Instance",
+            "request": "launch",
+            "mainClass": "Instance",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Int",
+            "request": "launch",
+            "mainClass": "Int",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Addittion",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.Addittion",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestNum",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.LargestNum",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEven",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.OddEven",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuotientRemainder",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.QuotientRemainder",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwappingNumbers",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.SwappingNumbers",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch VowelConsonant",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.VowelConsonant",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Logic",
+            "request": "launch",
+            "mainClass": "Logic",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Looping",
+            "request": "launch",
+            "mainClass": "Looping",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Next",
+            "request": "launch",
+            "mainClass": "Next",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextScanner",
+            "request": "launch",
+            "mainClass": "NextScanner",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number",
+            "request": "launch",
+            "mainClass": "Number",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question",
+            "request": "launch",
+            "mainClass": "Question",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scan",
+            "request": "launch",
+            "mainClass": "Scan",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerValidation",
+            "request": "launch",
+            "mainClass": "ScannerValidation",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Testing",
+            "request": "launch",
+            "mainClass": "Testing",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Whileloops",
+            "request": "launch",
+            "mainClass": "Whileloops",
+            "projectName": "MyJavaPractices_5246a9cc"
+        }
+    ]
+}

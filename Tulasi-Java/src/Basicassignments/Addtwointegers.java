@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Addtwointegers {
 
     public static void main(String[] args) {//main method
-        Scanner myscannerobj = new Scanner(System.in);//Scanner
+        Scanner myScannerObj = new Scanner(System.in);//Scanner
         int i, j;//datatypes
         System.out.println("Enter i value: ");
 
         do {//Validation
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            i = myscannerobj.nextInt();
+            i =myScannerObj.nextInt();
             if (i <= 0)
                 System.out.println("Please enter a positive number! ");
         } while (i <= 0);
@@ -22,18 +22,18 @@ public class Addtwointegers {
         System.out.println("Enter j value: ");
 
         do {//Validation
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            j = myscannerobj.nextInt();
+            j = myScannerObj.nextInt();
             if (j <= 0)
                 System.out.println("Please enter a positive number! ");
         }
         while (j <= 0);
         int sum = i + j;
         System.out.println("Total of Adding two integers : " + sum);
-        myscannerobj.close();//Scanner Close
+        myScannerObj.close();//Scanner Close
     }
 }
 

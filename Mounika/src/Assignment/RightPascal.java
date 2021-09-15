@@ -1,3 +1,4 @@
+package Assignment;
 public class RightPascal {
     public static void main(String[] args) {
     int i, j;

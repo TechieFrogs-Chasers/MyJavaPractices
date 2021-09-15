@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Amongthree {
     public static void main(String[] args) {//main method
-        Scanner myscannerobj = new Scanner(System.in);//Scanner
+        Scanner myScannerObj = new Scanner(System.in);//Scanner
         int a, b, c;
         //a Validation
         System.out.println("Enter the numbers a: ");
         do {
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            a = myscannerobj.nextInt();
+            a = myScannerObj.nextInt();
             if (a <= 0)
                 System.out.println("Please enter a positive number! ");
         }
@@ -21,11 +21,11 @@ public class Amongthree {
       //b Validation
         System.out.println("Enter the numbers b: ");
         do {
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            b = myscannerobj.nextInt();
+            b = myScannerObj.nextInt();
             if (b <= 0)
                 System.out.println("Please enter a positive number! ");
         }
@@ -33,11 +33,11 @@ public class Amongthree {
       //c Validation
         System.out.println("Enter the numbers c: ");
         do {
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            c = myscannerobj.nextInt();
+            c = myScannerObj.nextInt();
             if (c <= 0)
                 System.out.println("Please enter a positive number! ");
         }
@@ -51,7 +51,7 @@ public class Amongthree {
             System.out.println(c + " " + "is largest among the three numbers.");
         }
         System.out.println();
-        myscannerobj.close();//Scanner Close
+        myScannerObj.close();//Scanner Close
     }
 
 }

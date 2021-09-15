@@ -52,21 +52,24 @@ public class Alphabetornot
 
 //int a,c;
 do{
-    System.out.print("Enter a value : " );
-    while(!scanner.hasNextInt()){
+    System.out.print("Enter a character: " );
+    while(scanner.hasNextInt())
+    {
         String x = scanner.next();
-        System.out.println(x+ "is not an alphabet");
+        System.out.println(x+ "is not a valid character");
     }
     character = scanner.next().charAt(0);
-}while(character<=0);
-if((character>='a' && character<='z') || (character>='A' && character<='Z')){
+    if((character>='a' && character<='z') || (character>='A' && character<='Z'))
+{
     System.out.print(character + " is an alphabet.");
-}else{
+}
+else
+{
     System.out.print(character + " is not an alphabet.");
     scanner.close();
-
-
 }
+}while(character<=0);
+
     }
 }
         

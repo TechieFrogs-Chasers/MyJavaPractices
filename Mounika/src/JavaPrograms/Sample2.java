@@ -1,3 +1,4 @@
+package JavaPrograms;
 class Madhu/*if the class is not public we can save the file with 
 another name irrespective of the class name*/
 {
