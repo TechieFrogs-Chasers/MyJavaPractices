@@ -6,35 +6,52 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Factorial",
+            "name": "Launch invertedPyramid",
             "request": "launch",
-            "mainClass": "Assignment1.Factorial",
-            "projectName": "MyJavaPractices_d4502af5"
+            "mainClass": "JavaBasicsAssignments.invertedPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
-            "name": "Launch Evenorodd",
+            "name": "Launch alphabetPyramid",
             "request": "launch",
-            "mainClass": "Assignment1.Evenorodd",
-            "projectName": "MyJavaPractices_d4502af5"
+            "mainClass": "JavaBasicsAssignments.alphabetPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
-            "name": "Launch Addtwointegers",
+            "name": "Launch vowelConsonant",
             "request": "launch",
-            "mainClass": "Assignment1.Addtwointegers",
-            "projectName": "MyJavaPractices_d4502af5"
+            "mainClass": "JavaBasicsAssignments.vowelConsonant",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
-            "name": "Launch DisplayCharactersfromAtoZ",
+            "name": "Launch numberPyramid",
             "request": "launch",
-            "mainClass": "Assignment1.DisplayCharactersfromAtoZ",
-            "projectName": "MyJavaPractices_d4502af5"
-            "name": "Launch App",
+            "mainClass": "JavaBasicsAssignments.numberPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfPyramid",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "MyJavaPractices_5f34fb7c"
+            "mainClass": "JavaBasicsAssignments.halfPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.Lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
