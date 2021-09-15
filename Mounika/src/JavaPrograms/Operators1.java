@@ -1,3 +1,4 @@
+package JavaPrograms;
 //Ternary operator
 
 public class Operators1 

@@ -16,6 +16,10 @@ public class Employee {
        System.out.println("salary: " + salary);
     }
 
+     protected static void StaticDisplay(){
+         System.out.println("Static display in emp");
+     }
+     
     public final void emp(){
         System.out.println("final method in Employee");
     }
