@@ -2,9 +2,11 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class addittion {
+public class gcd {
     public static void main(String[] args) {
+
         int first,second;
+
         Scanner scannerobj = new Scanner(System.in);
 
         //validation for first integer
@@ -29,15 +31,20 @@ public class addittion {
              }
              second = scannerobj.nextInt();
            } while (second<=0);
-       
-       int sum;
-        sum = (first  +  second);
 
-        System.out.println("Addition of these integers is:  "+ sum);
-        
-         //sum = Addtionobj.nextInt();
-         System.out.println("Thank you");
-        
-         scannerobj.close();
+   if(first!=second)
+   if( first > second)
+   first=first - second;
+   else
+   second = second-first;
+   System.out.println( "GCD of given numbers is :  "+second);
+
+
+scannerobj.close();
+
+
+
+
     }
+    
 }

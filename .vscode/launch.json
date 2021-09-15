@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch gcd",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.gcd",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiplicationTable",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.multiplicationTable",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.primeNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetLoop",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.alphabetLoop",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch sandGlass",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.sandGlass",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch invertedPyramid",
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.invertedPyramid",
