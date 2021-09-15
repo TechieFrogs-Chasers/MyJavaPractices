@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class VowelOrConsonant {
     public static void main(String[] args) {//main method
-        Scanner myscannerobj = new Scanner(System.in);//Scanner
+        Scanner myScannerObj = new Scanner(System.in);//Scanner
 
         char letter;
         System.out.println("Enter a Alphabet: ");
         do {//Validation
 
-            while (myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("Its not a valid character!");
             }
-            letter = myscannerobj.next().charAt(0);
+            letter = myScannerObj.next().charAt(0);
         }
         while ((letter < 65) | (letter > 90));
 
@@ -25,7 +25,7 @@ public class VowelOrConsonant {
             System.out.println(letter + " - " + "Its a uppercase vowel.");
         } else
             System.out.println(letter + " - " + "Its a consonants.");
-        myscannerobj.close();//Scanner Close
+        myScannerObj.close();//Scanner Close
 
     }
 }
