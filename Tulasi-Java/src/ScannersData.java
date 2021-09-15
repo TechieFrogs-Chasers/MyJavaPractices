@@ -5,7 +5,7 @@ public class ScannersData {//class
     final static String company;//Static variable
     String address;//instance variable
     String State;
-    Byte Branches;
+    byte Branches;
     short ParttimeEmployess;
     int FulltimeEmployees;
     BigInteger Turnover;
@@ -26,10 +26,16 @@ public class ScannersData {//class
         obj.State= sc.nextLine();
         System.out.println("Number of branches : ");
         obj.Branches = sc.nextByte();
-       // while ((!sc.hasNextByte())){
-         //   sc.nextByte();
-           // System.out.println("Only Bytes allowed.Try again: ");
-        //}//byte Branch=sc.nextByte();
+        byte Branches;
+        do {
+            System.out.println("Number of branches : ");
+            while ((!sc.hasNextByte())) {
+               byte input = sc.nextByte();
+                System.out.println("Only Bytes allowed.Try again: ");
+            }
+            Branches = sc.nextByte();
+        }while (Branches<=0);
+
         System.out.println("Number of Parttime Employees: ");
         obj.ParttimeEmployess = sc.nextShort();
         System.out.println("Number of Fulltime Employees: ");
@@ -41,7 +47,7 @@ public class ScannersData {//class
         System.out.println("Value of the company: ");
         obj.Value = sc.nextDouble();
         System.out.println("Output: " + sc.findInLine("Maxotech"));
-        System.out.println(sc.delimiter());
+        System.out.println(sc.delimiter());//to check which delimiter we used.If we use usedelimiter() means to change the default delimiter.
         obj.data();//call method
         sc.close();//close scanner
     }

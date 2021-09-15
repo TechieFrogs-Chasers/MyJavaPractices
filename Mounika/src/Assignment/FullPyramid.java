@@ -1,3 +1,4 @@
+package Assignment;
 public class FullPyramid {
   public static void main(String[] args) {
     int r = 5, k = 0;

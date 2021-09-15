@@ -1,3 +1,4 @@
+package Assignment;
 public class InvFullPyaramid {
     public static void main(String[] args) {
         int number = 5;

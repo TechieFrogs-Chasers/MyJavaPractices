@@ -1,3 +1,4 @@
+package Assignment;
 public class InveHalfPyramid {
     public static void main(String[] args) {
           int r = 5;

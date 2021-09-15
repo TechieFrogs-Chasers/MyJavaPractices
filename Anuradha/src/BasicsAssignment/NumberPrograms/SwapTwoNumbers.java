@@ -1,4 +1,4 @@
-package BasicsAssignment.NumberPrograms;
+package NumberPrograms;
 
 import java.util.*;
 public class SwapTwoNumbers {

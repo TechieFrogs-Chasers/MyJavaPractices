@@ -1,4 +1,4 @@
-package BasicsAssignment.PatternPrograms;
+package PatternPrograms;
 
 public class pattern {
     public static void main(String[] args) {

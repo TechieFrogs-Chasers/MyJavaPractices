@@ -1,0 +1,16 @@
+package Basicassignments;
+
+import java.util.Scanner;
+
+public class Quotientandremainder {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Entry your Roman number;");
+        int i=1;
+        int v=5;
+        int x=10;
+        int sum=((i-1)+v+x);
+        System.out.println();
+    }
+}
+        
