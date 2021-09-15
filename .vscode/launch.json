@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GcdOfNumbers",
+            "request": "launch",
+            "mainClass": "BasicAssignment.GcdOfNumbers",
+            "projectName": "MyJavaPractices_1ff1fa56"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiplicationOfTable",
             "request": "launch",
             "mainClass": "BasicAssignment.MultiplicationOfTable",
