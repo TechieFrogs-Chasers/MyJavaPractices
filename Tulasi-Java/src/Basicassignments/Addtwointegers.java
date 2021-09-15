@@ -11,7 +11,7 @@ public class Addtwointegers {
 
         do {//Validation
             while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+                myscannerobj.next();
                 System.out.println("That's not a number!");
             }
             i = myscannerobj.nextInt();
