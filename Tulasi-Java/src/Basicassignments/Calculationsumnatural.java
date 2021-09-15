@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Calculationsumnatural {
     public static void main(String[] args) {
-        Scanner myscannerobj = new Scanner(System.in);//Scanner
+        Scanner myScannerObj = new Scanner(System.in);//Scanner
         int num = 0,i=1,naturalnum=0;
         System.out.println("Sum of natural number :");
         do {//Validation
-            while (!myscannerobj.hasNextInt()) {
-                String input = myscannerobj.next();
+            while (!myScannerObj.hasNextInt()) {
+                String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
-            i = myscannerobj.nextInt();
+            i = myScannerObj.nextInt();
            // if (i <= 0)
               //  System.out.println("Please enter a positive number! ");
         } while (i <= 0);
@@ -25,7 +25,7 @@ public class Calculationsumnatural {
             }
         }
         System.out.println(naturalnum);
-        myscannerobj.close();//scanner close
+        myScannerObj.close();//scanner close
 
     }
 }
