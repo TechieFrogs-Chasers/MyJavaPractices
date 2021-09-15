@@ -1,30 +1,25 @@
 package Assignment1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args){
         
-        Scanner sc = new Scanner(System.in);
-        int i,factorial=1,number;
-        System.out.println("enter a number");
+        
+        int i,fact=1;  
+        int number=5;//It is the number to calculate factorial    
+        for(i=1;i<=number;i++){    
+            fact=fact*i;    
+        }    
+        System.out.println("Factorial of "+number+" is: "+fact);  
+        
+       }  
       
-        
-          number=sc.nextInt();
-
-        
-        for(i=1;i<=number;i++){
-            factorial = factorial*i;
-
-        
-        System.out.println("factorial of the given number"+" "+factorial);
-        sc.close(); 
 
 
         
 
     }
-}
-}
+
      
 

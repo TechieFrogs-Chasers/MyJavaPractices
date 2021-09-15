@@ -1,3 +1,4 @@
+package Assignment;
 public class PrintAlphabets {
     public static void main(String[] args) {
         char ch;
