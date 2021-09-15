@@ -27,6 +27,17 @@
         },
         {
             "type": "java",
+            "name": "Launch Addtwointegers",
+            "request": "launch",
+            "mainClass": "Assignment1.Addtwointegers",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch DisplayCharactersfromAtoZ",
+            "request": "launch",
+            "mainClass": "Assignment1.DisplayCharactersfromAtoZ",
+            "projectName": "MyJavaPractices_d4502af5"
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
