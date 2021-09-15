@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NaturalSum",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.NaturalSum",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.FactorialNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetOrNot",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.AlphabetOrNot",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetOrNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.AlphabetOrNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
