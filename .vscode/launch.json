@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Multiplicationtable",
+            "request": "launch",
+            "mainClass": "Multiplicationtable",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swapping",
+            "request": "launch",
+            "mainClass": "Swapping",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiplicationOfTable",
             "request": "launch",
             "mainClass": "BasicAssignment.MultiplicationOfTable",
