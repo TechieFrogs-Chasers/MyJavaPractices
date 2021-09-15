@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Assignment1.Factorial",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Evenorodd",
+            "request": "launch",
+            "mainClass": "Assignment1.Evenorodd",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Addtwointegers",
+            "request": "launch",
+            "mainClass": "Assignment1.Addtwointegers",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch DisplayCharactersfromAtoZ",
+            "request": "launch",
+            "mainClass": "Assignment1.DisplayCharactersfromAtoZ",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
             "name": "Launch NaturalSum",
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.NaturalSum",
