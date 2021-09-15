@@ -6,8 +6,8 @@ public class ComputeQandR {
     public static void main(String[] args) {
         Scanner myScannerObj = new Scanner(System.in);//Scanner
         int dividend, divisor;
-        System.out.println("Enter first value: ");
 
+        System.out.println("Enter first value: ");
         do {//Validation
 
             while (!myScannerObj.hasNextInt()) {
@@ -21,7 +21,6 @@ public class ComputeQandR {
         while (dividend < 0);
 
         System.out.println("Enter second value: ");
-
         do {//Validation
 
             while (!myScannerObj.hasNextInt()) {
