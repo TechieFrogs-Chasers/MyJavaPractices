@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch invertedPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.invertedPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.alphabetPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch vowelConsonant",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.vowelConsonant",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.numberPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.halfPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.Lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch NaturalSum",
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.NaturalSum",

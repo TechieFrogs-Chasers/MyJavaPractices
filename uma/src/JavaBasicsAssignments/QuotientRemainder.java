@@ -2,7 +2,7 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class QuotientRemainder {
+public class quotientRemainder {
     public static void main(String[] args) {
 
         int one,two;
