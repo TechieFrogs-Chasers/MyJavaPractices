@@ -6,7 +6,7 @@ public class MultiplicationOfTable {
     public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
          int n;
-           do{
+         do{ 
             System.out.println("Please Enter Positive number:");
             while (!myObj.hasNextInt()) {
                 String input = myObj.next();
