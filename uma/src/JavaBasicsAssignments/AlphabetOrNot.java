@@ -2,15 +2,15 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class AlphabetOrNot {
+public class alphabetOrNot {
     public static void main(String[] args) {
        System.out.println("program for alphabet or not ");
        
         System.out.println("Enter a character ");
 
-      Scanner AlphabetOrNotobj = new Scanner(System.in);
+      Scanner scannerobj = new Scanner(System.in);
 
-      char ch = AlphabetOrNotobj.next().charAt(0);
+      char ch = scannerobj .next().charAt(0);
 
     
      
@@ -20,12 +20,12 @@ public class AlphabetOrNot {
 
     else if (ch>='A' && ch<='Z')
 
-      System.out.println("Entered input is an upper case alphabet");
+      System.out.println("Entered input  is an upper case alphabet");
   else
       System.out.println("Entered input is not an alphabet");
 
       
-     AlphabetOrNotobj.close();
+      scannerobj .close();
 
 
 }

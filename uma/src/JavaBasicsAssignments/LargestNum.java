@@ -2,7 +2,7 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class LargestNum {
+public class largestNum {
     public static void main(String[] args) {
         Scanner LargestNumobj = new Scanner(System.in);
     

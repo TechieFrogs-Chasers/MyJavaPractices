@@ -12,16 +12,16 @@ public class HalfPyramid {
 
         System.out.println("Enter a number, how many lines you want : ");
         do {//validation
+            System.out.println("Please enter a positive number! ");
             while (!myScannerObj.hasNextInt()) {
                 String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
             lines = myScannerObj.nextInt();
-            if (lines <= 0)
-                System.out.println("Please enter a positive number! ");
+
         } while (lines <= 0);
 
-        System.out.println(" Pyramid details : ");
+        System.out.println("Pyramid details : ");
 
         for (i = 1; i <= lines; i++) {
             for (j = 1; j <= i; j++) {

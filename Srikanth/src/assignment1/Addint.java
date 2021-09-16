@@ -1,5 +1,3 @@
-package assignment1;
-
 import java.util.*;
 
 public class Addint {
@@ -26,7 +24,6 @@ public class Addint {
 
         do {
             while (!object.hasNextInt()) {
-                System.out.println("Enter Integer:");
                 object.next();
                 System.out.println("this is not an integer");
             }

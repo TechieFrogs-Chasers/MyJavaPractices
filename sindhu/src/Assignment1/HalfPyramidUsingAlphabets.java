@@ -1,16 +1,17 @@
 package Assignment1;
-import java.util.*;
 
 public class HalfPyramidUsingAlphabets {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("enter how many rows");
-        int x= input.nextInt();
-        for (int i = 1; i <= x; i++) {
-            for (int j = 'A'; j <= i; j++) {
-              System.out.print(j );
+        
+char last = 'E', alphabet = 'A';
+
+        for (int i = 1; i <= (last - 'A'+1); ++i) {
+            for (int j = 1; j <= i; ++j) {
+                System.out.print(alphabet + " ");
             }
+            ++alphabet;
+            //++last;
+            System.out.println();
         }
     }
-    
 }

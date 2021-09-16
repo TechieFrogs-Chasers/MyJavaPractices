@@ -2,7 +2,7 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class SwappingNumbers {
+public class swappingNumbers {
     public static void main(String[] args) {
         
 
