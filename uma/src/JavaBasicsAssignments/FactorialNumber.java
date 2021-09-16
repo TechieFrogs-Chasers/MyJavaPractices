@@ -17,8 +17,8 @@ public class factorialNumber {
         System.out.println("Enter first  integer");
 
        while (!FactorialNumberobj.hasNextInt() ){
-           String input = FactorialNumberobj.next();
-           System.out.println(input+"  is not a valid type");
+            FactorialNumberobj.next();
+           System.out.println("  is not a valid type");
          }
          num = FactorialNumberobj.nextInt();
        } while (num<=0);

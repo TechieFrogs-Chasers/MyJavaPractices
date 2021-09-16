@@ -7,6 +7,9 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "Launch gcd",
+=======
+<<<<<<< HEAD
             "name": "Launch Multiplicationtable",
             "request": "launch",
             "mainClass": "Multiplicationtable",
@@ -25,16 +28,38 @@
 =======
             "name": "Launch GCDoftwonumbers",
 >>>>>>> 84deb1aeea2f0a1ba55da2ff1b34c0c6ebfb3d5f
+>>>>>>> d02f85b0aa9ae78d5d21d2163ad18638b5eca9f4
             "request": "launch",
-            "mainClass": "Assignment1.GCDoftwonumbers",
-            "projectName": "MyJavaPractices_d4502af5"
+            "mainClass": "JavaBasicsAssignments.gcd",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
-            "name": "Launch Palindromeprogram",
+            "name": "Launch multiplicationTable",
             "request": "launch",
-            "mainClass": "Assignment1.Palindromeprogram",
-            "projectName": "MyJavaPractices_d4502af5"
+            "mainClass": "JavaBasicsAssignments.multiplicationTable",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeNumber",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.primeNumber",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetLoop",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.alphabetLoop",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch sandGlass",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.sandGlass",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
