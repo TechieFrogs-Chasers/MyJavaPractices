@@ -31,6 +31,5 @@ public class HalfPyramidNumber {
             myScannerObj.close();//scanner close
         }
 
-
     }
 }
