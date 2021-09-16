@@ -14,7 +14,7 @@ class ChildClass extends ParentClass{
 
 }
 
-public class ParentChildClass {
+public class ParentChildClassTesting {
     public static void main(String[] args) {
         ParentClass parentObj = new ParentClass();
         ChildClass  childObj = new ChildClass();
