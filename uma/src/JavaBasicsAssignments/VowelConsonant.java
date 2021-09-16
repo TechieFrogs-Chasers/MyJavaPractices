@@ -2,49 +2,40 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class VowelConsonant {
+public class vowelConsonant {
     public static void main(String[] args) {
 
-        Scanner VowelConsonantobj = new Scanner(System.in);
+        Scanner scannerobj = new Scanner(System.in);
 
-        char ch=VowelConsonantobj.next().charAt(0);
-
-       // char ch1=VowelConsonantobj.next().charAt(0);
-       char ch1='a';
+        char ch;   
         
     do{
         System.out.println("Enter a character : ");
 
-       while((VowelConsonantobj.hasNextInt() )){
+       while(scannerobj.hasNextInt() ){
 
-           int num=VowelConsonantobj.nextInt();
+          // int num=scannerobj.nextInt();
+           System.out.println("Please enter valid character");
+       }
+       ch = scannerobj.next().charAt(0);
 
-     if(num>=65 ||num<=90){
-         System.out.println("number is equivalent to alphabet");}
-         else{
-             System.out.println("not an alphabet");
-         }
-         
-     
-        switch(ch){
+      // System.out.println((int)ch);
+       
+    }while(!((ch <= 65 && ch >= 90) || (ch >= 97 && ch <= 122)));
         
-         case'a','e','i','o','u'->
-            System.out.println(" is a lower case vowel");
-
-        case 'A','E','I','O','U'->
-            System.out.println(" is a upper case vowel");
+       switch(ch){
         
-
-        default->
-            System.out.println(ch+"  is consonant");
-        }
-    } VowelConsonantobj.next();
-    //char ch1=VowelConsonantobj.next().charAt(0);
-        
-        }while(ch==ch1);
-        
-
-     VowelConsonantobj.close();
+            case'a','e','i','o','u'->
+               System.out.println(ch+" is a lower case vowel");
+   
+           case 'A','E','I','O','U'->
+               System.out.println(ch+" is a upper case vowel");
+           
+   
+           default->
+               System.out.println(ch+"  is consonant");
+           }
+        scannerobj.close();
         
 
 

@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Multiplicationtable",
             "request": "launch",
             "mainClass": "Multiplicationtable",
@@ -21,41 +22,68 @@
         {
             "type": "java",
             "name": "Launch MultiplicationOfTable",
+=======
+            "name": "Launch GCDoftwonumbers",
+>>>>>>> 84deb1aeea2f0a1ba55da2ff1b34c0c6ebfb3d5f
             "request": "launch",
-            "mainClass": "Datatypes",
-            "projectName": "MyJavaPractices_5f34fb7c"
-        },
-        {
-            "type": "java",
-            "name": "Launch Variables",
-            "request": "launch",
-            "mainClass": "Variables",
-            "projectName": "MyJavaPractices_5f34fb7c"
-        },
-        {
-            "type": "java",
-            "name": "Launch Varialeas",
-            "request": "launch",
-            "mainClass": "Varialeas",
-            "projectName": "MyJavaPractices_5f34fb7c"
-        },
-        {
-            "type": "java",
-            "name": "Launch Addtwointegers",
-            "request": "launch",
-            "mainClass": "Assignment1.Addtwointegers",
+            "mainClass": "Assignment1.GCDoftwonumbers",
             "projectName": "MyJavaPractices_d4502af5"
         },
         {
             "type": "java",
-            "name": "Launch DisplayCharactersfromAtoZ",
+            "name": "Launch Palindromeprogram",
             "request": "launch",
-            "mainClass": "Assignment1.DisplayCharactersfromAtoZ",
+            "mainClass": "Assignment1.Palindromeprogram",
             "projectName": "MyJavaPractices_d4502af5"
-            "name": "Launch App",
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedPyramid",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "MyJavaPractices_5f34fb7c"
+            "mainClass": "JavaBasicsAssignments.invertedPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.alphabetPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch vowelConsonant",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.vowelConsonant",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.numberPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfPyramid",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.halfPyramid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lcm",
+            "request": "launch",
+            "mainClass": "JavaBasicsAssignments.Lcm",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
