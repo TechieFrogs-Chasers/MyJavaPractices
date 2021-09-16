@@ -6,7 +6,29 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch gcd",
+=======
+<<<<<<< HEAD
+            "name": "Launch Multiplicationtable",
+            "request": "launch",
+            "mainClass": "Multiplicationtable",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swapping",
+            "request": "launch",
+            "mainClass": "Swapping",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationOfTable",
+=======
+            "name": "Launch GCDoftwonumbers",
+>>>>>>> 84deb1aeea2f0a1ba55da2ff1b34c0c6ebfb3d5f
+>>>>>>> d02f85b0aa9ae78d5d21d2163ad18638b5eca9f4
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.gcd",
             "projectName": "MyJavaPractices_5246a9cc"
