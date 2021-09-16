@@ -2,7 +2,7 @@ package Assignment1;
 
 import java.util.Scanner;
 
-public class Quotient {
+/*public class Quotient {
     public static void main(String[] args) {
        // int a=4;
         //int b=8;
@@ -21,4 +21,35 @@ public class Quotient {
 
     }
     
+}*/
+
+public class Quotient{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int x;
+        do{
+            System.out.println("enter first number");
+            while(!input.hasNextInt()){
+                String s=input.next();
+                System.out.println(s+"is not a valid number");
+            }
+            x=input.nextInt();
+        }while(x<=0);
+
+        int y;
+        do{
+            System.out.println("enter first number");
+            while(!input.hasNextInt()){
+                String s=input.next();
+                System.out.println(s+"is not a valid number");
+            }
+            y=input.nextInt();
+        }while(y<=0);
+        System.out.println("quotient" + x/y);
+        System.out.println("remainder" + x%y);
+        input.close();
+        
+    }
 }
+
+

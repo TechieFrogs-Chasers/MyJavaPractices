@@ -6,27 +6,38 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch GcdOfNumbers",
+            "name": "Launch Datatypes",
             "request": "launch",
-            "mainClass": "BasicAssignment.GcdOfNumbers",
-            "projectName": "MyJavaPractices_1ff1fa56"
+            "mainClass": "Datatypes",
+            "projectName": "MyJavaPractices_5f34fb7c"
         },
         {
             "type": "java",
-            "name": "Launch MultiplicationOfTable",
+            "name": "Launch Variables",
             "request": "launch",
-            "mainClass": "BasicAssignment.MultiplicationOfTable",
-            "projectName": "MyJavaPractices_1ff1fa56"
+            "mainClass": "Variables",
+            "projectName": "MyJavaPractices_5f34fb7c"
         },
         {
             "type": "java",
-            "name": "Launch SumOfNaturalNumbers",
+            "name": "Launch Varialeas",
             "request": "launch",
-            "mainClass": "BasicAssignment.SumOfNaturalNumbers",
-            "projectName": "MyJavaPractices_1ff1fa56"
+            "mainClass": "Varialeas",
+            "projectName": "MyJavaPractices_5f34fb7c"
         },
         {
             "type": "java",
+            "name": "Launch Addtwointegers",
+            "request": "launch",
+            "mainClass": "Assignment1.Addtwointegers",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch DisplayCharactersfromAtoZ",
+            "request": "launch",
+            "mainClass": "Assignment1.DisplayCharactersfromAtoZ",
+            "projectName": "MyJavaPractices_d4502af5"
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
