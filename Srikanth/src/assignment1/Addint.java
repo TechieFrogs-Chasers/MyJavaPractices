@@ -5,10 +5,10 @@ public class Addint {
         Scanner object = new Scanner(System.in);
 
         System.out.println("Enter a value: ");
-        int x = Addint.validate(object);
+        int x = AddInt.validate(object);
 
         System.out.println("Enter another value: ");
-        int y = Addint.validate(object);
+        int y = AddInt.validate(object);
 
         int sum = add(x, y);
         System.out.println("Sum of two no is: " + sum);

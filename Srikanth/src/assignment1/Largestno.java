@@ -10,11 +10,15 @@ public class Largestno {
         System.out.println("Enter second number");
         int b = Largestno.validate(largest);
 
-        System.out.println("Enter third number");
+        System.out.println("Enter second number");
         int c = Largestno.validate(largest);
+
     }
 
-    static int largest
+    static int largest(int a, int b, int c) {
+        int e = a > b ? a : b;
+        return d = c > e ? c : e;
+    }
 
     static int validate(Scanner largest) {
         int num;
