@@ -60,9 +60,9 @@ public static void main(String[] args) {
 
           char ch2='Y';{
            switch(ch2){
-               case'a'|'e'|'i'|'o'|'u'->
+               case'a','e','i','o','u'->
                System.out.println("is a lower case vowel");
-               case 'A'|'E'|'I'|'O'|'U'->
+               case 'A','E','I','O','U'->
                System.out.println("is a upper case vowel");
                default->
                System.out.println(ch2+"   is consonant");}

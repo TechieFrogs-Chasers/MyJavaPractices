@@ -4,30 +4,28 @@ import java.util.Scanner;
 
 public class VowelOrConsonant {
     public static void main(String[] args) {//main method
-        Scanner myscannerobj = new Scanner(System.in);//Scanner
-        int i = 0;
+        Scanner myScannerObj = new Scanner(System.in);//Scanner
+
         char letter;
         System.out.println("Enter a Alphabet: ");
-
         do {//Validation
-            while (!myscannerobj.hasNext()) {
-                int input = myscannerobj.nextInt();
-            }
-            letter = myscannerobj.next().charAt(0);
-        } while (letter <= 0);
 
-        switch (letter) {
-            case 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U':
-                i++;
+            while (myScannerObj.hasNextInt()) {//for not to allow characters
+                String input = myScannerObj.next();
+                System.out.println("Its not a valid character!");
+            }
+            letter = myScannerObj.next().charAt(0);
         }
-        if (i == 1)
-            System.out.println("Its a vowel.");
-        else
-            if ((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z'))
-        System.out.println("It's an Consonant. ");
-           else
-        System.out.println("It's not an Alphabet. ");
-        myscannerobj.close();//Scanner Close
+        while(!((letter <= 65) && (letter >= 90)||(letter >= 97) && (letter <= 122)));//ASCII values for alphabets
+        //while(!((letter <= 'A') && (letter >= 'Z')||(letter >= 'a') && (letter <= 'z')));
+        if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
+            System.out.println(letter + " - " + "Its a Lowercase Vowel.");
+
+        } else if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
+            System.out.println(letter + " - " + "Its a Uppercase Vowel.");
+        } else
+            System.out.println(letter + " - " + "Its a Consonants.");
+        myScannerObj.close();//Scanner Close
 
     }
 }

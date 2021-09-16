@@ -1,4 +1,4 @@
-package BasicsAssignment.PatternPrograms;
+package PatternPrograms;
 
 import java.util.Scanner;
 class FloydTriangle {
