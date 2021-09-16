@@ -23,10 +23,8 @@ public class InvertedPyramidTriangle {
             for (int k = 2; k<(2*i-3); k++){//star loop
                     System.out.print(" * ");
 
-
             }
             System.out.println();
-
             myScannerObj.close();//scanner close
         }
     }
