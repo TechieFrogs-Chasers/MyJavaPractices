@@ -4,6 +4,7 @@ public class Largestno {
     public static void main(String[] args) {
 
         Scanner largest = new Scanner(System.in);
+
         System.out.println("Enter a number");
         int a = Largestno.validate(largest);
 
@@ -13,10 +14,14 @@ public class Largestno {
         System.out.println("Enter second number");
         int c = Largestno.validate(largest);
 
+        int largestnumber = largest(a, b, c);
+        System.out.println("Largest number among all is: " + largestnumber);
+
     }
 
     static int largest(int a, int b, int c) {
         int e = a > b ? a : b;
+        int d;
         return d = c > e ? c : e;
     }
 

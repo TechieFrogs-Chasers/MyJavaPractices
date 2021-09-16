@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class division {
+public class Division {
 
     public static void main(String[] args) {
         double d;
         Scanner object = new Scanner(System.in);
 
         System.out.println("Enter a integer:");
-        int x = division.validate(object);
+        int x = Division.validate(object);
 
         System.out.println("Enter another integer:");
-        int y = division.validate(object);
+        int y = Division.validate(object);
 
         d = x % y;
         System.out.println("Division of two no: " + d);
