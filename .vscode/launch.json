@@ -6,6 +6,38 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "Launch Multiplicationtable",
+            "request": "launch",
+            "mainClass": "Multiplicationtable",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swapping",
+            "request": "launch",
+            "mainClass": "Swapping",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationOfTable",
+=======
+            "name": "Launch GCDoftwonumbers",
+>>>>>>> 84deb1aeea2f0a1ba55da2ff1b34c0c6ebfb3d5f
+            "request": "launch",
+            "mainClass": "Assignment1.GCDoftwonumbers",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindromeprogram",
+            "request": "launch",
+            "mainClass": "Assignment1.Palindromeprogram",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
             "name": "Launch invertedPyramid",
             "request": "launch",
             "mainClass": "JavaBasicsAssignments.invertedPyramid",
