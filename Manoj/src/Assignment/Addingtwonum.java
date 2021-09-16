@@ -28,10 +28,10 @@ public class Addingtwonum {
                 object.next();
 
             }num=object.nextInt();
-            while(num<=0);
+        }while(num<=0);
             return num; //  return is used to exit from the method 
 
-        }
+        
     }
     
 }

@@ -11,24 +11,25 @@ public class Division {
         System.out.println("enter the b value");
         int b= Division.validatenumber(object);
         
-        d=(a%b);
+        d=(a/b);
         System.out.println("division of numbers are  " + d);
 
        object.close();
     }
     
-    static int validatenumber(Scanner object){
+    static int validatenumber(Scanner object){ //giving a  validate method 
         int num;
         do{
             System.out.println("enter the positive number ");
-            while (!object.hasNextInt())
+            while (!object.hasNextInt())        // here checks the given value is numbere or not 
             {
                 System.out.println("this is not a number please a valid number ");
                 object.next();
+                
             }num=object.nextInt();
-            while(num<=0);
-            return num; //return is used to exit from the method 
-        }
+         } while(num<=0);
+        return num; //return is used to exit from the method 
+        
     }
     
 }
