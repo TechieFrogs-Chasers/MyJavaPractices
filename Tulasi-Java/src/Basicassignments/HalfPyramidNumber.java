@@ -2,12 +2,12 @@ package Basicassignments;
 
 import java.util.Scanner;
 
-public class HalfPyramid {
+public class HalfPyramidNumber {
     public static void main(String[] args) {
         Scanner myScannerObj = new Scanner(System.in);//Scanner
         int i, j;
-        int stars = 0, lines;
-        System.out.println("  --Create Half Pyramid with special character-- ");
+         int lines;
+        System.out.println("  --Create Half Pyramid with numbers-- ");
         System.out.println();
 
         System.out.println("Enter a number, how many lines you want : ");
@@ -21,15 +21,16 @@ public class HalfPyramid {
 
         } while (lines <= 0);
 
-        System.out.println("Pyramid details : ");
+        System.out.println(" Pyramid details : ");
 
         for (i = 1; i <= lines; i++) {
-            for (j = 1; j <= i; j++) {
-                System.out.print(" * ");
+            for (j = 1; j <=i; j++) {
+                System.out.print(j+" ");
             }
             System.out.println();
+            myScannerObj.close();//scanner close
         }
-        stars = stars - 1;
-        System.out.println();
+
+
     }
 }
