@@ -2,32 +2,32 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class Addittion {
+public class addittion {
     public static void main(String[] args) {
         int first,second;
-        Scanner Addtionobj = new Scanner(System.in);
+        Scanner scannerobj = new Scanner(System.in);
 
         //validation for first integer
 
         do{
             System.out.println("Enter first  integer");
 
-           while (!Addtionobj.hasNextInt() ){
-               String input = Addtionobj.next();
-               System.out.println(input+"  is not a valid type");
+           while (!scannerobj.hasNextInt() ){
+               scannerobj.next();
+               System.out.println("  is not a valid type");
              }
-             first = Addtionobj.nextInt();
+             first = scannerobj.nextInt();
            } while (first<=0);
     
         //validation for the second integer
         
            do{
             System.out.println("Enter second  integer");
-           while (!Addtionobj.hasNextInt() ){
-               String input = Addtionobj.next();
+           while (!scannerobj.hasNextInt() ){
+               String input = scannerobj.next();
                System.out.println(input+"  is not a valid type");
              }
-             second = Addtionobj.nextInt();
+             second = scannerobj.nextInt();
            } while (second<=0);
        
        int sum;
@@ -38,6 +38,6 @@ public class Addittion {
          //sum = Addtionobj.nextInt();
          System.out.println("Thank you");
         
-        Addtionobj.close();
+         scannerobj.close();
     }
 }

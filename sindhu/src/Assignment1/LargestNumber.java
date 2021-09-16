@@ -1,8 +1,10 @@
 package Assignment1;
 
+import java.util.Scanner;
+
 //import java.util.Scanner;
 
-public class LargestNumber {
+/*public class LargestNumber {
     public static void main(String[] args) {
         
        /* Scanner input = new Scanner(System.in);
@@ -32,7 +34,7 @@ public class LargestNumber {
 
 
 //nested if
-int a=50,b=100,c=110;
+/*int a=50,b=100,c=110;
 if(a>b){
     if(a>c){
         System.out.println("a is the largest");
@@ -53,5 +55,47 @@ else{
 
 }
     
-    }
+    }*/
 
+
+
+    public class LargestNumber {
+        public static void main(String[] args) {
+            int x;
+            Scanner input = new Scanner(System.in);
+            do{
+                System.out.println("enter first number");
+                while(!input.hasNextInt()){
+                   String s=input.next();
+                    System.out.println(s+"please enter a valid number");
+                }
+                x = input.nextInt(); 
+            }while(x<=0);
+
+            int y;
+            do{
+                System.out.println("enter second number");
+                while(!input.hasNextInt()){
+                    String s=input.next();
+                    System.out.println(s+"please enter a valid number");
+                }
+                y = input.nextInt(); 
+            }while(y<=0);
+
+            int z;
+            do{
+                System.out.println("enter third number");
+                while(!input.hasNextInt()){
+                    String s=input.next();
+                    System.out.println(s+"please enter a valid number");
+                }
+                z= input.nextInt(); 
+            }while(z<=0);
+            int t = x>y?x:y;
+        int s=z>t?z:t;
+        System.out.println("the largest number is" +s);
+        input.close();
+
+            
+        } 
+    }
