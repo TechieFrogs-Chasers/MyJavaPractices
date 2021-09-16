@@ -9,7 +9,7 @@ public class AlphabetOrNot {
         char character;
         System.out.println("Enter a Character : ");
         do {//Validation
-            while (! myScannerObj.hasNext()) {
+            while (! myScannerObj.hasNext()) {//for not to allow numbers
                 int input = myScannerObj.nextInt();
             }
             character =  myScannerObj.next().charAt(0);
@@ -19,6 +19,7 @@ public class AlphabetOrNot {
             System.out.println("It's an alphabet ");
         else
             System.out.println("It's not an alphabet ");
+
         myScannerObj.close();//scanner close
 
 

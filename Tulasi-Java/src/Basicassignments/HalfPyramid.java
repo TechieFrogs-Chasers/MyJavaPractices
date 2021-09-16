@@ -21,7 +21,7 @@ public class HalfPyramid {
                 System.out.println("Please enter a positive number! ");
         } while (lines <= 0);
 
-        System.out.println(" Pyramid details : ");
+        System.out.println("Pyramid details : ");
 
         for (i = 1; i <= lines; i++) {
             for (j = 1; j <= i; j++) {
