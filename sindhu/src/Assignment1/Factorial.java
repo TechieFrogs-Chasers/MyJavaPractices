@@ -41,7 +41,8 @@ import java.util.Scanner;
             Scanner input = new Scanner(System.in);
 
             int number;
-            do{
+            do
+            {
                 System.out.println("enter a number");
                 while(!input.hasNextInt())
                 {

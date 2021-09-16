@@ -63,9 +63,11 @@ else{
         public static void main(String[] args) {
             int x;
             Scanner input = new Scanner(System.in);
-            do{
+            do
+            {
                 System.out.println("enter first number");
-                while(!input.hasNextInt()){
+                while(!input.hasNextInt())
+                {
                    String s=input.next();
                     System.out.println(s+"please enter a valid number");
                 }
@@ -73,9 +75,11 @@ else{
             }while(x<=0);
 
             int y;
-            do{
+            do
+            {
                 System.out.println("enter second number");
-                while(!input.hasNextInt()){
+                while(!input.hasNextInt())
+                {
                     String s=input.next();
                     System.out.println(s+"please enter a valid number");
                 }
@@ -83,9 +87,11 @@ else{
             }while(y<=0);
 
             int z;
-            do{
+            do
+            {
                 System.out.println("enter third number");
-                while(!input.hasNextInt()){
+                while(!input.hasNextInt())
+                {
                     String s=input.next();
                     System.out.println(s+"please enter a valid number");
                 }

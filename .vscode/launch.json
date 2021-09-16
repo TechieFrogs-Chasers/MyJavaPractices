@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ifelse",
+            "request": "launch",
+            "mainClass": "Ifelse",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intnum",
+            "request": "launch",
+            "mainClass": "Intnum",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quotient",
+            "request": "launch",
+            "mainClass": "Assignment1.Quotient",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Assignment1.Factorial",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTable",
+            "request": "launch",
+            "mainClass": "Assignment1.MultiplicationTable",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
             "name": "Launch GCDoftwonumbers",
             "request": "launch",
             "mainClass": "Assignment1.GCDoftwonumbers",
