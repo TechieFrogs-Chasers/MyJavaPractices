@@ -28,6 +28,7 @@ public class Halfpyramidnumber {
                 System.out.print(j+" ");
             }
             System.out.println();
+            myScannerObj.close();//scanner close
         }
 
 
