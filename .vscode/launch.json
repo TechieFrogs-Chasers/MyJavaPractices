@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContinueandBreak",
+            "request": "launch",
+            "mainClass": "ContinueandBreak",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileLoop",
+            "request": "launch",
+            "mainClass": "WhileLoop",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramidUsingStar",
+            "request": "launch",
+            "mainClass": "Assignment1.InvertedHalfPyramidUsingStar",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Forloop",
+            "request": "launch",
+            "mainClass": "Forloop",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "MyJavaPractices_d4502af5"
+        },
+        {
+            "type": "java",
             "name": "Launch Ifelse",
             "request": "launch",
             "mainClass": "Ifelse",

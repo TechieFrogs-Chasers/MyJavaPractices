@@ -28,7 +28,7 @@ import javax.lang.model.util.ElementScanner14;
 
 
 //grades
-public class Ifelse{
+/*public class Ifelse{
     public static void main(String[] args){
         int marks =65;
         if(marks<=50)
@@ -62,7 +62,44 @@ public class Ifelse{
             System.out.println("Invalid");
         }
     }
+}*/
+
+//positive,negative,zero
+/*public class Ifelse{
+    public static void main(String[] args){
+        int x=-20;
+        if(x>0)
+        {
+            System.out.println("positive number");
+        }
+        else if (x<0)
+        {
+            System.out.println("negative number");
+        }
+        else
+        {
+            System.out.println("zero");
+        }
+    }
+}*/
+
+//nested if
+public class Ifelse{
+    public static void main(String[] args){
+        int age = 20;
+        int weight = 60;
+        if(age>=18){
+            if(weight>=50){
+                System.out.println("girl");
+            }
+            else{
+                System.out.println("boy");
+            }
+        }
+    }
 }
+
+
 
 
 
