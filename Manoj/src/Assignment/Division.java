@@ -1,4 +1,4 @@
-package Assignment;
+//package Assignment;
 import java.util.Scanner;
 
 public class Division {
@@ -27,6 +27,7 @@ public class Division {
                 object.next();
                 
             }num=object.nextInt();
+
          } while(num<=0);
         return num; //return is used to exit from the method 
         

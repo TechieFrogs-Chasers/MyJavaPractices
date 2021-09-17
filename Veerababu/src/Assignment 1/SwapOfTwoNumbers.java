@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Assignment3 {
+public class SwapOfTwoNumbers {
     public static void main(String[] args) {
        /* int x =1;
         int y=2;
@@ -10,18 +10,24 @@ public class Assignment3 {
         System.out.println("Swap of a is;"+x);
         System.out.println("Swap of b is;"+y);
         System.out.println("Swap of x and y is;"+ "x="+ x+  "and"+"y="+y );
-*/
+*/  
+        int x;
+        int y;
+        
         Scanner Swap = new Scanner(System.in);
         System.out.println("Take Value of x");
-        int x = Swap.nextInt();
+        x = Swap.nextInt();
         System.out.println("Take Value of y");
-        int y = Swap.nextInt();
+        y = Swap.nextInt();
         System.out.println("Take Value of a");
-        char a = Swap.next().charAt(0);
         Swap.close();
+        x= x+y;
+        y= x-y; 
+        x=x-y; 
+        
 
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println("Swap value of x"+" "+x);
+        System.out.println("Swap value of y"+" "+y);
         
         
     }
