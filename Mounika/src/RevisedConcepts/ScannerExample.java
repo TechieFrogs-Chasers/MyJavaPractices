@@ -57,7 +57,7 @@ public class ScannerExample {
         num = scanner.nextInt();
         }while(num<=0);
 
-    System.out.println("Enter value is a valid ");
+    System.out.println("Enter value is valid ");
    return num;
 }
 public static float validatePositiveFloatNumber(Scanner scanner){
