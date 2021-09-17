@@ -5,7 +5,7 @@ public class Vowelorconsonent {
 
     public static void main(String...args){
         Scanner object=new Scanner(System.in);
-        char ch; //charAt represents the specific index position of a string 
+        char ch; 
             do{
                 System.out.println("enter a character");
                 while(object.hasNextInt())
@@ -13,7 +13,7 @@ public class Vowelorconsonent {
                   String n=object.next(); 
                   System.out.println(n +" this is not a character .enter a valid one ");
                 }
-                ch=object.next().charAt(0);
+                ch=object.next().charAt(0); //charAt represents the specific index position of a string 
 
             }while(ch<=0);
     
@@ -36,6 +36,6 @@ public class Vowelorconsonent {
 
     }
     object.close();
-    
+
     }
 }
