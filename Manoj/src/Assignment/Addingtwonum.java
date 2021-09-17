@@ -18,9 +18,9 @@ public class Addingtwonum {
          object.close(); //object close 
 
     }
-    static int validatenumber (Scanner object){
+    static int validatenumber (Scanner object){  //here we used a method of validate 
         int num ;
-        do {
+     do {
             System.out.println("enter the positive number ");
             while (!object.hasNextInt())
             {
@@ -28,10 +28,10 @@ public class Addingtwonum {
                 object.next();
 
             }num=object.nextInt();
-            while(num<=0);
-            return num;
+        }while(num<=0);
+            return num; //  return is used to exit from the method 
 
-        }
+        
     }
     
 }
