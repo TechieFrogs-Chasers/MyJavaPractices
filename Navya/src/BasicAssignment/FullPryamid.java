@@ -15,7 +15,7 @@ public class FullPryamid {
             rows = myScannerObj.nextInt();
         }while(rows <= 0);
         int i , j;
-         for( i = 1 ; i <= rows ;i++)
+         /*for( i = 1 ; i <= rows ;i++)
         {
             for ( j = i; j <= rows; j++){
 
@@ -28,6 +28,22 @@ public class FullPryamid {
             for ( j = 1; j<i; j++){
 
                 System.out.print("* ");
+            }
+            System.out.println("");
+        }*/
+        for( i = 1 ; i <= rows ;i++)
+        {
+            for ( j = i; j <= rows; j++){
+
+                System.out.print("  ");
+            }
+            for ( j = 1; j<=i; j++){
+
+                System.out.print(j +" ");
+            }
+            for ( j = 1; j<i; j++){
+
+                System.out.print(j+" ");
             }
             System.out.println("");
         }
