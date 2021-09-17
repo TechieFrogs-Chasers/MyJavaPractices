@@ -17,7 +17,7 @@ abstract class NormalAbstractClass{
     }
 }
 
-final class staticClass extends NormalAbstractClass{
+final class finalClass extends NormalAbstractClass{
 
     @Override
     void Display() {
@@ -26,6 +26,13 @@ final class staticClass extends NormalAbstractClass{
     
 }
 public class AbstractionFinalTest {
+    public static void main(String[] args) {
+        finalClass finalObj = new finalClass();
+        finalObj.Display();
+        finalObj.finalMethod();
+        finalObj.nonStaticClassDisplay();
+        finalClass.staticdisplay();
+    }
 
    
     
