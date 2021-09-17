@@ -10,20 +10,19 @@ public class Fractional {
         long factorial = 1;
 
         do {//Validation
+            System.out.println("Please enter a positive number! ");
             while (!myScannerObj.hasNextInt()) {
                 String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
             num = myScannerObj.nextInt();
-            if (i <= 0)
-                System.out.println("Please enter a positive number! ");
+
         } while (i <= 0);
         {
             for (i = 1; i <= num; i++) {
                 while (i <= num) {
                     factorial = factorial * i;
                     i++;
-
                 }
             }
             System.out.println("Factional of :" + factorial);

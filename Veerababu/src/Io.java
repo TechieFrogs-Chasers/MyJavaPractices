@@ -15,16 +15,22 @@ public class Io {
             }
             i = in.nextInt();
         }while(i<=4);*/
-      /* int a;
+        int a;
         int b;
-        
-            while(in.hasNextInt())
-            {
+        do{
+            System.out.println("Give First & Second Number");
+            while(!in.hasNextInt())
+            {   
+                String input = in.next();
                 int i= in.nextInt();
-                //int j =in.nextInt();
-                System.out.println("Print String Value"+" "+i);
+                int j =in.nextInt();
+                System.out.println("Print String Value"+" "+input);
+                System.out.println("i+j ="+" "+(i+j));
+                i++;
+                System.out.println(i);
             }
-            */
+            a = in.nextInt();
+        }while(a<=4);
 
           /*  String s;
             int a;
@@ -41,11 +47,7 @@ public class Io {
                 System.out.println("Hi");
             }
         }*/
-        for(int i=10;i<=15; i++){
-               +
-        }
-
-           
+                   
         System.out.println("Please Enter Valid Number");
     }
 }

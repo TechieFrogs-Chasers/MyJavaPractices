@@ -13,8 +13,8 @@ public class addittion {
             System.out.println("Enter first  integer");
 
            while (!scannerobj.hasNextInt() ){
-               String input = scannerobj.next();
-               System.out.println(input+"  is not a valid type");
+               scannerobj.next();
+               System.out.println("  is not a valid type");
              }
              first = scannerobj.nextInt();
            } while (first<=0);
