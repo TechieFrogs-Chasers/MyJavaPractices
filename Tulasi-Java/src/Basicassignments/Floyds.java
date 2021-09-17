@@ -22,6 +22,7 @@ public class Floyds {
                 num++;
             }
             System.out.println();
+            myScannerObj.close();//scanner close
         }
     }
 }
