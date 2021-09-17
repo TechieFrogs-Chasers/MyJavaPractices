@@ -21,6 +21,7 @@
             rem = check % 10;
             sum = sum + (rem * rem * rem);
             check = check / 10;
+            System.out.println(rem + " "+ check + " " +sum);
         }
         if(sum == num)
             System.out.println("Given number is an armstrong number.");
