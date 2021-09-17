@@ -24,7 +24,7 @@ public class HalfPyramidStar {
         System.out.println("Pyramid details : ");
 
         for (i = lines - 1; i >= 0; i--) {//lines loop
-            for (j = 0; j <= i; j++) {//star loop
+            for (j = 0; j <= i; j++) {//star loop//nested for loop
                 System.out.print(" * ");
             }
             System.out.println();

@@ -2,7 +2,7 @@ package Basicassignments;
 
 import java.util.Scanner;
 
-public class OddorEven {
+public class OddOrEven {
     public static void main(String[] args) {
         Scanner myScannerObj = new Scanner(System.in);//Scanner
         int num;
