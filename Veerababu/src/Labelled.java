@@ -11,7 +11,7 @@ public class Labelled {
             loop3: for(int a=3; a>=2;a++){
                 System.out.println(a++);
                 System.out.println(a);
-                break;
+                break loop1;
             }
         }
     }

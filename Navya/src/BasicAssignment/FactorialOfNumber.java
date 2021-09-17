@@ -8,6 +8,7 @@ public class FactorialOfNumber {
          int num;
          int fact = 1;
          int i;
+         
         do{
             System.out.println("Please Enter Positive number:");
             while (!myObj.hasNextInt()) {
