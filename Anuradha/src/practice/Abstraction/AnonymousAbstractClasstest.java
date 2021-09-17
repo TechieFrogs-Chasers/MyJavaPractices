@@ -70,7 +70,7 @@ public class AnonymousAbstractClasstest {
        System.out.println(childObj.sum());
         childObj.parentDisplay();
         childObj.display();
-        ParentAbstractClass.staticParentMethod();
+        ParentAbstractClass1.staticParentMethod();
         childObj.finalParentMethod();
         childObj.sum();
     }
