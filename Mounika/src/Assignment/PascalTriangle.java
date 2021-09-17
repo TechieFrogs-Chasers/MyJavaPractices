@@ -1,3 +1,4 @@
+package Assignment;
 public class PascalTriangle {
     public static void main(String[] args) {
         int rows = 6, k = 1;

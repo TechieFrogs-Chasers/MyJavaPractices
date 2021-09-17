@@ -1,3 +1,4 @@
+package JavaPrograms;
 //Switch case
 
 public class ControlStatements1
