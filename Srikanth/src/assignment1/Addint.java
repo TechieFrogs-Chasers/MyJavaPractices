@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class AddInt {
+
     public static void main(String[] args) {
         Scanner object = new Scanner(System.in);
 
@@ -32,4 +33,5 @@ public class AddInt {
         return num;
 
     }
+
 }

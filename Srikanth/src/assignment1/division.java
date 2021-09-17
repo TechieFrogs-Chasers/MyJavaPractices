@@ -1,7 +1,6 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Division {
-
     public static void main(String[] args) {
         double d;
         Scanner object = new Scanner(System.in);

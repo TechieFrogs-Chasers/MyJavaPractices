@@ -21,8 +21,7 @@ public class Largestno {
 
     static int largest(int a, int b, int c) {
         int e = a > b ? a : b;
-        int d;
-        return d = c > e ? c : e;
+        return c > e ? c : e;
     }
 
     static int validate(Scanner largest) {
