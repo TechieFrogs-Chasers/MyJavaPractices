@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Multiplication {
     public static void main(String...args){
-        Scanner object=new Scanner(System.in);
+        Scanner object=new Scanner(System.in);//object is created 
         int num;
         do {
             System.out.println("enter the positive number");
@@ -13,7 +13,7 @@ public class Multiplication {
             }num=object.nextInt();
 
         }while(num<=0);
-        object.close();
+        object.close(); //object is closed 
         for (int i =1 ;i<=10; i++){
             System.out.println(num+ " * " + i + " = "+ num*i);
         }
