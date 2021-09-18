@@ -22,9 +22,9 @@ public class PascalsRighTriangle {
                 }
                 System.out.println( );
          }
-         for( i = rows; i >= 1  ; --i) {
+         for( i = rows; i > 1  ; --i) {
             System.out.println(" ");
-               for(j = 1; j <= i; ++j) {
+               for(j = 1; j < i; ++j) {
                   System.out.print(" * ");
                 }
                 System.out.println( );
