@@ -46,25 +46,13 @@ public class AbstractionDemoTest {
 
     public static void main(String[] args) {
         ChildOfAbstractChildclass childObj = new ChildOfAbstractChildclass();
-        AbstractChildClass absObj = new AbstractChildClass(){
-
-            @Override
-            String Name() {
-                // TODO Auto-generated method stub
-                return null;
-            }
-            
-        };
-        absObj.Name();
-      String name =  childObj.Name();
-      System.out.println(name);
-       int sum = childObj.sum();
-       System.out.println(sum);
+        System.out.println(childObj.Name());
+        System.out.println(childObj.sum());
         childObj.parentDisplay();
         childObj.Display();
         ParentAbstractClass.staticParentMethod();
         childObj.finalParentMethod();
-        childObj.sum();
+        
     }
     
 }
