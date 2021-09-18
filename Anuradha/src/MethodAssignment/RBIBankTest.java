@@ -14,6 +14,7 @@
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter Account type");
         String acc_type = sc.nextLine();
+        sc.close();
         if(acc_type == "SAVINGS"){
         min_withdrawal_limit = 1000;
         }
@@ -35,6 +36,7 @@ class Customer{
         age = sc1.nextInt();
         sc1.nextLine();
         address = sc1.nextLine();
+        sc1.close();
     }
     public void printCusDetails(){
         System.out.println("Name , Age and Address of the Customer: "+name+",  "+age+",  "+address);
@@ -51,6 +53,7 @@ class Account{
         sc.nextLine();
         acc_holderName = sc.nextLine();
         acc_type = sc.nextLine();
+        sc.close();
     }
      public void printAccDetails(){
         System.out.println("Account holder's Name and  Number : "+acc_holderName+",  "+acc_number+",  "+acc_type);
