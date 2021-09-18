@@ -56,5 +56,9 @@ public class Operators {
         System.out.println(l<p);
         System.out.println(o<=l);
         System.out.println(p>=l);
+        System.out.println(c);
+        System.out.println(a);
+        System.out.println(c%a);
+        System.out.println(c/a);
     }
 }
