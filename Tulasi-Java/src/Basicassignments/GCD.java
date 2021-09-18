@@ -23,13 +23,13 @@ public class GCD {
         System.out.println("Enter the num2 value: "); //num2 Validation
 
         do {
+            System.out.println("Please enter a positive number! ");
             while (!myScannerObj.hasNextInt()) {
                 String input = myScannerObj.next();
                 System.out.println("That's not a number!");
             }
             num2 = myScannerObj.nextInt();
-            if (num2 <= 0)
-                System.out.println("Please enter a positive number! ");
+
         } while (num2 <= 0);
 
         while (num2 != 0) {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DivisionOfIntegers {
     public static void main(String[] args) {
-        double d;
+        float d;
         Scanner myObj = new Scanner(System.in);
         int a = DivisionOfIntegers.validateDivision(myObj);
         System.out.println("A= "+a);

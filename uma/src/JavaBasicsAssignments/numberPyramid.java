@@ -13,8 +13,8 @@ public class numberPyramid {
           System.out.println("Enter number of lines  to be printed");
   
          while (!scannerobj.hasNextInt() ){
-             String input = scannerobj.next();
-             System.out.println(input+"  is not a valid type");
+              scannerobj.next();
+             System.out.println("  is not a valid type");
             }
             rows = scannerobj.nextInt();
           } while (rows<=0);
