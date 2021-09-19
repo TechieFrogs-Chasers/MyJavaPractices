@@ -21,18 +21,15 @@ public class GcdOfTwoNumbers {
             }
             num2=scObj.nextInt();
         }while(num2<=0);
+        scObj.close();
 
         int gcd = 1, i, y;
-        for(i=1;i<=num1 && i<=num2;i++){
-            if(num1%i==0 && num2%i==0){
-                gcd = i;
+        y = num1< num2? num1 : num2;
+            for (i = 1; i<=y; i++){
+                if(num1%i ==0 && num2%i ==0){
+                    gcd = i;
+                }
             }
-            
-        }
-        System.out.printf("GCD of %d and %d is: %d", num1,num2,gcd);
-        
+            System.out.println("GCD of two numbers is : " + gcd);
     }
-
-
-    
 }
