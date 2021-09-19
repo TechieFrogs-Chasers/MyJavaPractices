@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int num,temp, y=1, reversenumber=0;
+        int num,temp, y=0, reversenumber=0;
         Scanner scObj = new Scanner(System.in);
         do{
-            System.out.println("Give any number");
+            System.out.println("Enter any number");
             while(!scObj.hasNextInt()){
                 String str = scObj.next();
                 System.out.println("Given number is not a vaild number.");
@@ -15,15 +15,24 @@ public class Palindrome {
             
         }while(num<=0);
         temp = num;
-            //System.out.println(num);
-                while(num>=0){
-                    reversenumber = num%10;
-                    y = (y*10)+reversenumber;
-                    num = num/10;
+        System.out.println(num);
+               while(num>0){
+                   //input 151
+                    //System.out.println(num);
+                    //reversenumber = num%10;//1 //5
+                    y = num%10;
+
+                    //System.out.println(reversenumber);
+                   // y = (y*10)+reversenumber;//y= 1
+                    reversenumber = (reversenumber*10)+y;
+                    num = num/10;//15
+                    //System.out.println(y);
                    
                     
                 }
-                if (y==reversenumber){
+                //System.out.println(y);
+                //System.out.println(;
+                if (reversenumber==temp){
                     System.out.println("Given Number is a Palindrome");
                 }
                 else{
