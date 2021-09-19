@@ -48,7 +48,7 @@ System.out.println("--while And Do while In For--------------");
             xx:
               for (int i : array) {
                   System.out.println(i);
-                  yy:
+                //  yy:
                     for (int k : array1) {
                         System.out.println(k);
                         if(k > 4)
