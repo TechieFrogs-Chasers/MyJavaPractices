@@ -2,7 +2,7 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class numberPyramid {
+public class floyd {
     public static void main(String[] args) {
         
         Scanner  scannerObj =new Scanner(System.in);
@@ -10,7 +10,7 @@ public class numberPyramid {
         int rows;
         
         do{
-          System.out.println("Enter number  to be printed");
+          System.out.println("Enter number  of rows to be printed");
   
          while (!scannerObj.hasNextInt() ){
               scannerObj.next();
@@ -23,18 +23,26 @@ public class numberPyramid {
 
           int i;
           int j;
-          
+          int k=1;
           for(i=1;i<=rows;i++){
-          
+         
              for(j=1;j<=i;j++){
-              
-        System.out.print(j+" ");
+       
+            //j++; // prints 2  2  2 4   2 4   2 4 6
+        System.out.print(k+" ");
+               k++;
+             //j++;// prints 1  1  1 3   1 3   1 3 5
         
-    }
-        System.out.println();
              }
+          
+            //j++;// prints 1  1 2  1 2 3  1 2 3 4  1 2 3 4 5
+        System.out.println();
+      
+             } 
              
+            
     scannerObj.close();
 
     }
+    
 }

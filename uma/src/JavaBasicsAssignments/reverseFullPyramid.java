@@ -2,10 +2,9 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class invertedPyramid {
+public class reverseFullPyramid {
     public static void main(String[] args) {
-    
-
+        
         Scanner  scannerobj =new Scanner(System.in);
 
         int rows;
@@ -22,16 +21,26 @@ public class invertedPyramid {
   
           int i;
           int j;
-          for(i=1;i<=rows;i++){
-            for(j=rows;j>=i;j--){
-  
-          
-        System.out.print("*"+" ");}
-        System.out.println();
+          int k;
+          for(i=rows;i>=1;i--){
+           
+             for(j=rows-1;j<=i;j++){
+           
+             System.out.print(" ");
              }
-             scannerobj.close();
-
-
+          
+       for ( k=1;k<=i;k++){
+      
+         System.out.print("*"+" ");
+     //i--;}
+        System.out.println();
+           
+       }  
+         i--; 
+    } 
+              
+  }
 
     }
-}
+    
+
