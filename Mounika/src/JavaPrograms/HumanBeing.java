@@ -1,3 +1,4 @@
+package JavaPrograms;
 public class HumanBeing{
     
     public static void main(String[] args) {

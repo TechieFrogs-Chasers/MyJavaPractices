@@ -1,3 +1,4 @@
+package Assignment;
 public class Gcd {
     int a;
     public static void main(String[] args) {

@@ -20,6 +20,7 @@ public class ScannerObjExamples {
         System.out.println("Concatination of String 1 and String2 "+str1+str2);
         System.out.println(" enter Address to find specified Pattern : ");
          String address = obj.nextLine();
+         System.out.println(address);
          System.out.println("pattern Found :"+obj.findInLine("Kukatpally"));
          System.out.println(obj.nextLine());
     obj.close();

@@ -1,3 +1,4 @@
+package Assignment;
 import java.util.Scanner;
 public class Diamond {
     static int i, j, k, n, space=1;

@@ -1,4 +1,4 @@
-package BasicsAssignment.PatternPrograms;
+package PatternPrograms;
 import java.util.Scanner;
 public class FullPyramidUsingStar {
     public static void main(String[] args) {

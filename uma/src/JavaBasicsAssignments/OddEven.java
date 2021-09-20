@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 
-public class OddEven {
+public class oddEven {
     public static void main(String[] args) {
         
         int num;
