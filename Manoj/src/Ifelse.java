@@ -10,12 +10,13 @@ public class Ifelse {
         }*/
        
         int a=4;
+        //if number is divisible by 2and the remainder is 0 it is even number 
         if (a%2==0){
             System.out.println("given number is even ");
         }
         else{
             System.out.println("given number is odd");
-            
+
         }
     }
     
