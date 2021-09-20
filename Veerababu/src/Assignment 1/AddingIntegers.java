@@ -47,7 +47,7 @@ public class AddingIntegers {
 
     // do while loop
 
-    Scanner add = new Scanner(System.in);
+    /*Scanner add = new Scanner(System.in);
     int a;
     int b;
     do{
@@ -62,10 +62,10 @@ public class AddingIntegers {
         a=add.nextInt();
         b=add.nextInt();
     }while((a+b)<=4);
-    add.close();
+    add.close();*/
     
     //while
-    /*Scanner add = new Scanner(System.in);
+    Scanner add = new Scanner(System.in);
     int a;
     int b;
         while(!add.hasNextInt())
@@ -75,9 +75,9 @@ public class AddingIntegers {
             System.out.println("Sum of Two Integers; "+ (a+b));
             
         }
-        add.close();*/
+        add.close();
 
-        System.out.println("Sum of Integers");
+        System.out.println("Program Ended"); 
     }
    
 }

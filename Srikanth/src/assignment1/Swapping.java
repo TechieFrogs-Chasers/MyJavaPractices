@@ -4,6 +4,7 @@ public class Swapping {
     public static void main(String[] args) {
 
         Scanner swapObj = new Scanner(System.in);
+
         System.out.println("Enter value for a: ");
         int a = Swapping.validate(swapObj);
         System.out.println("Enter value for b: ");

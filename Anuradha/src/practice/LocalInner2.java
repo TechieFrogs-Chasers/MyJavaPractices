@@ -4,7 +4,7 @@ class LocalInner2{
     void display(){  
      int value=50;//local variable must be final till jdk 1.7 only  
      class Local{    //declared within a block ,can be abstract or final only
-         int num = 50;
+     //    int num = 50;
       void msg(){System.out.println(value);
         System.out.println(data);  //local class can ascess data members of enclosed class
     }  

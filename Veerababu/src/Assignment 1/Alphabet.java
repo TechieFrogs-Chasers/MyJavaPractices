@@ -27,25 +27,33 @@ public class Alphabet {
             System.out.println("Given input is not a Alphabet");
         }*/
         Scanner Obj = new Scanner(System.in);
-             if(!Obj.hasNextInt())
-             {
-                // Obj.hasNext();  
-                char c = Obj.next().charAt(1);
-                    switch(c)
+        boolean b;         
+        do
+        {   
+                System.out.println("Enter alphabets");
+        
+                    if(!Obj.hasNextInt())
                     {
-                        case 65 -> System.out.println("1.Given input is Alphabet i.e.,"+" "+c);
-                        case 68 -> System.out.println("2.Given input is Alphabet i.e.,"+" "+c);
-                        case 69 -> System.out.println("3.Given input is Alphabet i.e.,"+" "+c);
-                        case 97 -> System.out.println("4.Given input is Alphabet i.e.,"+" "+c);
-                        case 'z'-> System.out.println("5.Given input is Alphabet i.e.,"+" "+c);
-                        default -> System.out.println("Invalid Input");
+                        Obj.hasNext();  
+                        char c = Obj.next().charAt(1);
+                            switch(c)
+                            {
+                                case 65 -> System.out.println("1.Given input is Alphabet i.e.,"+" "+c);
+                                case 68 -> System.out.println("2.Given input is Alphabet i.e.,"+" "+c);
+                                case 69 -> System.out.println("3.Given input is Alphabet i.e.,"+" "+c);
+                                case 97 -> System.out.println("4.Given input is Alphabet i.e.,"+" "+c);
+                                case 'z'-> System.out.println("5.Given input is Alphabet i.e.,"+" "+c);
+                                default -> System.out.println("Invalid Input");
+                            }
                     }
-             }
-             else
-             {
-                 System.out.println("Given input is not a alphabet");
-             }
-        Obj.close();
+                    else
+                    {
+                        System.out.println("Given input is not a alphabet");
+                    }
 
+                b = Obj.nextBoolean();
+        }while(b== true);
+        Obj.close();
+                System.out.println("Program Ended");
     }
 }
