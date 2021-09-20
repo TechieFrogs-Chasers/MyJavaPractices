@@ -25,8 +25,6 @@ public class NestedClasses {
                 }
              public static void main(String[] args) {
                  InnerStaticClass obj2 = new InnerStaticClass();
-                int c = 30;
-                String str = "middleclass";
                 System.out.println(outerX); //static nested can access only static members of outer class
               //  System.out.println(obj1.id); cannot access the instance members of outer class
                  displayInnerclass();

@@ -1,6 +1,6 @@
 package NestedClasses;
 class localInner2{  
-    private int data=30;//instance variable  
+  //  private int data=30;//instance variable  
     void display(){  
      int value=50;//local variable must be final till jdk 1.7 only  
      class Local{  

@@ -2,8 +2,18 @@ package Abstraction;
 
  // abstract -->final class
 abstract class NormalAbstractClass{
-    abstract void Display();
+    abstract void display();
+
+    private int sum;
      
+    public int getSum() {
+        return sum;
+    }
+
+    public void setSum(int sum) {
+        this.sum = sum;
+    }
+
     static void  staticdisplay(){
         System.out.println("Static display in normalAbstact class");
     }
@@ -17,15 +27,28 @@ abstract class NormalAbstractClass{
     }
 }
 
-final class staticClass extends NormalAbstractClass{
+final class finalClass extends NormalAbstractClass{
 
-    @Override
-    void Display() {
+
+    void display() {
        System.out.println("Implementing display method of abstract class in final child class");
     }
+
+    void displaySum(){
+         System.out.println(getSum());
+    }
+
     
 }
 public class AbstractionFinalTest {
+    public static void main(String[] args) {
+        finalClass finalObj = new finalClass();
+        finalObj.display();
+        finalObj.finalMethod();
+        finalObj.nonStaticClassDisplay();
+        finalClass.staticdisplay();
+        finalObj.setSum(25);
+    }
 
    
     

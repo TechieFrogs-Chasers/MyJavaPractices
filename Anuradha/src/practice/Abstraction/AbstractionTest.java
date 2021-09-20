@@ -1,10 +1,10 @@
 package Abstraction;
 //abstract--->non abstract class 
-abstract class ParentAbstractClass2{  //parent  abstract class
+ abstract class ParentAbstractClass2{  //parent  abstract class
 
     abstract void parentDisplay();  //abstract method
     abstract int sum();        // abstract method with int return type
-    abstract String Name();
+    abstract String name();
     
     static void staticParentMethod(){     //static method in abstract class
         System.out.println("static method in ParentAbstraction class");
@@ -14,7 +14,7 @@ abstract class ParentAbstractClass2{  //parent  abstract class
         System.out.println("final method in ParentAbstraction class");
     }
 
-    void Display(){               //instance method in abstract class
+    void display(){               //instance method in abstract class
         System.out.println("instance method in ParentAbstraction class");
     }
 
@@ -31,7 +31,7 @@ class NonAbstractChildClass2 extends ParentAbstractClass2{
         return a+b;
     }
 
-    String Name(){
+    String name(){
         return "ANU.K";
     }
 
@@ -39,8 +39,8 @@ class NonAbstractChildClass2 extends ParentAbstractClass2{
 public class AbstractionTest {
     public static void main(String[] args) {
         NonAbstractChildClass2 nonObj = new NonAbstractChildClass2();
-        nonObj.Display();
-        System.out.println(nonObj.Name());
+        nonObj.display();
+        System.out.println(nonObj.name());
         System.out.println(nonObj.sum());
         nonObj.finalParentMethod();
         
