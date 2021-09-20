@@ -1,8 +1,7 @@
 package Assignment_1;
 
 import java.util.Scanner;
-    //package com.company;
-import java.util.Scanner;
+    
 
     public class AddTwoNumbers {
         public static void main(String[] args) {
