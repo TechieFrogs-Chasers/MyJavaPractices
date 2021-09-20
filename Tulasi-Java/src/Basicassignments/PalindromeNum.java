@@ -10,7 +10,7 @@ public class PalindromeNum {
         int rev, sum = 0;
         int temp = num;
 
-        do {
+        do {//data validation
             System.out.println("Please enter a positive number! ");
             while (!myScannerObj.hasNextInt()) {
                 String input = myScannerObj.next();

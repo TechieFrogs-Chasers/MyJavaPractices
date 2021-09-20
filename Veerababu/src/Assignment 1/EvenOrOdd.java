@@ -13,40 +13,51 @@ public class EvenOrOdd {
        System.out.println("Givn number is even or odd");*/
 
        Scanner eo = new Scanner(System.in);
-        if(eo.hasNextInt())
-        {   
-            a= eo.nextInt();
-            b=eo.nextInt();
-                    if((a+b)%2==0)
-                    {
-                        System.out.println("a value; "+ a + "b value; "+ b);
-                        System.out.println("1.Given values of a and b are Even Numbers  "+(a+b));
+       
+       do
+       {    
+            System.out.println("Enter Input");
+
+                if(eo.hasNextInt())
+                    {   
+                        a= eo.nextInt();
+                        b=eo.nextInt();
+                                if((a+b)%2==0)
+                                {
+                                    System.out.println("a value; "+ a + "b value; "+ b);
+                                    System.out.println("1.Given values of a and b are Even Numbers  "+(a+b));
+                                }
+                                else if(((a+b)%2!=0))
+                                {
+                                    System.out.println("a value; "+ a + "b value; "+ b);
+                                    System.out.println("1.Given values of a and b are Odd Numbers");
+                                }
+                                else
+                                {
+                                    System.out.println("Invalid");
+                                }
                     }
-                    else if(((a+b)%2!=0))
-                    {
-                        System.out.println("a value; "+ a + "b value; "+ b);
-                        System.out.println("1.Given values of a and b are Odd Numbers");
-                    }
-                    else
-                    {
-                        System.out.println("Invalid");
-                    }
-        }
-        else if(!eo.hasNextBoolean())
-        {  eo.next();
-            a= eo.nextInt();
-            b= eo.nextInt();
-                    if((a+b)%2==0)
-                    {
-                        System.out.println("a value; "+ a + "b value; "+ b);
-                        System.out.println("2.Given values of a and b are Even Numbers");
+                    else if(!eo.hasNextBoolean())
+                    {  eo.next();
+                        a= eo.nextInt();
+                        b= eo.nextInt();
+                                if((a+b)%2==0)
+                                {
+                                    System.out.println("a value; "+ a + "b value; "+ b);
+                                    System.out.println("2.Given values of a and b are Even Numbers");
+                                }
+                                else{
+                                    System.out.println("2.Given values of a and b are Odd Numbers");
+                                }
                     }
                     else{
-                        System.out.println("2.Given values of a and b are Odd Numbers");
+                        System.out.println("Null");
                     }
-        }
-        else{
-            System.out.println("Null");
-        }eo.close();
-   } 
+   
+                    a = eo.nextInt();
+        }while(a<=5);
+                eo.close();
+
+                System.out.println("Hi");
+    }
 }

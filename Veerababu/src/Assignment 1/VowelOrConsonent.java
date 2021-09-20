@@ -26,28 +26,32 @@ public class VowelOrConsonent {
                 default:
                 System.out.println("Given Alphabet is Consonent");
             }Vowel.close(); */
-            Scanner Obj = new Scanner(System.in);
 
-                if(!Obj.hasNextInt())
+
+            Scanner Obj = new Scanner(System.in);
+            int a;
+            do
+            {
+                System.out.println("Give Input");
+                while(!Obj.hasNextInt())
                 {
-                   String i = Obj.next();
-                    System.out.println("Enter alphabet"+ i);
-                    s= Obj.next().charAt(2);
+                    Obj.hasNext();
+                    s = Obj.next().charAt(1);
                     switch(s)
                     {
-                        case 'a' -> System.out.println("a is Vowel"); 
-                        case 'e' -> System.out.println("e is Vowel");
-                        case 'i' -> System.out.println("i is Vowel");
-                        case '0' -> System.out.println("o is Vowel");
-                        case 'u' -> System.out.println("u is Vowel");
-                        default  ->  System.out.println("Given alphabet is not a Vowel");
+                        case 'A' -> System.out.println("A is Vowel");
+                        case 'E' -> System.out.println("E is Vowel");
+                        case 'I' -> System.out.println("I is Vowel");
+                        case 'O' -> System.out.println("O is Vowel");
+                        case 'U' -> System.out.println("U is Vowel");
+                        default  -> System.out.println("Given input is Consonent");
                     }
+                    
                 }
-                else
-                {
-                    System.out.println("Given alphabet is Consonent");
-                }Obj.close();
+                 a = Obj.nextInt();
+            }while(a<=10);
+            Obj.close();          
             
-       // System.out.println("Z is not a Vowel");
+        System.out.println("Invalid");
     }
 }

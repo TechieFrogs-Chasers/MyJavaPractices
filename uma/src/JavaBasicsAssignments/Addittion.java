@@ -24,8 +24,8 @@ public class addittion {
            do{
             System.out.println("Enter second  integer");
            while (!scannerobj.hasNextInt() ){
-               String input = scannerobj.next();
-               System.out.println(input+"  is not a valid type");
+               scannerobj.next();
+               System.out.println("entered value  is not a number");
              }
              second = scannerobj.nextInt();
            } while (second<=0);
