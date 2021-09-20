@@ -2,7 +2,7 @@ package JavaBasicsAssignments;
 
 import java.util.Scanner;
 
-public class addittion {
+public class addition{
     public static void main(String[] args) {
         int first,second;
         Scanner scannerobj = new Scanner(System.in);
