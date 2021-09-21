@@ -8,7 +8,7 @@ public class lcm {
 
         Scanner Lcmobj = new Scanner(System.in);
 
-        int a,b,c,d,e,lcm;
+        int a,b,lcm;
 
         do{
             System.out.println("Enter first  integer");
@@ -29,16 +29,17 @@ public class lcm {
              }
              b = Lcmobj.nextInt();
            } while (b<=0);
-       a=1;
-       b=1;
-       c=1;
-    d=(a/c);
-    e=(b/c);
-   
-      lcm=((c)*(d)*(e));
-     System.out.println(lcm);
 
+           lcm=(a>b)?a:b;
+          while(true){
 
+           if (lcm%a ==0 && lcm%b==0) {
+             System.out.println(lcm);
+             break;
+           }
+      lcm++;
+          
+          }
 
            Lcmobj.close();
 
