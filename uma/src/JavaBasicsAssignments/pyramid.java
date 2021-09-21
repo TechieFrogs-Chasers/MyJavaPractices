@@ -20,12 +20,20 @@ public class pyramid {
             rows = scannerobj.nextInt();
           } while (rows<=0);
   
-          int i=1;
+          int i;
           int j;
   
-          for(i=1;i<rows;i++){
-             for(j=rows-1;j>=i;j--){
-        System.out.print("*");}
+          for(i=1;i<=rows;i++){
+          
+             for(j=rows;j>=i;j--){
+              
+        System.out.print(" ");}
+        
+       for (int k=1;k<=i;k++){
+         System.out.print("*"+" ");
+       
+      }
+        
         System.out.println();
              }
 
