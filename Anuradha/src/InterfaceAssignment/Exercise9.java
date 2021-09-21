@@ -64,7 +64,7 @@ class Sign {
     String text;
     
     public String toString() {
-        return "Sign [text=" + text + "]";
+        return "Sign [text = " + text + " Shape = " +shape+"]";
     }
 
     Sign(Shapes shape,String text){
@@ -74,7 +74,39 @@ class Sign {
   
   }
 public class Exercise9 {
+
+   static void fitOrNot(boolean bool)
+       {
+           if(bool == true)
+           {
+               System.out.println("Message fits into Shape perfectly");
+           }
+           else{
+               System.out.println("Message does not fits into the Shape ");
+           }
+
+       }
+   
+
     public static void main(String[] args) {
+        Circles cirObj = new Circles(7);
+        cirObj.draw();
+        System.out.println(cirObj.getArea());
+        fitOrNot(cirObj.fitsText("Circle"));
+        System.out.println("Circle color is :"+cirObj.getColor());
+
+        Rectangles recObj = new Rectangles(10, 20);
+        recObj.draw();
+       System.out.println(recObj.getArea());
+       fitOrNot(recObj.fitsText("Rectangle"));
+       System.out.println("Rectangle color is :"+recObj.getColor());
+
+       Sign signObj = new Sign(cirObj,"Left");
+       System.out.println(signObj.toString());
+
+       Sign signObj1 = new Sign(recObj,"Right");
+       System.out.println(signObj1.toString());
+
         
     }
     
