@@ -1,33 +1,49 @@
-class Manoj{
+ class Manoj{
      int k;
-    void javaclass(){
-        Manoj obj=new Manoj();
+    public void javaclass(){
+        Manoj obj=new Manoj(); //object 
         obj.k= 56;
-        System.out.println(obj.k+" manoj variable");
+        System.out.println(obj.k);
     }
     
 }
- class Manojjava{
-     int r;
+ class Manojjava{   //we can't able to give the public to the class its actually given to the main driven class
+     int r; 
+      float g;
       void display(){
-     int r;
      Manojjava objt=new Manojjava();
-     objt.r=45;//r is a local variable and its not reading 
-     System.out.println(objt.r);
+    objt.r=25;
+     System.out.println("display method "+ objt.r);
 
  }
 }
 
 public class Oopspratice {
     int i,j ;
+    float f=3.06f;
+    void display(){
+
+    }
     public static void main(String...args){     // created the main method inside the  class
-        Oopspratice object=new Oopspratice(); //creatd an object here
+        Oopspratice object=new Oopspratice(); //creatd an object here //new is the keyword to create a object 
          int d=20; 
-        //new is the keyword is used to create the object 
+         float f=2.5f;
+        Oopspratice objt=new Oopspratice();
         Oopspratice object2=new Oopspratice();
+        
+        object.display();
         object.i=35;        //here i is a staic one and the object is reading it 
         object2.j=50;
-        System.out.println(object.i + " " + object2.j+ "  " +d);
+        System.out.println(object.i + " " + object2.j+ "  " +d + " " + f + " " + objt.f);
+        
+
+         Manojjava obj=new Manojjava();
+         
+          obj.g=3;   //here g is taken from the class Manojjava  
+          //instance should be created in that particular file 
+         
+         System.out.println(obj.g);
+
     }
     
 }
