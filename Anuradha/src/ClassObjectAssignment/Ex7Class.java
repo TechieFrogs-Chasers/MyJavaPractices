@@ -3,6 +3,10 @@
 
 public class Ex7Class {
 
+    void dis(){
+        System.out.println("dis");
+    }
+
     protected class InnerEX7Class implements Exercise7    //Ex7Interface from Interface Assignment
     {
         public void num() {
