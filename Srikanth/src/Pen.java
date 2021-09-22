@@ -5,16 +5,20 @@ public class Pen {
     int point = 10;
     // An object has attributes.
 
-    static boolean clicked, twisted = false; // by creating a static variable we can call it by class name,
+    static boolean twisted = false;
+    boolean clicked = false;
+    // by creating a static variable we can call it by class name,
     // instead of initializing.
-    static String colored = "";
 
-    public static void click() {
+    // for non static variable we need to create object to call the variables.
+    String colored = "";
+
+    void click() {
         clicked = true;
     }
     // Object has actions.
 
-    public static void unclick() {
+    void unclick() {
         clicked = false;
     }
     // Object has actions.
@@ -27,10 +31,11 @@ public class Pen {
         twisted = false;
     }
 
-    public void close() {
+    void close() {
     }
 
     public void color() {
+        System.out.println("blue.");
     }
 
 }
