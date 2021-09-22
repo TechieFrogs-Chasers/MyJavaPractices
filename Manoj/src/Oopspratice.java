@@ -19,23 +19,27 @@
 }
 
 public class Oopspratice {
-    int i,j ;
+    int i,j,l ;
     float f=3.06f;
     void display(){
+
+        System.out.println("display method ");
 
     }
     public static void main(String...args){     // created the main method inside the  class
         Oopspratice object=new Oopspratice(); //creatd an object here //new is the keyword to create a object 
          int d=20; 
          float f=2.5f;
+        
         Oopspratice objt=new Oopspratice();
         Oopspratice object2=new Oopspratice();
         
         object.display();
         object.i=35;        //here i is a staic one and the object is reading it 
         object2.j=50;
+        object2.l=20;
         System.out.println(object.i + " " + object2.j+ "  " +d + " " + f + " " + objt.f);
-        
+        System.out.println(object2.l);
 
          Manojjava obj=new Manojjava();
          
@@ -43,7 +47,15 @@ public class Oopspratice {
           //instance should be created in that particular file 
          
          System.out.println(obj.g);
-
+         System.out.println(refobj.j);
     }
     
+}
+class Car{
+    String j; 
+    void speed(){
+        Car refobj=new Car();
+      refobj.j="max";
+        System.out.println( refobj.j);
+    }
 }
