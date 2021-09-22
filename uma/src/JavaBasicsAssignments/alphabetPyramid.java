@@ -5,38 +5,32 @@ import java.util.Scanner;
 public class alphabetPyramid {
     
 public static void main(String[] args) {
-    
-Scanner scannerobj =new Scanner(System.in);
-
-
-char ch;   
+   Scanner scannerObj =new Scanner(System.in);  
+   int num;
+   do{
+      System.out.println("enter no of rows to be printed");
+     while(!scannerObj.hasNextInt() ){
+      scannerObj.next();
+         System.out.println("  is not a valid type");
+       }
+       num=scannerObj.nextInt();
+     } while(num<=0);
+char ch= 'A';
+     for(int i=1;i<=num;i++)
+     {
         
-do{
-    System.out.println("Enter a character : ");
-
-   while(scannerobj.hasNextInt() ){
-
-      // int num=scannerobj.nextInt();
-       System.out.println("Please enter valid character");
-   }
-   ch = scannerobj.next().charAt(0);
-
-}while(!(ch>='a' && ch<='z') || ch>='A' && ch<='Z');
-
-  char ch1='A';
-    int i;
-
-for(ch1='A';ch1<=(ch-1);ch1++){
-    for(i=1;i<=ch1;i++){
-        System.out.println(ch1+" ");
-    }
-}
-
-
-
-
-
-scannerobj.close();
+       
+        for(int j =1;j<=i;j++)
+        {
+           
+       System.out.print(ch+" ");
+        //ch++;// prints A BC DEF GHIJ KLMNO
+        }
+        ch++;// prints A BB CCC DDDD EEEEE
+        System.out.println();
+       // ch++;//prints A BB CCC DDDD EEEEE
+     }
+scannerObj.close();
 
 }
 }

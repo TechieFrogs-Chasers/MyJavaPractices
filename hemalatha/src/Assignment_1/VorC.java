@@ -23,6 +23,7 @@ public class VorC {
             System.out.println("enter character  "+ch+" is consonant");
         else
             System.out.println("not an alphabet");
+            sc.close();
 
 
 

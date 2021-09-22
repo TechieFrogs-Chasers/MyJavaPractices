@@ -19,25 +19,35 @@ public class QuotientRemainder {
       Scanner Obj = new Scanner(System.in);
       int a;
       int b;
-          if(!Obj.hasNextInt())
-          {
-            Obj.next();
-          a = Obj.nextInt();
-          b= Obj.nextInt();
-            System.out.println("The quotient and remainder");
-                if(((a/b)==3 ) && ((a%b)==0))
-                {
-                  System.out.println("The quotient and remainder is"+"  "+"quotient="+ (a%b) +" and  "+ "remainder "+ (a/ b));
-                }
-                else
-                {
-                  System.out.println("Print Correct Values");
-                }
-          }
-          else
-          {
-            System.out.println("Print Valid Numbers");
-          }Obj.close();
-      System.out.println("Print Integers");
-    }
+        do
+        {
+          System.out.println("Find Quotient and Reminder");
+      
+      
+                if(!Obj.hasNextInt())
+                    {
+                      Obj.next();
+                    a = Obj.nextInt();
+                    b= Obj.nextInt();
+                      System.out.println("The quotient and remainder");
+                          if(((a/b)==3 ) && ((a%b)==0))
+                          {
+                            System.out.println("The quotient and remainder is"+"  "+"quotient="+ (a%b) +" and  "+ "remainder "+ (a/ b));
+                          }
+                          else
+                          {
+                            System.out.println("Print Correct Values");
+                          }
+                    }
+                    else
+                    {
+                      System.out.println("Print Valid Numbers");
+                    }
+                
+                    a = Obj.nextInt();
+        }while(a<=10);
+        Obj.close();
+        System.out.println("Print Integers");
+      }
+
 }

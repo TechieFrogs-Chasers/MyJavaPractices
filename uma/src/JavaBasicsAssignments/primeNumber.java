@@ -22,7 +22,7 @@ public class PrimeNumber {
          if(num%2==0){
          System.out.println(num+ "  is not a prime nuber");
 
-         if(num==0 | num==1)
+         if( num==1)
              System.out.println(num+ "  is not a prime number");
     
           }
