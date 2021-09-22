@@ -18,7 +18,7 @@ class Cartester {//class
         String type = myScannerObj.next();
         objInstance.speed();
         int speed = myScannerObj.nextInt();
-        myScannerObj.close();
+        myScannerObj.close();//Scanner Closed
 
     }
 }
@@ -36,6 +36,5 @@ public class ClassTestDemo {//Driver class - main method
         System.out.println("Mileage: " + obj1.mileage + " , " + "Cost: " + obj1.price + " , " + "Model: " + obj1.model + " , " + "Customer ID number: " + Id);
 
     }
-
 }
 
