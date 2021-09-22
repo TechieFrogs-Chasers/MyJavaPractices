@@ -8,7 +8,7 @@ public class Constructorspratice {
     Constructorspratice(int n ,String a ){ // created a parameter constructor
         miliage=n;
         name=a;
-        System.out.println("my constructor pratices "+n+" "+a );
+        System.out.println("my constructor pratices "+ n + "   " +a );
     }
     Constructorspratice(float f){
         System.out.println();
@@ -20,8 +20,8 @@ public class Constructorspratice {
     }
 
     public static void main(String...args){
-        Constructorspratice object=new Constructorspratice(20,"safari");
-       Constructorspratice objt=new Constructorspratice( 25,"ciaz " );
+        Constructorspratice object=new Constructorspratice(20,"safari ");
+       Constructorspratice objt=new Constructorspratice( 25," ciaz " );
        object.display(); //call the method to display the values of an object 
        objt.display();
       object.i=45;
