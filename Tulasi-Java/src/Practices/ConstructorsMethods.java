@@ -16,11 +16,12 @@ class details {//Class- details
     void employeeName() {//employeeName method- in class details
         System.out.println("Enter employee name:");
     }
+     //Constructor Overloading
 
     details() {//Default Constructor for details class
         System.out.println("Its a Default Constructor for company details.");
     }
-    <Char> details(Char logoletter){//Parameterized constructor -char
+    details(char logoletter){//Parameterized constructor -char
         logo= (char) logoletter;
         System.out.println("Logo of the company :"+" "+ (char) 76);
 
@@ -38,7 +39,7 @@ class details {//Class- details
         income=companyIncome;
         System.out.println(company+" " +"Company income"+ " : "+ income);
     }
-    <Char> details(String company, Char logoletter, float companyIncome){//Parameterized constructor -String,char,float
+    details(String company, char logoletter, float companyIncome){//Parameterized constructor -String,char,float
         System.out.println(company +" " +"Company logo is: "+ logoletter+" "+ "Company income : "+ companyIncome);
     }
 
