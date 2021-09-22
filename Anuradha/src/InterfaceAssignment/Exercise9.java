@@ -63,8 +63,8 @@ class Sign {
     Shapes shape;
     String text;
     
-    public String toString() {
-        return "Sign [text = " + text + " Shape = " +shape+"]";
+    public void print() {
+       System.out.println("Shape :"+shape +"\n"+ "Text :"+text);
     }
 
     Sign(Shapes shape,String text){
@@ -102,10 +102,10 @@ public class Exercise9 {
        System.out.println("Rectangle color is :"+recObj.getColor());
 
        Sign signObj = new Sign(cirObj,"Left");
-       System.out.println(signObj.toString());
+       signObj.print();
 
        Sign signObj1 = new Sign(recObj,"Right");
-       System.out.println(signObj1.toString());
+       signObj1.print();
 
         
     }
