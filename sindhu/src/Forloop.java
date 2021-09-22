@@ -25,12 +25,23 @@
 }*/
 
 //Nested for loop
-public class Forloop{
+/*public class Forloop{
     public static void main(String[] args) {
         for(int i=1;i<=3;i++){
-            for(int j=1;j<=3;j++){
-                System.out.println(i+ " " +j);
+            for(int j=1;j<=i;j++){
+                System.out.print(+j);
             }
+            System.out.println();
         }
     }
+}*/
+
+public class Forloop{
+    public static void main (String[] args){
+int i=1;
+while(i<=6){
+    System.out.println(i);
+    i++;
+}
+}
 }
