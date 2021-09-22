@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 
 public class Evenorodd {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
         int a;
         //validation method
@@ -28,7 +29,7 @@ public class Evenorodd {
         input.close();
            
 
-        }
+    }
        /* int x=6;
         if(x%2==0){
             System.out.println("even number");

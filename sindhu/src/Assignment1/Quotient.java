@@ -27,7 +27,7 @@ public class Quotient{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int x;
-        do                          // Validation method6666666    6  6 6  6  66666666666666666666666666666666                                                                                     //
+        do                          // Validation method                                                                                    //
 
         {
             System.out.println("enter first number");
@@ -42,7 +42,7 @@ public class Quotient{
         int y;
         do
         {
-            System.out.println("enter first number");
+            System.out.println("enter second number");
             while(!input.hasNextInt())
             {
                 String s=input.next();

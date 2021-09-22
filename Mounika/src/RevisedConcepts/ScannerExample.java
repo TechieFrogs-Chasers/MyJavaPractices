@@ -39,10 +39,10 @@ public class ScannerExample {
                                 salaryForWorker = validatePositiveFloatNumber(scObj);
                                 System.out.println("salary for Individual Worker :"+salaryForWorker);
 
-                                    System.out.println("Enter fee for Individual Student");
+                                    System.out.println("Enter fee for Individual ClassesObjects.Student");
                                     //feePerStudent = scObj.nextFloat();
                                     feePerStudent = validatePositiveFloatNumber(scObj);
-                                    System.out.println("Fee for Individual Student :"+feePerStudent);
+                                    System.out.println("Fee for Individual ClassesObjects.Student :"+feePerStudent);
                                     scObj.close();
     }
    
@@ -57,7 +57,7 @@ public class ScannerExample {
         num = scanner.nextInt();
         }while(num<=0);
 
-    System.out.println("Enter value is a valid ");
+    System.out.println("Enter value is valid ");
    return num;
 }
 public static float validatePositiveFloatNumber(Scanner scanner){

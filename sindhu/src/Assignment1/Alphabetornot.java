@@ -50,9 +50,9 @@ public class Alphabetornot
         char character;
         Scanner scanner = new Scanner(System.in);
 
-//int a,c;
-do
-    {
+
+do                      //validation method
+{
     System.out.print("Enter a character: " );
     while(scanner.hasNextInt())
     {

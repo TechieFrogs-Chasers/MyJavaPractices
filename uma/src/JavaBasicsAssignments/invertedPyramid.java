@@ -20,12 +20,13 @@ public class invertedPyramid {
             rows = scannerobj.nextInt();
           } while (rows<=0);
   
-          int i=1;
+          int i;
           int j;
-  
           for(i=1;i<=rows;i++){
-             for(j=1;j<=i;j--){
-        System.out.print("*");}
+            for(j=rows;j>=i;j--){
+  
+          
+        System.out.print("*"+" ");}
         System.out.println();
              }
              scannerobj.close();

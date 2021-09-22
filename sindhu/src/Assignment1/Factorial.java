@@ -36,7 +36,8 @@ import java.util.Scanner;
     }*/
 
     public class Factorial{
-        public static void main(String[] args) {
+        public static void main(String[] args) 
+        {
             int i,fact=1;
             Scanner input = new Scanner(System.in);
 

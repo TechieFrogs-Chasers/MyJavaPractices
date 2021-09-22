@@ -12,23 +12,25 @@ public class AddingTwoIntegers {
         do{
             System.out.println("Enter first  integer");
 
-           while (!input.hasNextInt() ){
+           while (!input.hasNextInt())
+            {
                String x = input.next();
                System.out.println(x+"  is not a valid type");
-             }
+            }
              a = input.nextInt();
-           } while (a<=0);
+          } while (a<=0);
     
         //validation method for the second integer
         
-           do{
+        do{
             System.out.println("Enter second  integer");
-           while (!input.hasNextInt() ){
+           while (!input.hasNextInt())
+            {
              String y = input.next();
                System.out.println(y+"  is not a valid type");
-             }
+            }
              b = input.nextInt();
-           } while (b<=0);
+          } while (b<=0);
        
        int sum;
         sum = (a  +  b);

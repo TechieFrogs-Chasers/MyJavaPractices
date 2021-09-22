@@ -18,6 +18,7 @@ public class Factorial {
 
 public static void main(String[] args) {
         Scanner factorialObj = new Scanner(System.in);
+        System.out.println("Enter a value");
          int number = factorialObj.nextInt();
          factorialObj.close();
         int i=1;
