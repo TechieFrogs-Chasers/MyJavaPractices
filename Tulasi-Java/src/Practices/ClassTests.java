@@ -2,23 +2,25 @@ package Practices;
 
 import java.util.Scanner;
 
-class Cartest {
+class Cartest {//class -Cartest
+    static String condition;
+    {
+        condition="BrandNew";
+    }
 
-    // public String name;
-    // public int age;
 
-    void speed() {//method
+    void speed() {//method for speed
         System.out.println("Enter your speed: ");
-        Scanner myScannerObj = new Scanner(System.in);//Scanners
-        int speed = myScannerObj.nextInt();
+
 
     }
 
-    void type() {//method
+    void condition() {//method for condition
+        System.out.println("Enter your vehicle condition:");
+    }
+
+    void type() {//method for type
         System.out.println("Enter car type:");
-        Scanner myScannerObj = new Scanner(System.in);//Scanners
-        String type = myScannerObj.next();
-        myScannerObj.close();
 
     }
 }
@@ -28,19 +30,23 @@ public class ClassTests {//Driver class
     int price = 90000;
     int mileage = 120;
 
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) {//main
         int Id = 99;
         ClassTests obj1 = new ClassTests();//main class obj
-        obj1.model = "Tesla";
         Cartest obj = new Cartest();//class obj
-        obj.speed();//class call
-        obj.type();//classs call
-        System.out.print("Mileage: " + obj1.mileage + " , " + "Cost: " + obj1.price + " , " + "Model: " + obj1.model + " , " + "Customer ID number: " + Id);
         Cartester obj2 = new Cartester();
-        obj2.condition();//other class called from different program
+        obj1.model = "Tesla";
+        Scanner myScannerObj = new Scanner(System.in);
+        obj.speed();//class call
+        int speed = myScannerObj.nextInt();
+        obj.type();//classs call
+        String type = myScannerObj.next();
         obj2.year();//other programming class called
-        // obj2.numberofowners(obj.name,obj.age);
-        System.out.print("condition: " + obj2.condition + " , " + "year:" + obj2.year);
-        System.out.println();
+        int year = myScannerObj.nextInt();
+        System.out.println("Mileage: " + obj1.mileage + " , " + "Cost: " + obj1.price + " , " + "Model: " + obj1.model + " , " + "Customer ID number: " + Id);
+        System.out.println("condition: " + obj.condition + " , " + "year:" + obj2.year);
+        myScannerObj.close();
     }
 }
