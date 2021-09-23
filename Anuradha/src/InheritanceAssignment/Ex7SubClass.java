@@ -1,12 +1,18 @@
 
 
     public class Ex7SubClass  extends Ex7Class {   //Ex7Class from ClassObject Assignment
-
-        public static void main(String[] args) {
+         
+        Exercise7 displayProtected(){
             Ex7Class exObj = new Ex7Class();
             InnerEX7Class innObj = exObj.new InnerEX7Class();
-            innObj.innerEx7Method();
             innObj.num();
+            return innObj;
+        }
+
+        public static void main(String[] args) {
+            Ex7SubClass subObj = new Ex7SubClass();
+            Exercise7 ex =  subObj.displayProtected();
+            System.out.println(ex);
         }
     
 }
