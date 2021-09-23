@@ -22,9 +22,10 @@ public class invertedPyramid {
   
           int i;
           int j;
+          for(i=1;i<=rows;i++){
+            for(j=rows;j>=i;j--){
   
-          for(i=(rows-1);i>=0;i--){
-             for(j=0;j<=i;j++){
+          
         System.out.print("*"+" ");}
         System.out.println();
              }
