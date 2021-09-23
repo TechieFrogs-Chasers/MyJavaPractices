@@ -48,18 +48,18 @@ public class Swaptwonumbers {
     
     do
     {
-            System.out.println("enter second number");
+        System.out.println("enter second number");
             while(!input.hasNextInt());
         {
-            String s=input.next();
-            System.out.println(s+"is not a valid number");
+            String i=input.next();
+            System.out.println(i+"is not a valid number");
         }
         y= input.nextInt();
     }while(y<=0);
 
        //System.out.println("second integer is:   "+y);
 
-     t = x;  
+       t = x;  
        x = y;  
        y = t;  
        System.out.println("After swapping: "+x +"   " + y);  
