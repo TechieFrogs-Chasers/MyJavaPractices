@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Practice1 {
-    public static <string> void main(String[] args) {
+    //public static <string> void main(String[] args) {
         /*Scanner input = new Scanner(System.in);
         System.out.println("enter two numbers");
         int a = input.nextInt();
@@ -92,11 +92,45 @@ input.close();
 
 
 //factorial
-Scanner input = new Scanner(System.in);
+/*Scanner input = new Scanner(System.in);
 System.out.println("enter a number");
 int x = input.nextInt();
 for(int i=1;i<=x;i++){
     System.out.println(i);
+}
+    }
+}*/
+
+private static final 
+Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("enter number");
+        int n = scanner.nextInt();
+         
+        
+        //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        if (n % 2 != 0)
+        {
+            System.out.println("weird");
+        }
+        else if (n>=2 && n<=5)
+        {
+            System.out.println("not weird");
+        }
+        else if(n>=6 && n<=20)
+        {
+            System.out.println("weird");
+        }
+        else if (n>20)
+        {
+            System.out.println("not weird");
+
+        }
+        
+      
+        
+    }
 }
 
 
