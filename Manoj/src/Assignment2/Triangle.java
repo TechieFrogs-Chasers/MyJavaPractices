@@ -12,13 +12,17 @@ public class Triangle {
         c=5;
         System.out.println("perimeter of triangle is");
         System.out.println(a+b+c);
+        System.out.println("area of triangle is");
+        System.out.println((a*b)/2);
     }
     Triangle(int i,int j,int k){ //with parameters 
       a=i;
       b=j;
       c=k;
-      System.out.println("perimeter of triangle");
+      System.out.println("perimeter of triangle is ");
       System.out.println(a+b+c);
+      System.out.println("area of traingle is ");
+      System.out.println((a*b)/2);
     }
     
 }
