@@ -50,8 +50,9 @@ public class Alphabetornot
         char character;
         Scanner scanner = new Scanner(System.in);
 
-//int a,c;
-do{
+
+do                      //validation method
+{
     System.out.print("Enter a character: " );
     while(scanner.hasNextInt())
     {
@@ -60,14 +61,14 @@ do{
     }
     character = scanner.next().charAt(0);
     if((character>='a' && character<='z') || (character>='A' && character<='Z'))
-{
+   {
     System.out.print(character + " is an alphabet.");
-}
+   }
 else
-{
+   {
     System.out.print(character + " is not an alphabet.");
     scanner.close();
-}
+   }
 }while(character<=0);
 
     }
