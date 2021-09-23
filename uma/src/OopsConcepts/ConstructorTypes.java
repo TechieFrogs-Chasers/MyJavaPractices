@@ -23,7 +23,7 @@ public class ConstructorTypes{
 
     public static void main(String[] args) {
         
-    ConstructorTypes stuObj = new ConstructorTypes();   //constructor with no args
+    ConstructorTypes stuObj = new ConstructorTypes();   //constructor with no parameters
 
      System.out.println(stuObj.name+"  "+stuObj.rollno); //accessing own class variables
 
@@ -63,6 +63,7 @@ class Parameters{
      public static void main(String[] args) {
 
        //creating objects and passing values
+
        Parameters paraObj = new Parameters(100);
        Parameters paraObj1 = new Parameters(10, "Uma");
        Parameters paraObj2 = new Parameters("Ram",20);
@@ -71,10 +72,11 @@ class Parameters{
        paraObj.show();
        paraObj1.show();
        paraObj2.show();
+
       // calling other class methods
 
-      // PracticeCon obj=new PracticeCon("english");
-      // obj.select();
+       PracticeCon obj1=new PracticeCon("english");
+       obj1.select();
 
     }
     
@@ -89,9 +91,9 @@ class PracticeCon{
         System.out.println("languages are  "+languages);
     }
 
-    PracticeCon Obj1 = new PracticeCon("english");
-    PracticeCon obj2=new PracticeCon("telugu");
-
+   // PracticeCon Obj1 = new PracticeCon("english");
+   // PracticeCon obj2=new PracticeCon("telugu");
+    
     void select(){
         System.out.println("select the language");
     }

@@ -19,9 +19,11 @@ class details {//Class- details
      //Constructor Overloading
 
     details() {//Default Constructor for details class
+        this("NY");//string this constructor-line 31
         System.out.println("Its a Default Constructor for company details.");
     }
-    details(char logoletter){//Parameterized constructor -char
+    details(char logoletter){//Parameterized constructor -char-//In char constructor call default constructor-line 21
+        this();
         logo= (char) logoletter;
         System.out.println("Logo of the company :"+" "+ (char) 76);
 
@@ -31,6 +33,7 @@ class details {//Class- details
         System.out.println("Branch name:"+ areaName);
     }
     details(int count,byte centers ){//Parameterized constructor -int,byte
+        this("Lenovo",centers);//call from other program(ConstructorsForComapny) class and byte from line 35
         totalemployee=count;
         serviceCenters=centers;
         System.out.println("TotalEmployees:"+ totalemployee+", "+ "Service Centers:" + serviceCenters);
