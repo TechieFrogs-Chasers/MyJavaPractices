@@ -47,7 +47,7 @@ public class Oopspratice {
           //instance should be created in that particular file 
          
          System.out.println(obj.g);
-         System.out.println(refobj.j);
+         
     }
     
 }
