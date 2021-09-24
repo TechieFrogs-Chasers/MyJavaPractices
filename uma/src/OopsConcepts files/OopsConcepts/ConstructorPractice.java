@@ -85,8 +85,8 @@ Obj.describe();
 ConstructorPractice conObj= new ConstructorPractice(); //accessing other class
 conObj.science();
 
-Library lobj = new Library();
-lobj.display(); //we can not call the variables from other file,can call only methods
+ //Library lobj = new Library();
+//lobj.display(); //we can not call the variables from other file,can call only methods
 }
 
 Demo(){  //constructor

@@ -1,5 +1,6 @@
 package OopsConcepts;
 
+
 import java.util.Scanner;
 
 class Rectangle{
@@ -40,33 +41,30 @@ System.out.println("area of second triangle is " +rObj1.area());
 
  public class Area{ 
 
-
    int length,breadth,sum;
 
-   int  setDim(){
-    length=0;
-    breadth=0;
-     sum=length+breadth;
-    return sum;
+   void  setDim(int l,int br){
+    length=l;
+    breadth=br; 
  }
     
    int getArea(){
 
-   int area= 2*sum;
-   //System.out.println( "area o the rectangle is  "+area);
+   int area= length*breadth;
+
+   System.out.println( "area of the rectangle is  "+area);
      return area;
 }
 
      Area(int l,int br){
         length=l;
         breadth= br;
-    // int sum =2*(l+br);
-    // System.out.println(sum);
+    
      }
     int  returnArea(){
       int length=1;
       int breadth=1;
-     int area=(2*length )+( 2*breadth);
+      int area=length*breadth;
      return area;
     }
 
@@ -75,17 +73,14 @@ public static void main(String[] args) {
    
   Scanner obj =new Scanner(System.in);
  System.out.println("Enter the value for length");
- obj.nextInt();
+  int length=obj.nextInt();
  System.out.println("enter the value for breadth");
-  obj.nextInt();
+  int breadth=obj.nextInt();
 
-   Area obj2 = new Area(1,1);
+   Area obj2 = new Area(length,breadth);
    obj2.returnArea();
    System.out.println(obj2.getArea());
 
- /*Area obj1 =new  Area();
-  obj1.getArea();
- System.out.println(obj1.getArea());*/
  
  obj.close();
 }
