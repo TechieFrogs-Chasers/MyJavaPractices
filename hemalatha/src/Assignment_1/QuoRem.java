@@ -12,13 +12,14 @@ public class QuoRem {
         //using scanner
         Scanner in = new Scanner(System.in);//for input
         System.out.println("enter the value to x:  ");
-        int x = in.nextInt();
+        int num1 = in.nextInt();
         System.out.println("enter the value to y:  ");
-        int y = in.nextInt();
-        int i = x/y;//to find quotient
-        int j = x%y;// to find remainder
+        int num2 = in.nextInt();
+        int i = num1/num2;//to find quotient
+        int j = num1%num2;// to find remainder
         System.out.println("enter Quotient is : " +i);
         System.out.println("enter remainder is : " +j);
+        in.close();
 
 
 

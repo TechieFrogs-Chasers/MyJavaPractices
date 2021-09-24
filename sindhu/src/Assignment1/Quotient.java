@@ -27,9 +27,12 @@ public class Quotient{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int x;
-        do{
+        do                          // Validation method                                                                                    //
+
+        {
             System.out.println("enter first number");
-            while(!input.hasNextInt()){
+            while(!input.hasNextInt())
+            {
                 String s=input.next();
                 System.out.println(s+"is not a valid number");
             }
@@ -37,9 +40,11 @@ public class Quotient{
         }while(x<=0);
 
         int y;
-        do{
-            System.out.println("enter first number");
-            while(!input.hasNextInt()){
+        do
+        {
+            System.out.println("enter second number");
+            while(!input.hasNextInt())
+            {
                 String s=input.next();
                 System.out.println(s+"is not a valid number");
             }
