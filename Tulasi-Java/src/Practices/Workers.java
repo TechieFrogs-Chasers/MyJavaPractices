@@ -18,7 +18,7 @@ public class Workers {//class
         System.out.println("Its non static method");
         branches = myScannerObj.nextByte();
     }
-
+   //void methodParat
     Workers() {
         this("Sam", 'K');
         System.out.println("Its a default Constructor! ");
