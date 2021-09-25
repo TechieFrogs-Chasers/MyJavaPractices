@@ -7,21 +7,34 @@ public class AddDistance {
 
 public static void main(String[] args) {
     
-    int i;
-   double f;
-    Scanner sc = new Scanner(System.in);
+   //program without validation
+   /* Scanner sc = new Scanner(System.in);
    System.out.println("enter the distance in inches");
-     i=sc.nextInt();
+    int  i=sc.nextInt();
     System.out.println("enter the distance in feet");
-     f=sc.nextInt();
+    double f=sc.nextInt();
     AddDistance obj = new AddDistance();
     obj.add(i, f);
-  
-  
-  sc.close();
+  sc.close();*/
+
+   // program with number validation
+
+   Scanner scannerObj=new Scanner(System.in);
+
+   System.out.println("Enter the distance for inches");
+    int i= AddDistance.validate(scannerObj);   //can have class name while calling method
+
+    System.out.println("Enter the distance for feet");
+    double f= validate(scannerObj);    //may not have class name
+
+    AddDistance obj = new AddDistance();  // instance to call the method "add"
+    obj.add(i, f);
+
+    scannerObj.close();
+
 }
 
-double add(int i,double f){
+   double add(int i,double f){
 
     double f3=i%12;
      double f1=i/12;
@@ -29,12 +42,25 @@ double add(int i,double f){
     
     if (i>=12 && f1==0)
     
-    System.out.println("total distance is   "+sum+"   ft");
+    System.out.println("Total distance is   "+sum+"   ft");
     else
-   System.out.println("total distance is  "+sum+ "ft and "+f3 +" inches");
+    System.out.println("Total distance is  "+sum+ "ft and "+f3 +" inches");
     
     return sum;
-}
+  }
+
+    static int validate(Scanner scannerObj){
+      int input;
+      do{
+        System.out.println("Enter the valid number");
+        while(!scannerObj.hasNextInt()){
+          scannerObj.next();
+          System.out.println("Please enter a valid number");
+        }
+        input=scannerObj.nextInt();
+      }while(input<=0);
+      return input;
+    }
 
 
 }
