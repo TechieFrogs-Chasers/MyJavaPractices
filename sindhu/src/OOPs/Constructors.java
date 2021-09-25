@@ -5,6 +5,7 @@ public class Constructors{
     String name;
     int id; 
     String place;
+    float g;
 
     Constructors(){
         System.out.println("default constructor");
@@ -12,9 +13,10 @@ public class Constructors{
     }
 
 
-    Constructors(int s,String t){
+    Constructors(int s,String t,float u){
         age =s;
         name = t;
+        g =u;
         System.out.println(" first parameterized");
     }
 
@@ -38,13 +40,15 @@ public class Constructors{
 
     void display(){
        // System.out.println(age+" "+name+" "+place+" "+id);
+       System.out.println("overload");
     }
 
     public static void main(String[] args) {
-        Constructors x = new Constructors(23,"sindhu");
+        Constructors x = new Constructors(23,"sindhu",2.33f);
         //System.out.println(x.age);
         //System.out.println(x.name);
         x.display();
+        
       
 
     }
