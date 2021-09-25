@@ -6,7 +6,7 @@ public class AltPyramid {
         Scanner sc = new Scanner(System.in);
         sc.nextInt();
         while(!sc.hasNextInt());
-        System.out.println("");
+        System.out.println(" ");
         
             
              

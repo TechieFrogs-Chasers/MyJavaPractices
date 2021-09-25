@@ -25,7 +25,7 @@ public class Averages {
                 obj.next();
             }num =obj.nextInt();
         }while(num<=0);
-        return num;   //here we use  return to  close the method 
+        return num;   //here we use  return to  close the method and 
     }
     
 }

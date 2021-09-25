@@ -9,7 +9,7 @@ public class Addinteger {
         int j = integer.nextInt();
         int k= i + j;
         System.out.println(" The sum of given integers is "+ k);
-
+integer.close();
 
     }
 }
