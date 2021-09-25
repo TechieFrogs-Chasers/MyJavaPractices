@@ -1,4 +1,4 @@
-import java.time.Year;
+
 import java.util.Scanner;
 class student1{
     public int age=20;
