@@ -11,5 +11,4 @@ public class Triangle2 {
          System.out.println("area of triangle is: "+a*b*c);
          System.out.println("perimeter of triangle is: "+(a+b+c));
      }
-    
 }
