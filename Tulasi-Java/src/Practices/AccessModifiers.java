@@ -19,7 +19,7 @@ class AccessModifiers {//Driver Class- We cant give top or driver class as Priva
         System.out.println("Its a Private accessmodifier constructor");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//main
         System.out.println(" In accessmodifiers!");
         AccessModifiers myAccessObj = new AccessModifiers();//we can create a obj for AccessModifiers constructor.Because we are creating instance in same class.
         myAccessObj.accessMethods();//-Here Private access modifier is accessable because it is in your class.Private can access only in your class.
