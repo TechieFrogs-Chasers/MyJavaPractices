@@ -52,6 +52,7 @@ for(int i=0;i<=n;i++){
         
         a.A(1400000,9.5,7);
         
+        
 }
     PracticePrg(){
         System.out.println("default constructor");
@@ -323,7 +324,7 @@ void remainder(int c, float d){
 }*/
 
 //largest among three numbers using ternary operator
-public class PracticePrg{
+/*public class PracticePrg{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter first number");
@@ -336,7 +337,81 @@ public class PracticePrg{
         int t = z>s?z:s;
         System.out.println("largest number" +t);
 }
+}*/
+
+//character is alphabet or not
+/*public class PracticePrg{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter an alphabet");
+        char in = input.next().charAt(0);
+        PracticePrg x = new PracticePrg();
+        //x.display('y');
+        x.display(in);
+    }
+    void display(char ch){
+
+        if((ch>='a')&&(ch<='z') || (ch>='A')&&(ch<='Z')){
+            System.out.println(ch+ "is an alphabet");
+        }
+        else {
+            System.out.println(ch+ "is not an alphabet");
+
+        }
+
+    }*/
+
+    //factorial of a number
+    /*public class PracticePrg{
+        public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter number");
+        int n = input.nextInt();
+
+        PracticePrg x = new PracticePrg();
+        x.display(n);
+
+
+    }
+
+void display(int n){
+     int fact =1;
+            for(int i=1; i<=n; i++){
+                fact = fact*i;
+            }
+            System.out.println("factorial of number" +fact);
+
 }
+    }*/
+
+    //swapping two numbers using methods
+
+public class PracticePrg{
+    int t;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter a value");
+        int p = input.nextInt();
+        System.out.println("enter b value");
+        int r = input.nextInt();
+
+        PracticePrg x = new PracticePrg();
+        x.swappingTwoNumbers(p,r);
+
+    }
+
+    void swappingTwoNumbers(int a , int b){
+        t=a;
+        a=b;
+        b=t;
+
+        System.out.println("after swapping"+" "+ a + " " + b + " " + t);
+
+
+    }
+}
+
 
 
 
