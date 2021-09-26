@@ -4,49 +4,43 @@ class department {
     String departmentname;
     int id = 11;
 
-    public department() {
+    public department() {//constructor
 
     }
-    // String depname;
 
-    void employee() {
+    void employee() {//method
         System.out.println("Emplyoees!");
+
     }
 
-    department(String sales){
-        //this();
+    department(String sales) {//constructor
         System.out.println("Default Constructor!");
     }
-    department(int id){
+
+    department(int id) {//constructor
         this("sales");
         System.out.println("Id number!");
         employee();
     }
-    department(int id,String departmentname){
+
+    department(int id, String departmentname) {//constructor
         this();
-        System.out.println("Depaertment name!");
+        System.out.println("Department name!");
 
     }
-   // department(String departmentname){
-    //    this(71);
-     //   System.out.println("Department num");
-   // }
 }
-//class
-public class ClassObjectNY {
 
-    void branches() {
+public class ClassObjectNY {//driver class
+
+    void branches() {//method
         System.out.println("Enter branches names: ");
+
     }
 
-    public static void main(String[] args) {
-        ClassObjectNY myObj = new ClassObjectNY();
-        department obj1=new department(77);
+    public static void main(String[] args) {//main
+        ClassObjectNY myObj = new ClassObjectNY();//instance for driver class
+        new department(77);//
+        myObj.branches();//call branch method
 
-       // obj1.employee();
-      //  myObj.branches();
-      //  Cartester obj = new Cartester();
-     //   obj.year();
-       // obj.condition();
     }
 }
