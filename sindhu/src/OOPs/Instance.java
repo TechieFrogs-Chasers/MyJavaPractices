@@ -114,7 +114,7 @@ Student(int x,String y){
 
 class Student1{
   public static void main(String[] args) {
-    Student myObj = new Student();
+    Student myObj = new Student(x, y);
     System.out.println(myObj.name);
   }
 }
