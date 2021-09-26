@@ -46,6 +46,7 @@ class Other{
     float f;
     boolean b;
     String gender;
+   
 
     void demo(){
         System.out.println("demo for class in class");
@@ -54,6 +55,7 @@ class Other{
     Other obj = new Other(1);
 
     Other(int i ){
+        this(10, "g");
         num=i;
         System.out.println("one int parameter");
     }
@@ -63,7 +65,9 @@ class Other{
         gender= g;
         System.out.println("one int and one string parameters");
     }
-    Other obj1 = new Other(1,"female");
+   
+
+    
 
 
 
