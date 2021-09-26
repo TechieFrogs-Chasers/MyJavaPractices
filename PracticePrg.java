@@ -296,7 +296,7 @@ void remainder(int c, float d){
 }*/
 
 //largest among three numbers
-public class PracticePrg{
+/*public class PracticePrg{
     public static void main(String[] args) {
         PracticePrg s = new PracticePrg();
         PracticePrg.display(2,3,4);
@@ -320,6 +320,22 @@ public class PracticePrg{
         
 
     }
+}*/
+
+//largest among three numbers using ternary operator
+public class PracticePrg{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter first number");
+        int x = input.nextInt();
+        System.out.println("enter second number");
+        int y = input.nextInt();
+        System.out.println("enter third number");
+        int z = input.nextInt();
+        int s = x>y?x:y;
+        int t = z>s?z:s;
+        System.out.println("largest number" +t);
+}
 }
 
 
