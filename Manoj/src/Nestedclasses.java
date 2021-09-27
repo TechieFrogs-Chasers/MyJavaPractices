@@ -5,13 +5,15 @@ public class Nestedclasses {
         void  innerMethod(){
             System.out.println("inner class method ");
         }
+        Inner(){       //created a constructor
+            System.out.println("inner constructor");
+        }
 
     }
     void outerMethod(){
         System.out.println("outer class method ");
         Inner innerobj=new Inner(); //calling a inner class method from instance method 
         innerobj.innerMethod();
-
     }
      public static void main(String...args){
          Nestedclasses outerobj=new Nestedclasses();
