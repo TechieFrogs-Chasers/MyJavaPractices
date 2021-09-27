@@ -1,8 +1,6 @@
 package OopsConcepts;
 
-import OopsConcepts.AccessModifiers.Test;
-
-// can not define top level class as "private"  or "protected"
+// can not define top level class as "private"  or "protected" since even JVM ca not see it
 // class that has no defined access modifier  is called default access modifier
 
 // private --- scope with in the class only
@@ -29,14 +27,14 @@ public class AccessModifiers {
          System.out.println("private constructor");
     }
     
-  public static void main(String[] args) {
+  public static void main(String[] args) {     //can not define main method with out public because it is the entry point for JVM
     
-     AccessModifiers acm =new AccessModifiers();
-      acm.test();   // can access  to private method since it is with in the class
+     AccessModifiers Obj = new AccessModifiers();
+     Obj.test();   // can access  to private method since it is with in the class
      
-     acm.i=10;     //can access class level variables
-     acm.f=20.0f;   // can access private variable since it is within the class
-     System.out.println(acm.f);
+     Obj.i=10;     //can access class level variables
+     Obj.f=20.0f;   // can access private variable since it is within the class
+     System.out.println(Obj.f);
 
       AddDistance add =new AddDistance();   //creating instance for another file in the same package
       add.add(1, 2.0f);
@@ -47,9 +45,8 @@ public class AccessModifiers {
      Parameters para = new Parameters("uma", 10);   //calling constructor from another class "Parameters"
      para.name="uma";
      
-     SubClass sub = new SubClass();    //calling method from other class "Subclass"
+     InnerClass sub = new InnerClass();    //calling method from other class "Subclass"
      sub.display();
-
 
      ConstructorChain cc = new ConstructorChain(); 
      cc.display();   //  also tried to call private method from this class but no access!
@@ -61,19 +58,20 @@ public class AccessModifiers {
     }
        private void test() {  //private method with in the class
 
+        System.out.println("in private method");
     
        }
 
-       private class personal{
-           String sub ;
+      /* private class personal{    //inner private class
+           String place ;
            int k;
            
-           int add(int i,boolean b){
+           int add(int i,boolean b){      //inner method
                i=100;
                b=true;
                return i;
            }
-       }
+       }*/
     
     class Test{
         boolean b;
@@ -96,6 +94,17 @@ abstract class demo{     //abstract classe can contain only abstract methods
 }   
 
 
- final class finale{
+ final class Finale{
+     String  place;
+     boolean b;
+
+    void fin(){
+        System.out.println("final method");
+    }
+    
+
+    Finale(boolean t){
+        t=true;
+    }
 
  }
