@@ -9,14 +9,16 @@ public class Area {
         breadth=j;
         area=length*breadth;
         System.out.println("area of rectangle : "+ area);
-        
-
+    }
+    Area(int length,int breadth){
+      area= length *breadth;
+      System.out.println("area of rectangle is :"+area);
     }
     public static void main(String...args){
         Scanner obj=new Scanner(System.in);
-            Area object =new Area();
-            Area object2=new Area();
-            Area object3=new Area();
+            Area object =new Area(5,4);
+            Area object2=new Area(6,8);
+            Area object3=new Area(9,5);
         object.SetDim(5,8);     //we call the method setDim
         System.out.println("enter the length");
            int l=obj.nextInt();
