@@ -2,7 +2,7 @@ package OopsConcepts;
 
    //main class
 
-public class SubClass {
+public class InnerClass {
     int i;
     String s;
     static int si;
@@ -25,7 +25,7 @@ public class SubClass {
     }
         public static void main(String[] args) {  //main method
 
-            SubClass subObj = new SubClass();
+            InnerClass subObj = new InnerClass();
             subObj.display();
 
 
