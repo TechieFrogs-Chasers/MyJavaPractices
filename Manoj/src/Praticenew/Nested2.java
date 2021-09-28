@@ -6,9 +6,9 @@ public class Nested2 {
     static int y=100;
 
      class Inner{      //created inner classs
-        static int j=10; 
+        static int j=345; 
          void display(){
-             System.out.println("display :outer_x"+" - "+outer_x+" "+name+" "+y);
+             System.out.println("display :outer_x"+" - "+outer_x+" "+name+" "+y+" "+j);
          }
 
      }

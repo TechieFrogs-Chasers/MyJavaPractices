@@ -1,5 +1,5 @@
 public class Nestedclasses {
-    int i;
+    int i=25;
     String name="manoj" ;
     
 
@@ -14,10 +14,10 @@ public class Nestedclasses {
 
         void  innerMethod(){
             System.out.println("inner class method "+name);
-            outerMethod();
+           // outerMethod();        //here we the outer method for that it goes on recursion 
         }
         Inner(){       //created a constructor
-            System.out.println("inner constructor");
+            System.out.println("inner constructor"+" "+i);
         }
 
     }
@@ -27,11 +27,11 @@ public class Nestedclasses {
         innerobj.innerMethod();
     }
      public static void main(String...args){
-         Nestedclasses outerobj=new Nestedclasses();
+        Nestedclasses outerobj=new Nestedclasses();
          //Inner innerobj1=outerobj.new Inner();    //this one way we call the method 
-        // outerobj.outerMethod();
-        // Nestedclasses.Inner innerobj=new Nestedclasses(). new Inner(); //calling a inner method from static method 
-         //innerobj.innerMethod();
+         outerobj.outerMethod();
+        //Nestedclasses.Inner innerobj=new Nestedclasses(). new Inner(); //calling a inner method from static method 
+        //innerobj.innerMethod();
          Nestedclasses.Inner.NestInner nestobj= new Nestedclasses(). new Inner().new NestInner(); //calling nestinner one 
          nestobj.NestInnerMethod();
         // nestobj.o
