@@ -2,20 +2,27 @@ import java.util.Scanner;
 
 public class ScanValidation {
     public static void main(String[] args) {
-        int a, b;
+        int age, b;
         String name;
         System.out.println(" Enter your name: ");
-        Scanner n1 = new Scanner(System.in);
-        if(n1.hasNext()) 
+        Scanner scan = new Scanner(System.in);
+        name = scan.next();
+        System.out.println("Enter valid no for age: ");
+       while(!scan.hasNextInt()) 
         {
-            name= n1.next();
+            do
+            {
+                System.out.println("Enter valid no:");
+            }age = scan.nextInt();
+
+        }
+        if(age>=0)
+        {
             System.out.println(" Your name is : "+ name);
+            System.out.println(" Your age is : "+ age);
         }
-
-        else{
-            System.out.println("Enter valid data");
+     
         }
-
 
     }
-}
+
