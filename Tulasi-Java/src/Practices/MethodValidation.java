@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MethodValidation {
 
-
     public class Average {
         public static void main(String[] args) {
             Scanner myScannerObj= new Scanner(System.in);
@@ -42,5 +41,4 @@ public class MethodValidation {
             return number;
         }
     }
-
 }
