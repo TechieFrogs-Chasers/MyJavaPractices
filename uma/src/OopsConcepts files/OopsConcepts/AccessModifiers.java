@@ -42,11 +42,11 @@ public class AccessModifiers {
      //addition obj = new addition();  // tried to call method from another package----no access!
 
 
-     Parameters para = new Parameters("uma", 10);   //calling constructor from another class "Parameters"
-     para.name="uma";
+     //Parameters para = new Parameters("uma", 10);   //calling constructor from another class "Parameters"
+    // para.name="uma";
      
-     InnerClass sub = new InnerClass();    //calling method from other class "Subclass"
-     sub.display();
+     OuterClasses2 sub = new OuterClasses2();    //calling method from other class "Subclass"
+     sub.displayouter();
 
      ConstructorChain cc = new ConstructorChain(); 
      cc.display();   //  also tried to call private method from this class but no access!
