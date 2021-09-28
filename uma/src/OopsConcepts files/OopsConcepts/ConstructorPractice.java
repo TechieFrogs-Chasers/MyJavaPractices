@@ -44,12 +44,12 @@ public static void main(String[] args) {
     myObj.math();  // calling methods
     myObj.science(); //methods that are called in the main method are only printed out
 
-    System.out.println(myObj.a +" "+ myObj.b +" "+total );//output is 50 ,75,75 
-                    //even when i changed total to 100 in the constructor 
+    System.out.println(myObj.a +" "+ myObj.b +" "+total );//output is 50 ,75,75
+     //                                                   even when i changed total to 100 in the constructor 
 
-ConstructorPractice myObj1 =new ConstructorPractice();  //constructor
+    ConstructorPractice myObj1 =new ConstructorPractice();  //constructor
 
-System.out.println((myObj1.a +" "+ myObj1.b +" "+total )); // out put is now 50,75,100
+       System.out.println((myObj1.a +" "+ myObj1.b +" "+total )); // out put is now 50,75,100
           //because i created new instance for my constructor and called again
 }
 
@@ -60,10 +60,10 @@ void physics(){
     
 }
 }
- class Demo{
+ class Demon{
 
-int c;
-int d;
+  int c;
+  int d;
 
 
 void describe(){
@@ -77,7 +77,7 @@ void display(){
 public static void main(String[] args) {
     
 
-Demo Obj = new Demo(); 
+Demon Obj = new Demon(); 
 
 System.out.println(Obj.c);
 Obj.describe();
@@ -89,7 +89,7 @@ conObj.science();
 //lobj.display(); //we can not call the variables from other file,can call only methods
 }
 
-Demo(){  //constructor
+    Demon(){    //constructor
 
     c=100;
     d=200;

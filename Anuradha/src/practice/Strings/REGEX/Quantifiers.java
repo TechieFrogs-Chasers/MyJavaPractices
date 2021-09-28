@@ -28,17 +28,17 @@ public class Quantifiers {
 
         //X{n}	X occurs n times only
         System.out.println("X{n} quantifier ....");  
-        System.out.println(Pattern.matches("[amn]{3}", "aaammmnnn")); //false
+        System.out.println(Pattern.matches("[amn]{3}","mmm")); //true
         System.out.println(); 
 
         //X{n,}	X occurs n or more times
         System.out.println("X{n,} quantifier ....");  
-        System.out.println(Pattern.matches("[amn]{3,}", "ammmmna"));
+        System.out.println(Pattern.matches("[amn]{3,}", "ammmmna"));//true
         System.out.println(); 
 
         //X{y,z}	X occurs at least y times but less than z times
         System.out.println("X{y,z} quantifier ....");  
-        System.out.println(Pattern.matches("[aammmnnnn]{2,5}", "ammmna"));   //false
+        System.out.println(Pattern.matches("[amn]{2,5}", "mmmm"));   //true
         System.out.println(); 
     }
 }

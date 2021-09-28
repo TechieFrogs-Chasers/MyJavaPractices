@@ -9,7 +9,7 @@ public class Constructor2 {
        Constructor2 obj3=new Constructor2(9,"manoj","mech");
       // obj.display(); 
      }   
-     Constructor2(){
+      Constructor2(){
          rollno=20;
          name ="manoj";
          System.out.println(rollno+" "+ name);
