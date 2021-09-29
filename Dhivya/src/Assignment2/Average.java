@@ -8,8 +8,10 @@ public class Average {
         int b = ob.nextInt();
         System.out.println("Enter 3st no:");
         int c = ob.nextInt();
+        ob.close();
         Average avg = new Average();
-        avg.calculate(a, b, c);
+        avg.calculate(a, b, c); 
+        
     }  
     public int calculate(int a, int b, int c){
         int averageOf = ((a+b+c)/3);
