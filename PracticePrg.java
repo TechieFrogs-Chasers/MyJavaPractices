@@ -387,7 +387,7 @@ void display(int n){
 
     //swapping two numbers using methods
 
-public class PracticePrg{
+/*public class PracticePrg{
     int t;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -410,7 +410,159 @@ public class PracticePrg{
 
 
     }
+}*/
+
+//sum of naturalnumbers
+/*public class PracticePrg{
+    
+    public static void main(String[] args) {
+        int n=6 , sum=0;
+        for(int i=0;i<=n;i++){
+            sum =sum+i;
+        }
+            System.out.println("sum of natural numbers" + sum);
+
+
+        }
+    }
+*/
+    //sum of natural numbers by using methods
+    /*public class PracticePrg{
+        int n;
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.println("enter a number");
+            int n = input.nextInt();
+
+            PracticePrg x = new PracticePrg();
+
+            x.find(6);
+        }
+
+        void find(int x ){
+            
+            int n, sum=0;
+        for(int i=0;i<=6;i++){
+            sum =sum+i;
+        }
+            System.out.println("sum of natural numbers" + sum);
+
+
+        }
+
+        }*/
+
+
+        //multiplication table using for loop
+       /* public class PracticePrg{
+            public static void main(String[] args) {
+                int i,n=10;
+                for(i=1;i<=n;i++){
+                    System.out.printf("%d * %d = %d \n ", n , i,  n*i);
+
+            }
+        }
+    }*/
+
+
+    /*public class PracticePrg{
+        public static void main(String[] args) {
+            int i=0, n=10;
+
+            while (i<=n){
+                System.out.printf("%d * %d = %d \n ", n , i,  n*i);
+                i++;
+
+
+            }
+        }
+    }*/
+
+/*public class PracticePrg{
+public static void main(String[] args) {
+    
+int n=10;
+int i=1;
+do{
+        System.out.printf("%d * %d = %d \n ", n , i,  n*i);
+        i++;
+    }while(i<=n);
 }
+}*/
+
+//Program to find GCD of two numbers
+/*public class PracticePrg{
+    public static void main(String[] args) {
+        
+             int n1 = 81, n2 = 153;
+            
+                // initially set to gcd
+                int gcd = 1;
+            
+                for (int i = 1; i <= n1 && i <= n2; i++) {
+            
+                  if (n1 % i == 0 && n2 % i == 0)
+                    gcd = i;
+                }
+            
+                System.out.println("GCD of " + n1 +" and " + n2 + " is " + gcd);
+            }
+            
+        
+        
+    }*/
+
+    public class PracticePrg{
+
+        void display(){
+            System.out.println("method");
+        }
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.println("enter first number");
+            int n1 = input.nextInt();
+            System.out.println("enter second number");
+            int n2 = input.nextInt();
+
+            PracticePrg y = new PracticePrg();
+            y.display();
+            y.find(n1,n2);
+        }
+        
+
+        void find(int n1 , int n2){
+            System.out.println("second method");
+            int gcd = 1;
+            for (int i = 1; i <= n1 && i <= n2; i++) {
+        
+              if (n1 % i == 0 && n2 % i == 0)
+                gcd = i;
+            }
+        
+            System.out.println("GCD of " + n1 +" and " + n2 + " is " + gcd);
+
+           // int n1 = 81, n2 = 153;
+            
+            // initially set to gcd
+        
+        }
+        
+
+        PracticePrg(){
+            System.out.println("constructor");
+        }
+    
+        
+        }
+    
+
+
+
+    
+
+
+    
+
 
 
 
