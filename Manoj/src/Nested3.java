@@ -19,7 +19,8 @@ public class Nested3 {
     }
     void outer2(){
         if (m<n){    // inner class with if condition 
-        class inner2{      //method local inner class 
+     //for this class we couldnt able to give access modifiers except keywords abstract and final
+         class inner2{      //method local inner class 
             void innerj(){
                 System.out.println("manoj"+"- "+n+" "+f+" "+name);
             }
