@@ -110,7 +110,7 @@ public class NestedClass
     
 private class InnerMost
     {
-       static  int k; 
+       static  int k; // static can be used in non-static field
         int d=8;  
 
         void NestedClass()

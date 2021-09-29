@@ -387,7 +387,7 @@ void display(int n){
 
     //swapping two numbers using methods
 
-public class PracticePrg{
+/*public class PracticePrg{
     int t;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -410,7 +410,63 @@ public class PracticePrg{
 
 
     }
-}
+}*/
+
+//sum of naturalnumbers
+/*public class PracticePrg{
+    
+    public static void main(String[] args) {
+        int n=6 , sum=0;
+        for(int i=0;i<=n;i++){
+            sum =sum+i;
+        }
+            System.out.println("sum of natural numbers" + sum);
+
+
+        }
+    }
+*/
+    //sum of natural numbers by using methods
+    /*public class PracticePrg{
+        int n;
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.println("enter a number");
+            int n = input.nextInt();
+
+            PracticePrg x = new PracticePrg();
+
+            x.find(6);
+        }
+
+        void find(int x ){
+            
+            int n, sum=0;
+        for(int i=0;i<=6;i++){
+            sum =sum+i;
+        }
+            System.out.println("sum of natural numbers" + sum);
+
+
+        }
+
+        }*/
+
+
+        //multiplication table using for loop
+        public class PracticePrg{
+            public static void main(String[] args) {
+                int i,n=10;
+                for(i=1;i<=n;i++){
+                    System.out.printf("%d * %d = %d \n ", n , i,  n*i);
+
+            }
+        }
+    }
+
+    
+    
+
 
 
 
