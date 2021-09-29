@@ -1,0 +1,8 @@
+package Collegefolder;
+
+public class College extends university.UniversityHead{
+    public static void main(String[] args) {
+        College childobj = new College();
+       childobj.display();
+    }
+}
