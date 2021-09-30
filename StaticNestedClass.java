@@ -50,14 +50,17 @@ public class StaticNestedClass
                 g=15;
             }
             void find1()
-            {
+        {
                 System.out.println("method1");
-            }
+        }
+        }
         
 
             public static void main(String[] args) {
                 Student y = new Student();
                 y.find();
+                //((StaticNestedClass.StaticInner.Student1) y1).find1();
+                System.out.println(Student1.g);
 
                 
 
@@ -88,4 +91,4 @@ public class StaticNestedClass
     }
 
     
-}
+

@@ -93,6 +93,7 @@ package sindhu.src;
 public class NestedClass
 {
     int i=4;
+    int d=50;
     String name = "techie";
     void display()
     {
@@ -107,9 +108,9 @@ public class NestedClass
             class IfInner
             {
                 int y=25;
+                int d=45;
 
-                void ifDisplay()
-                {
+                void ifDisplay(){
                     System.out.println("in if inner display");
                 }
             }
@@ -123,6 +124,7 @@ public class NestedClass
         
         class MethodInner{    //method local inner class
             int g=10;
+            int d=23;
 
             void methodDisplay(){
                 System.out.println("in method inner display"+ " "+ i+ " " + "name");
@@ -134,10 +136,7 @@ public class NestedClass
         MethodInner t = new MethodInner();
         t.methodDisplay();
         System.out.println(t.g);
-
-
-        
-         NestedClass.InnerMost.InnerOne h = b.new InnerOne();
+        NestedClass.InnerMost.InnerOne h = b.new InnerOne();
         System.out.println(h.j);
 
         
@@ -159,6 +158,7 @@ private class InnerMost  //member inner class
 class InnerOne
     {
          int j;
+         int d=20;
 
          InnerOne()
            
