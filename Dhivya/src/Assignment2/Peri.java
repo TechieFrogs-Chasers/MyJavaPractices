@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Peri {
@@ -10,12 +11,10 @@ public class Peri {
         int b = obj.Triangle(number);
         System.out.println("Enter the number:");
         int c = obj.Triangle(number);
-        obj.Calculations(a, b, c);
-        int A, P = obj.Calculations(area,perimeter);
-        
-        System.out.println("The perimeter of the triangle is " + perimeter);
+        int area = obj.Calculations(a, b, c);
+        int perimeter = obj.perimeter(a, b, c);  
         System.out.println("The Area of the triangle is " + area);
-
+        System.out.println("The Perimeter of the triangle is " + perimeter);
     }
 
  int Triangle(Scanner num){
@@ -29,12 +28,16 @@ public class Peri {
     }while(valid<=0); 
     return valid;
 }
-int Calculations(int a,int b,int c){
+ int Calculations(int a,int b,int c){
 
     int area = a*b*c;
-    int perimeter=a+b+c;
-    return area,perimeter;
     
+    return area;
+}
+int perimeter(int a ,int b,int c){
+    
+    int perimeter=a+b+c;
+    return perimeter;
 }
 
 }

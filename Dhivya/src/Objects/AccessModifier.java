@@ -1,19 +1,21 @@
 import java.util.Scanner;
-
 public class AccessModifier {
     public static void main(String[] args) { 
         AccessModifier scan = new AccessModifier();
-        scan.pop();
-        scan.tom();
+       int r=  scan.pop();
+        int y = scan.tom();
+        System.out.println(r);
+        System.out.println(y);
     }
-
-    public void pop(){
+    static int pop(){
         int a =7;
         System.out.println("in public method");
+        return a;
     }
-    private void tom(){
+    private int tom(){
         int s= 23;
         System.out.println("in private method");
+        return s;
     }
 }
 

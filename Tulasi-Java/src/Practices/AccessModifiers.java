@@ -6,12 +6,12 @@ class AccessModifiers {//Driver Class- We cant give top or driver class as Priva
     int num;//If we are giving any access modifier means its a default access modifier.If u define them as default then it is only access in same package (like Practies)
     private String name;//Private datatype
 
-    void accessMethod() {//Default access modifier for method.Default is access only in same package.Protected is also not able to access outside the package but by using the inheritance we can access outside the package, by using extends.
+    void accessMethod() {//Default access modifier for method.Default is access only in same package.Protected is also not able to access outside the package by using the inheritance we can access outside the package, by using extends.
         System.out.println("Its a default accessmethod");
     }
 
     //Private means" Only visible within the enclosing class".We can give Private to inner and nested classes.Top level and outside class we cant give Private.
-    private void accessMethods() {//If we made it private we cant access out side the class-method or we cant not create instance as well of that class.
+    private void accessMethods() {//If we made it private we cant access out side the class-method or we can not create instance as well of that class.
         System.out.println("Its a Private accessmethod");
     }
 

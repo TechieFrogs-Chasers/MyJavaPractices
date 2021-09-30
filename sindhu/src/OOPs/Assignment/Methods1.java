@@ -59,9 +59,24 @@ Methods1(){
     void Area(int l , int b){
         Area = l*b;
         System.out.println("area of rectangle" + Area);
+    }
+
+        void Area(int l ){
+          
+            System.out.println("area of rectangle" + l);
+
+        }
+
+        void Area( float b){
+            
+            System.out.println("area of rectangle" + b);
+        
+
 
 
     }
 
 }
+
+//multiple return 
    

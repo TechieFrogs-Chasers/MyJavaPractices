@@ -20,4 +20,7 @@ public class Area{
         int area = l * b;
         return area;
     }
+    public void Parent(){
+        System.out.println("in parent class");
+    }
 }
