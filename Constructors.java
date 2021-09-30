@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 
 public class Constructors{
     int age;
@@ -28,7 +28,7 @@ public class Constructors{
         System.out.println("2nd parameterized");
     }
 
-    Constructors(int z, int j, String p){
+     Constructors(int z, int j, String p){
         age=z;
         id =j;
         name =p;
@@ -38,7 +38,7 @@ public class Constructors{
 
     
 
-    void display(){
+    final void display(){
        // System.out.println(age+" "+name+" "+place+" "+id);
        System.out.println("overload");
     }
