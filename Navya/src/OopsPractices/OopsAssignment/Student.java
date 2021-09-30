@@ -1,5 +1,5 @@
 package OopsPractices.OopsAssignment;
-
+//import java.lang.Package;nm
 public class Student {
     String name;
     int roll_no;
@@ -20,3 +20,4 @@ public class Student {
         System.out.println("Name  " +obj2.name+" "+"Roll_Number  " +obj2.roll_no+" "+ " phnumber "+obj2.phn_no+" "+ " Address "+obj2.address);
     }
 }
+

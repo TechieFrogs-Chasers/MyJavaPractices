@@ -22,9 +22,9 @@ class OuterClass{
          }
 }
 
-public class ClassesPractices {
+public class ClassesPractices extends AccessModiffers{
 int i,j ;
-   static int num = 34;
+     public int num = 34;
    public static void main(String...args){     // created the main method inside the  class
        ClassesPractices object=new ClassesPractices(); //creatd an object here
        int d=20; 
@@ -38,7 +38,10 @@ int i,j ;
        InnerClass myObj3=new InnerClass();
        myObj3.javaPracties();
      System.out.println(myObj3.name + " "+myObj3.age);
-
+     AccessModiffers objAccessModiffers = new AccessModiffers();
+     System.out.println(objAccessModiffers.a +objAccessModiffers.d );
+     objAccessModiffers.display();
+     AccessModiffers.nameDisplay();
    }
 
 }
