@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringExercise33",
+            "request": "launch",
+            "mainClass": "StringExercise33",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise31",
+            "request": "launch",
+            "mainClass": "StringExercise31",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise32",
+            "request": "launch",
+            "mainClass": "StringExercise32",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise30",
+            "request": "launch",
+            "mainClass": "StringExercise30",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise27",
+            "request": "launch",
+            "mainClass": "StringExercise27",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise26",
+            "request": "launch",
+            "mainClass": "StringExercise26",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise24",
+            "request": "launch",
+            "mainClass": "StringExercise24",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise23",
+            "request": "launch",
+            "mainClass": "StringExercise23",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise22",
+            "request": "launch",
+            "mainClass": "StringExercise22",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise21",
+            "request": "launch",
+            "mainClass": "StringExercise21",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
             "name": "Launch StringExercise20",
             "request": "launch",
             "mainClass": "StringExercise20",
