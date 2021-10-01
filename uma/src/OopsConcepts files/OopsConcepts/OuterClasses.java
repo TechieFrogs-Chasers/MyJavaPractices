@@ -34,49 +34,50 @@ public class OuterClasses {     //top level class
         innerobj.innermethod(10);  //accessing inner class method
          
     }
-     OuterClasses(){ //constructor in top level class
+        OuterClasses(){ //constructor in top level class
 
          //this(10);  //  can not call constructors of inner class
-        System.out.println("toplevel nested classes");
-    }
+         System.out.println("toplevel nested classes");
+        }
 
-    void callingInner(){      // outer class method
+        void callingInner(){      // outer class method
 
          Inner innerobj = new Inner();   //inside a method instance for inner class can be created with out outer class instance
 
-        innerobj.innermethod(10);   // calling inner method with inner class instance
+         innerobj.innermethod(10);   // calling inner method with inner class instance
 
-        innerobj.callingInnerMOst(10, "uma"); //calling innermost method with inner instance
+         innerobj.callingInnerMOst(10, "uma"); //calling innermost method with inner instance
 
          System.out.println(innerobj.c);  //private int from the "Inner class"
 
-        //Innermost innermostobj = new Innermost(); //innermost instance can not be created in the outer without inner class instance 
+         //Innermost innermostobj = new Innermost(); //innermost instance can not be created in the outer without inner class instance 
 
-        Innermost innermostobj = innerobj.new Innermost();
-        innermostobj.innermostmethod();  //can call innermost method
+         Innermost innermostobj = innerobj.new Innermost();
+         innermostobj.innermostmethod();  //can call innermost method
 
-        // MostInner most = new MostInner(); ----------error
-        //most.mostInnermethod();
+         // MostInner most = new MostInner(); ----------error
+         //most.mostInnermethod();
 
          MostInner most = innermostobj.new MostInner(); 
          most.mostInnermethod();
          
-    }
+        }
 
 
-     private int dis(){     //method in the top class
+        private int dis(){     //  private method in the top class
 
-       // Innermost innermostobj = innerobj.new Innermost();   //calling inner class method into a private method
-       // innermostobj.innermostmethod();       
+         // Innermost innermostobj = innerobj.new Innermost();   //calling inner class method into a private method
+         // innermostobj.innermostmethod();       
                
          return 10;
-     }
+        }
 
     class Inner{       // class inside outer class
 
-           // public static void main(String[] args) {    //main method can not be executed without defining it in public class
-         
+         public static void main(String[] args) {    
 
+         }
+         
          int b;
          String address;
          private int c;
@@ -112,15 +113,15 @@ public class OuterClasses {     //top level class
 
              Innermost(){     //innermost class constructor
 
-                   System.out.println(" innermost constructor ");
+                System.out.println(" innermost constructor ");
             }
 
              void innermostmethod(){   //innermost method
 
-                   System.out.println("innermost method");
+                System.out.println("innermost method");
             }
     
-             class MostInner{
+            class MostInner{
 
                   int m;
                  static int y;   //static int ??
@@ -139,6 +140,5 @@ public class OuterClasses {     //top level class
         outer class can not access variables or methods of its  inner class .The only way is to create  instance for inner  class 
         in the main method by using instance of the outer class     OR
         create an instance of the inner class in any method of the immediate outer class.
-        Static variables can not be declared in the inner classes, only static final (constants)
          
         */
