@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GetterSetter",
+            "request": "launch",
+            "mainClass": "practice.GetterSetter",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch codegympractice",
+            "request": "launch",
+            "mainClass": "practice.codegympractice",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch StringExercise20",
             "request": "launch",
             "mainClass": "StringExercise20",
