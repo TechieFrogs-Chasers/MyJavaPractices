@@ -2,18 +2,19 @@ package Practices;
 
 public class StaticClass {//Driver class
     static int number = 30;//static datatypes
-    static String name;
+    static String name;//static variable
     char letter = 'L';//In static class non static data types are not able to access.
 
-    static {//Static variable
+    static {//Static initializaton block
         name = "Lenovo";
     }
 
-    void nonStaticMethod() {
+    void nonStaticMethod()
+    {//Non static method
         System.out.println("Enter char :" + letter);//we can access the non static data type
     }
 
-    static class Innerclass {//Static inner class-first static class
+    static class Innerclass {//static inner class---first static class
 
         static void msg() {//static method
             StaticClass nonStaticMethodObj = new StaticClass();//Instance for non static method in static method
@@ -37,22 +38,23 @@ public class StaticClass {//Driver class
              static {//static initialization block
                  location="Atlanta";
              }
-            static void diplayDetails() {
+            static void diplayDetails() {//static method
                 System.out.println("Location: " + location + "The number of monitors : " + number + " Name :" + name);
 
-                class NumOfLocations {//-Inner or non-static or member class in side static class and in side a method(Its a local inner class,this we not able to access outside this method)-Third static class
+                class NumOfLocations {//-Inner or non-static or member class inside static class and inside a method(Its a local inner class,this we not able to access outside this method)-Third static class
                     int numOfLocations = 15;
                     static Byte branches ;//static variable & Wapper datatype
                     static  {//static initialization block
                        branches=5;
                         System.out.println("In static block");
                     }
+
                     NumOfLocations() {//Constructor
                         System.out.println("Name :" + name +" , "+ "Location :" + location +" , "+ "The number of monitors : " + number);
 
                     }
                 }
-                NumOfLocations noObj = new NumOfLocations();
+                NumOfLocations noObj = new NumOfLocations();//Instance must create in end of the method inner class only.
                 System.out.println(noObj.numOfLocations +NumOfLocations.branches);
             }
         }
@@ -62,6 +64,5 @@ public class StaticClass {//Driver class
         Innerclass.msg();
         StaticClass.Innerclass.Details.diplayDetails();
         Innerclass nonStaticObj = new Innerclass();
-
     }
 }
