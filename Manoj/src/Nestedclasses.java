@@ -30,9 +30,9 @@ public class Nestedclasses {
         Nestedclasses outerobj=new Nestedclasses();
          //Inner innerobj1=outerobj.new Inner();    //this one way we call the method 
          outerobj.outerMethod();
-        //Nestedclasses.Inner innerobj=new Nestedclasses(). new Inner(); //calling a inner method from static method 
-        //innerobj.innerMethod();
-         Nestedclasses.Inner.NestInner nestobj= new Nestedclasses(). new Inner().new NestInner(); //calling nestinner one 
+        Nestedclasses.Inner innerobj=new Nestedclasses(). new Inner(); //calling a inner method from static method 
+        innerobj.innerMethod();
+         Nestedclasses.Inner.NestInner nestobj= /*new Nestedclasses(). new Inner()*/innerobj.new NestInner(); //calling nestinner one 
          nestobj.NestInnerMethod();
         // nestobj.o
         // nestobj.na
