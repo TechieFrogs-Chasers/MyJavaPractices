@@ -7,7 +7,7 @@ public class Student {
 
     public static void main(String[] args) {
 
-        Student Object = new Student(2, "John");
+        new Student(2, "John");
 
     }
 

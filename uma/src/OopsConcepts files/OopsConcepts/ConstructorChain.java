@@ -72,7 +72,7 @@ public class ConstructorChain {
 
        ConstructorChain Obj5 = new  ConstructorChain(5,1);
        Obj5.display();
-
+        Obj5.display(20);
 
        ConstructorChain Obj6 = new  ConstructorChain("varsha",1,true);  //three parameters
        Obj6.display();
@@ -82,4 +82,12 @@ public class ConstructorChain {
     void display(){
         System.out.println("constructor chain");
     }
+    private void display(int i){
+        i=10;
+    }
+
+    
+
+    
 }
+

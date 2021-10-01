@@ -5,6 +5,7 @@ public class OuterClass {
     static String staticOuter = "Static outer ";
 
     class InnerClass {
+        static int sum = 10;
         void accessMembers() {
             System.out.println(outer);
             System.out.println(staticOuter);
