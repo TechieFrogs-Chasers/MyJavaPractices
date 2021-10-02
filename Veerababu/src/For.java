@@ -8,7 +8,7 @@ public class For {
             System.out.println(i);
         }
 
-        /*for(int a=5; a<=6; a++){
+        for(int a=5; a<=6; a++){
             for(int b=6;b<=8; b++){
                 System.out.println("a is"  +   a +"  "+ "b is"+" "+ b);
             }
@@ -20,7 +20,7 @@ public class For {
                 System.out.print("*");
             }
             System.out.println();
-        }*/
+        }
         
     }
 }
