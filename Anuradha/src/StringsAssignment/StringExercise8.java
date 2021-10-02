@@ -13,7 +13,6 @@ public class StringExercise8 {
 }
 
 public static boolean isNumeric(String string) {
-	double val;	
     System.out.println(String.format("Parsing string: \"%s\"", string));
 		
     if(string == null || string.equals("")) {
@@ -22,7 +21,7 @@ public static boolean isNumeric(String string) {
     }
     
     try {
-        val = Double.parseDouble(string);
+         Double.parseDouble(string);
      //   String regex = "[0-9]+[\\.]?[0-9]*";
      //   return Pattern.matches(regex, string);
         return true;
