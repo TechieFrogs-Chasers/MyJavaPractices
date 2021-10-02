@@ -16,7 +16,7 @@ public class Nested3 {
       }
      
      void outer(){
-         for(int i=0; i<5;i++){ //inner class within a for loop
+        for(int i=0; i<5;i++){ //inner class within a for loop
          class inner {       //method local inner class
             int h=6;
             int d=30;
@@ -44,7 +44,7 @@ public class Nested3 {
         Nested3 obj=new Nested3();
           obj.outer();
           obj.outer2(); 
-        Staticclass Staticobj=new Staticclass(); //we can directly access the static class but 
+        Staticclass Staticobj=new Staticclass(); //we can directly access the static class without the use of outer class
         Staticobj.StaticMethod();
     }
     

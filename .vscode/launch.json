@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Encapsul2",
+            "request": "launch",
+            "mainClass": "Encapsul2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nested3",
+            "request": "launch",
+            "mainClass": "Nested3",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
             "name": "Launch StringExercise20",
             "request": "launch",
             "mainClass": "StringExercise20",
