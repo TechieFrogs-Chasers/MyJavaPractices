@@ -16,41 +16,46 @@ public class Encapsul {
     }
     public void setName(String name){ //setter method here we change the value 
         n=name;
+
         class EncapsulInner{ //method inner  class created in setter method 
              private int a=5 ;
 
 
 
-                /* class EncapsulNestInner{ //method local nest innner is created 
+              /* class EncapsulNestInner{ //method local nest innner is created 
                     String m="man";
                     void nestinnner(){
+
                         System.out.println("encapsul nested inner class" +"  "+m);
                     }
+
                  }*/
 
 
                  public int getInt(){
                      return a;
                  }
-                 public void setInt(int c){
-                     c=a;
+
+                 public void setInt(int c){//setter methood with parameter 
+                     a=c;
                  }
 
-                void EncapsulDisplay(int k ){ //created a method  with parameter 
-                a=k;
-                System.out.println("Encaplsule inner "+" "+a );
+                 void EncapsulDisplay(int k ){ //created a method  with parameter 
+                 a=k;
+                System.out.println("Encaplsule inner1 "+" "+a );
 
             }
         }
         EncapsulInner encapsobj=new EncapsulInner(); //created an instance for the method inner 
         encapsobj.EncapsulDisplay(45);
+        encapsobj.setInt(5);
 
         
          //in method again i created a class 
-        class EncapsulInner2{
+            class EncapsulInner2{
 
             void EncapsulDisplay() {    
-              System.out.println("calling the encapsulinner "+" "+encapsobj.getInt());//here i am calling the 
+              System.out.println("calling the encapsulinner2 "+" "+encapsobj.getInt());//here i am calling the 
                 
             }
       }
@@ -65,6 +70,7 @@ class Encapsul2{
         Encapsul obj=new Encapsul();
         obj.setName("manoj java");
         System.out.println(obj.getName());
+        //System.out.println(encapsobj.getInt());
         
 
     }
