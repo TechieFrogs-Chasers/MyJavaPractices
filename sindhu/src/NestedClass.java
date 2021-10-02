@@ -93,7 +93,8 @@ package sindhu.src;
 public class NestedClass
 {
     int i=4;
-    String name;
+    int d=50;
+    String name = "techie";
     void display()
     {
         System.out.println("method");
@@ -102,33 +103,64 @@ public class NestedClass
         //InnerMost.k;
         b.NestedClass();
 
+        if(b.d==8)
+        {
+            class IfInner
+            {
+                int y=25;
+                int d=45;
+
+                void ifDisplay(){
+                    System.out.println("in if inner display");
+                }
+            }
+            
+            IfInner obj = new IfInner();
+            System.out.println(obj.y);
+            obj.ifDisplay();
+
+        }
+    
         
-         NestedClass.InnerMost.InnerOne h = b.new InnerOne();
+        class MethodInner{    //method local inner class
+            int g=10;
+            int d=23;
+
+            void methodDisplay(){
+                System.out.println("in method inner display"+ " "+ i+ " " + "name");
+
+            }
+        
+        }
+
+        MethodInner t = new MethodInner();
+        t.methodDisplay();
+        System.out.println(t.g);
+        NestedClass.InnerMost.InnerOne h = b.new InnerOne();
         System.out.println(h.j);
+
+        
             
     }
     
-private class InnerMost
+private class InnerMost  //member inner class
     {
-       static  int k; 
+       static  int k; // static can be used in non-static field
         int d=8;  
 
         void NestedClass()
         {
             System.out.println("Top Class Method");
+
+           
         }
         
 class InnerOne
     {
          int j;
+         int d=20;
 
-         
-
-
-
-
-
-        InnerOne()
+         InnerOne()
            
         {
             System.out.println("constructor" + " "+ k); // bcz we have given as constant(i.e; static and final), so we gonna access k
