@@ -9,10 +9,10 @@ public class Constructor2 {
        Constructor2 obj3=new Constructor2(9,"manoj","mech");
       // obj.display(); 
      }   
-     Constructor2(){
+      Constructor2(){
          rollno=20;
          name ="manoj";
-         System.out.println("manoj"+" "+rollno+" "+ name);
+         System.out.println(rollno+" "+ name);
      }
      Constructor2(int i,String n){
          rollno=i;
@@ -21,6 +21,7 @@ public class Constructor2 {
          System.out.println(rollno+" "+name);
      }
      Constructor2(int i, String n,String b){
+         this(100,"manoj"); //we are calling the 2nd constructor using this() keyword 
          rollno=i;
          name=n;
          branch=b;

@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src/university",
+        "src/College",
+        "src",
+        "src/Assignment2",
+        "src/method"
+    ]
+}
