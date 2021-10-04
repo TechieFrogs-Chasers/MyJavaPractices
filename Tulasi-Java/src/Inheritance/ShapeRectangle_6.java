@@ -25,7 +25,7 @@ class Square extends Rectangle {//Subclass extends Superclass
     }
 }
 
-public class ShapeRectangle {//Driver class
+public class ShapeRectangle_6 {//Driver class
     public static void main(String[] args) {//main method
         Square mySquareObj = new Square();//On creating last subclass instance we can call all above subclass methods
         mySquareObj.methodshape();
