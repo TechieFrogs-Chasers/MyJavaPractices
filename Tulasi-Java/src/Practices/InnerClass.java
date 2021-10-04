@@ -1,6 +1,7 @@
 package Practices;//Package
 
 public class InnerClass {//Diver class
+    //variables
     static String carBrands;
     private int numBrand;
 
@@ -16,7 +17,7 @@ public class InnerClass {//Diver class
         new InnerClass();
     }
 
-    class Cars {//Cars class-First inner class
+    class Cars extends InnerClass {//Cars class-First inner class
 
            /*public static void main(String[] args) {//second main method
              System.out.println("Enter number of car brands ");
@@ -52,21 +53,21 @@ public class InnerClass {//Diver class
 
         Cars() {//Constructor
             System.out.println("Constructor");
-        }
+        }//constructor
 
-        private static class CarsCost {//private inner nested class-Third Inner nested class
+        private static class CarsCost {//private inner nested class-Third Inner nested class-Cars$CarNames$CarsCost.class
             int speed;
 
             void carSpeed(int Speed)
             {
                 System.out.println("Speed " + 110);
-            }
+            }//method
         }
     }
 
     InnerClass() {//Constructor
         System.out.println("Inner class Constructor!");
-    }
+    }//constructor
 
     public static void main(String[] args) {//main
         InnerClass outerObj = new InnerClass();//Outer class instance

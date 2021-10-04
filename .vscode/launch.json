@@ -7,6 +7,92 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "Launch ExampleClass",
+            "request": "launch",
+            "mainClass": "Constructors.ExampleClass",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch InitDemo",
+            "request": "launch",
+            "mainClass": "Constructors.InitDemo",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorOrderChange2",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorOrderChange2",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorOrderChange",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorOrderChange",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorChaining",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorChaining",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentCopyConstructor",
+            "request": "launch",
+            "mainClass": "Constructors.StudentCopyConstructor",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentOverloading",
+            "request": "launch",
+            "mainClass": "Constructors.StudentOverloading",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorCreation",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorCreation",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise37",
+            "request": "launch",
+            "mainClass": "StringExercise37",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCreation",
+            "request": "launch",
+            "mainClass": "Arrays.ArrayCreation",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise36",
+            "request": "launch",
+            "mainClass": "StringExercise36",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise34",
+            "request": "launch",
+            "mainClass": "StringExercise34",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+=======
+<<<<<<< HEAD
             "name": "Launch GetterSetter",
             "request": "launch",
             "mainClass": "practice.GetterSetter",
@@ -19,6 +105,7 @@
             "mainClass": "practice.codegympractice",
             "projectName": "MyJavaPractices_8cf5baa5"
 =======
+>>>>>>> 8c3b6a6073bf92a81904bfcc58e2e4a532358686
             "name": "Launch StringExercise33",
             "request": "launch",
             "mainClass": "StringExercise33",
