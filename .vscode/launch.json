@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "Square",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Manager",
+            "request": "launch",
+            "mainClass": "InheritanceExercise.Manager",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hybrid",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Hybrid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodsDemo",
+            "request": "launch",
+            "mainClass": "OopsConcepts.MethodsDemo",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grand2",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Grand2",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grand1",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Grand1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capsule1",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Capsule1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capsule2",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Capsule2",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Debugging",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Debugging",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch StringExercise20",
             "request": "launch",
             "mainClass": "StringExercise20",
