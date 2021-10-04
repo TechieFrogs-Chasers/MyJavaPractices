@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Square",
             "request": "launch",
             "mainClass": "Square",
@@ -66,6 +67,176 @@
             "request": "launch",
             "mainClass": "OopsConcepts.Debugging",
             "projectName": "MyJavaPractices_5246a9cc"
+=======
+<<<<<<< HEAD
+            "name": "Launch ExampleClass",
+            "request": "launch",
+            "mainClass": "Constructors.ExampleClass",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch InitDemo",
+            "request": "launch",
+            "mainClass": "Constructors.InitDemo",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorOrderChange2",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorOrderChange2",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorOrderChange",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorOrderChange",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorChaining",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorChaining",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentCopyConstructor",
+            "request": "launch",
+            "mainClass": "Constructors.StudentCopyConstructor",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentOverloading",
+            "request": "launch",
+            "mainClass": "Constructors.StudentOverloading",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorCreation",
+            "request": "launch",
+            "mainClass": "Constructors.ConstructorCreation",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise37",
+            "request": "launch",
+            "mainClass": "StringExercise37",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCreation",
+            "request": "launch",
+            "mainClass": "Arrays.ArrayCreation",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise36",
+            "request": "launch",
+            "mainClass": "StringExercise36",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise34",
+            "request": "launch",
+            "mainClass": "StringExercise34",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+=======
+<<<<<<< HEAD
+            "name": "Launch GetterSetter",
+            "request": "launch",
+            "mainClass": "practice.GetterSetter",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch codegympractice",
+            "request": "launch",
+            "mainClass": "practice.codegympractice",
+            "projectName": "MyJavaPractices_8cf5baa5"
+=======
+>>>>>>> 8c3b6a6073bf92a81904bfcc58e2e4a532358686
+            "name": "Launch StringExercise33",
+            "request": "launch",
+            "mainClass": "StringExercise33",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise31",
+            "request": "launch",
+            "mainClass": "StringExercise31",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise32",
+            "request": "launch",
+            "mainClass": "StringExercise32",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise30",
+            "request": "launch",
+            "mainClass": "StringExercise30",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise27",
+            "request": "launch",
+            "mainClass": "StringExercise27",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise26",
+            "request": "launch",
+            "mainClass": "StringExercise26",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise24",
+            "request": "launch",
+            "mainClass": "StringExercise24",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise23",
+            "request": "launch",
+            "mainClass": "StringExercise23",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise22",
+            "request": "launch",
+            "mainClass": "StringExercise22",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise21",
+            "request": "launch",
+            "mainClass": "StringExercise21",
+            "projectName": "MyJavaPractices_26e4d283"
+>>>>>>> 3610e7a1a11d86d84769eb6c000a9adaf312002c
+>>>>>>> d4585d1ad1bcf1e27e10f2aaa5233259b2cd3638
         },
         {
             "type": "java",
