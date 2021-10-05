@@ -1,3 +1,4 @@
+package BasicPractices;
 public class Gcd {
     public static void main(String[] args) {
         int n1=12, n2=8 ; 

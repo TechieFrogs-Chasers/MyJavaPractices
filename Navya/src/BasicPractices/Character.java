@@ -1,3 +1,4 @@
+package BasicPractices;
 import java.util.Scanner;
 
 public class Character {

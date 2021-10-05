@@ -1,3 +1,4 @@
+package BasicPractices;
 public class Swap {
     public static void main(String[] args) {
        /* int i , j ,k ;

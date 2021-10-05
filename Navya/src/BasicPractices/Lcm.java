@@ -1,3 +1,4 @@
+package BasicPractices;
 public class Lcm {
     public static void main(String[] args) {
         int num1 = 85, num2 = 175, lcm;

@@ -1,3 +1,4 @@
+package BasicPractices;
 public class App {
     int b = 48;
     int c = 34;

@@ -1,3 +1,4 @@
+package BasicPractices;
 public class NaturalNumber {
     public static void main(String[] args) {
         int i = 100, num = 86, sum = 0;  

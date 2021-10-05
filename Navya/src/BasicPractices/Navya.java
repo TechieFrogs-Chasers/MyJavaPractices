@@ -1,3 +1,4 @@
+package BasicPractices;
 public class Navya {
 
     public static void main(String [] str){
