@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Encapsul2",
             "request": "launch",
             "mainClass": "Encapsul2",
@@ -17,6 +18,89 @@
             "request": "launch",
             "mainClass": "Nested3",
             "projectName": "MyJavaPractices_5f34fb7c"
+=======
+<<<<<<< HEAD
+            "name": "Launch GetterSetter",
+            "request": "launch",
+            "mainClass": "practice.GetterSetter",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch codegympractice",
+            "request": "launch",
+            "mainClass": "practice.codegympractice",
+            "projectName": "MyJavaPractices_8cf5baa5"
+=======
+            "name": "Launch StringExercise33",
+            "request": "launch",
+            "mainClass": "StringExercise33",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise31",
+            "request": "launch",
+            "mainClass": "StringExercise31",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise32",
+            "request": "launch",
+            "mainClass": "StringExercise32",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise30",
+            "request": "launch",
+            "mainClass": "StringExercise30",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise27",
+            "request": "launch",
+            "mainClass": "StringExercise27",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise26",
+            "request": "launch",
+            "mainClass": "StringExercise26",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise24",
+            "request": "launch",
+            "mainClass": "StringExercise24",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise23",
+            "request": "launch",
+            "mainClass": "StringExercise23",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise22",
+            "request": "launch",
+            "mainClass": "StringExercise22",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise21",
+            "request": "launch",
+            "mainClass": "StringExercise21",
+            "projectName": "MyJavaPractices_26e4d283"
+>>>>>>> 3610e7a1a11d86d84769eb6c000a9adaf312002c
+>>>>>>> 144c3fa748a2d78b47411e48ae28f0fe8f5a6673
         },
         {
             "type": "java",

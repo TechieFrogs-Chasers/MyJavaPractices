@@ -1,13 +1,14 @@
 package Practices;//Package
 
 public class InnerClass {//Diver class
+    //variables
     static String carBrands;
     private int numBrand;
 
     void carMethod() {//Carmethod-access all below class here
         System.out.println("Car method!");
         Cars.CarNames secondClassObj = new Cars.CarNames();//when ever we required ,we can create outerclass instance
-        secondClassObj.carMethods(8, 10);//
+        secondClassObj.carMethods(8, 10);
         Cars.CarsCost thirdClassObj = new Cars.CarsCost();
         thirdClassObj.carSpeed(120);
         Cars firstClassObj = new Cars();
@@ -18,7 +19,7 @@ public class InnerClass {//Diver class
 
     class Cars {//Cars class-First inner class
 
-        /*  public static void main(String[] args) {//second main method
+           /*public static void main(String[] args) {//second main method
              System.out.println("Enter number of car brands ");
              InnerClass outerObj = new InnerClass();
              outerObj.carMethod();
@@ -52,34 +53,34 @@ public class InnerClass {//Diver class
 
         Cars() {//Constructor
             System.out.println("Constructor");
-        }
+        }//constructor
 
-        private static class CarsCost {//private inner nested class-Third Inner nested class
+        private static class CarsCost {//private inner nested class-Third Inner nested class-Cars$CarNames$CarsCost.class
             int speed;
 
-            void carSpeed(int Speed) {
+            void carSpeed(int Speed)
+            {
                 System.out.println("Speed " + 110);
-            }
+            }//method
         }
     }
 
     InnerClass() {//Constructor
         System.out.println("Inner class Constructor!");
-    }
-
+    }//constructor
 
     public static void main(String[] args) {//main
         InnerClass outerObj = new InnerClass();//Outer class instance
         //  Cars innerObj = outerObj.new Cars();//Inner class instance-To create inner class instance,we have to create outer class instance first and from that instance we create inner class.
         outerObj.carMethod();//Call carMethods method
          //AnonymousClass=An inner class without a name only a single object is created from one the object may have "extras"or "changes" for that no need to create a separate innerclass,when it only need it once.
-        AnonymousClass anonymousObj = new AnonymousClass() {//all anonymous inner class must ended with ; because they are statements.Statements can override.
+        AnonymousClass anonymousObj = new AnonymousClass() {//all anonymous inner class must ended with ;. because, they are statements-Statements can override.
             public void systemCost() {//over riding
                 System.out.println("Cost of the music system is not expensive! ");
             }
         };
         AnonymousClass anonymousObj2 = new AnonymousClass();//to access another anonymous class statement
-        anonymousObj.systemCost();//
+        anonymousObj.systemCost();
         anonymousObj2.systemCost();
     }
 }
