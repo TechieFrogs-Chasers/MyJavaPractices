@@ -7,6 +7,81 @@
         {
             "type": "java",
 <<<<<<< HEAD
+<<<<<<< HEAD
+            "name": "Launch Encapsul2",
+            "request": "launch",
+            "mainClass": "Encapsul2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nested3",
+            "request": "launch",
+            "mainClass": "Nested3",
+            "projectName": "MyJavaPractices_5f34fb7c"
+=======
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "Square",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Manager",
+            "request": "launch",
+            "mainClass": "InheritanceExercise.Manager",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hybrid",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Hybrid",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodsDemo",
+            "request": "launch",
+            "mainClass": "OopsConcepts.MethodsDemo",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grand2",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Grand2",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grand1",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Grand1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capsule1",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Capsule1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capsule2",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Capsule2",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Debugging",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Debugging",
+            "projectName": "MyJavaPractices_5246a9cc"
+=======
+<<<<<<< HEAD
             "name": "Launch ExampleClass",
             "request": "launch",
             "mainClass": "Constructors.ExampleClass",
@@ -91,6 +166,7 @@
         },
         {
             "type": "java",
+>>>>>>> 382b9a8d37a427c0e5b1fdb94d3de3aa43a26541
 =======
 <<<<<<< HEAD
             "name": "Launch GetterSetter",
@@ -174,6 +250,11 @@
             "mainClass": "StringExercise21",
             "projectName": "MyJavaPractices_26e4d283"
 >>>>>>> 3610e7a1a11d86d84769eb6c000a9adaf312002c
+<<<<<<< HEAD
+>>>>>>> 144c3fa748a2d78b47411e48ae28f0fe8f5a6673
+=======
+>>>>>>> d4585d1ad1bcf1e27e10f2aaa5233259b2cd3638
+>>>>>>> 382b9a8d37a427c0e5b1fdb94d3de3aa43a26541
         },
         {
             "type": "java",
