@@ -17,7 +17,7 @@ public class OuterClass {//outer class
         System.out.println(" In Main method:");
         OuterMethod(); // calling outer method without creating object for outerclass, bcz it's static
         // calling nested class without creating instance for outer class, bcz the nested class is static.
-        //InnerClass innerobject = new InnerClass(); 
+        InnerClass innerobject = new InnerClass(); 
         // to access the method of the nested class, object for nested class is created.
         //innerobject.InnerMethod();
         
