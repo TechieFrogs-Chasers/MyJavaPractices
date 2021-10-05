@@ -2,7 +2,7 @@ package Constructors;
 
 public class ConstructorCreation {
 
-    ConstructorCreation (){           //default constructor
+   /* ConstructorCreation (){           //default constructor
         System.out.println("Constructor is created");
         }  
 
@@ -15,7 +15,7 @@ public class ConstructorCreation {
             System.out.println("A value is : "+a+"\n"+"B value is : "+b);
             }
         public static void main(String args[]){  
-        new ConstructorCreation (); //object creation & default constructor calling
+    //    new ConstructorCreation (); //object creation & default constructor calling
         new ConstructorCreation (10,20); //object creation & parameterized constructor calling 
         }    
 }
