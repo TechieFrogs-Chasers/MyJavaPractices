@@ -17,7 +17,7 @@ public class InnerClass {//Diver class
         new InnerClass();
     }
 
-    class Cars {//Cars class-First inner class
+    class Cars extends InnerClass {//Cars class-First inner class
 
            /*public static void main(String[] args) {//second main method
              System.out.println("Enter number of car brands ");

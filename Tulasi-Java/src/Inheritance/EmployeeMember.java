@@ -1,6 +1,7 @@
 package Inheritance;//Package
 
 class Member{//Parent class
+
     //variables
     String name;
     byte age;
@@ -28,7 +29,8 @@ class Manager extends Member{//Extended class for memeber
 public class EmployeeMember {//Driver class
     public static void main(String[] args) {//main method
         Employee empObj=new Employee();//instance of employee class
-        Manager magObj=new Manager();//instance of manager class
+        Manager managerObj=new Manager();//instance of manager class
+
          //call employee variables
         empObj.name=" Krishna ";
         empObj.age= 24;
@@ -41,13 +43,13 @@ public class EmployeeMember {//Driver class
         System.out.println();
 
         //call manager variables
-        magObj.name="Rama";
-        magObj.age=26;
-        magObj.address="NY";
-        magObj.salary=18000;
-        magObj.phoneNumber="3526478911";
-        magObj.printSalary();
-        magObj.department="Sales";
+        managerObj.name="Rama";
+        managerObj.age=26;
+        managerObj.address="NY";
+        managerObj.salary=18000;
+        managerObj.phoneNumber="3526478911";
+        managerObj.printSalary();
+        managerObj.department="Sales";
 
     }
 }
