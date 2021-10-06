@@ -3,8 +3,8 @@ package assignment3;
 public class TestCylinder {
     public static void main(String[] args) {
         //Circles obj = new Circles(2);
-        //Cylinder obj2 = new Cylinder(2,3,"pink");
-        Cylinder obj2 = new Cylinder(2,3);
+        Cylinder obj2 = new Cylinder(2,3,"pink");
+        //Cylinder obj2 = new Cylinder(2,3);
       
         //System.out.println( " the area of cylinder is: "  + obj2.getArea());  
         obj2.getVolume(); 
@@ -38,7 +38,7 @@ double radius;
     }
     double getArea(){
         double area = 3.14*(radius*radius);
-        System.out.println(" the area of circle: " + area);
+        System.out.println("The area of circle: " + area);
         return area;
     }
     public String toString(){
@@ -68,7 +68,8 @@ class Cylinder extends Circles{
         return this.height;
         }
     void getVolume(){
-        double volume = height*super.getArea();
+        //double volume = height*super.getArea();
+        double volume = height*3.14*(radius*radius);
         System.out.println("The volume of the cylinder is : " + volume);
         }
     double getArea(){
