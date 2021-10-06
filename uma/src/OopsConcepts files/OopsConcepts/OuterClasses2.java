@@ -3,41 +3,39 @@ package OopsConcepts;
 //import OopsConcepts.OuterClasses2.OuterClass.InnerClass;
 
 public class OuterClasses2 {
-         int a;
-         String s;
-         static int si;
-         private String name;
+    int a;
+    String s;
+    static int si;
+    private String name;
 
-        void displayouter(){
+    void displayouter(){
           
-           // InnerClass inobj = new InnerClass();    //  trying to create static class instance
-           // inobj.Innermethod(10, "ram");
+        // InnerClass inobj = new InnerClass();    //  trying to create static class instance
+        // inobj.Innermethod(10, "ram");
             
+        System.out.println(" most outer"); 
+    }
 
-             System.out.println(" most outer"); 
-      
-        }
-
-        void callInner(){
+    void callInner(){
  
-            OuterClass1 out1 = new OuterClass1();
-            out1.subdisplay();   //can access private method of immediate inner class
-        }
-        public static void main(String[] args) {
+        OuterClass1 out1 = new OuterClass1();
+        out1.subdisplay();   //can access private method of immediate inner class
+    }
+    public static void main(String[] args) {
             
-            OuterClasses2 outerobj = new OuterClasses2();
-            System.out.println(si + outerobj.name);
+        OuterClasses2 outerobj = new OuterClasses2();
+        System.out.println(si + outerobj.name);
 
 
             
-        }
+    }
 
     public class OuterClass1{    // creating a class inside the main class
     
         String empname;
         int b;
 
-          private void subdisplay(){
+        private void subdisplay(){
 
             InnerClass inobj = new InnerClass();
             System.out.println(inobj.f);  //can access static class variables
@@ -49,7 +47,7 @@ public class OuterClasses2 {
             System.out.println("method in outer class"+si);
         }
 
-    static class InnerClass{
+        static class InnerClass{
 
          int num;
          float f;
@@ -67,17 +65,17 @@ public class OuterClasses2 {
           DeeperClass deep = new DeeperClass();
             deep.deeperMethod(); //can access private class method into the static class
 
-        System.out.println("inner class method"+si+deep.cha);
+            System.out.println("inner class method"+si+deep.cha);
         }
 
-    private class DeeperClass{
-        int p;
+            private class DeeperClass{
+             int p;
 
-        String cha;
+             String cha;
         
-        void deeperMethod(){
-           System.out.println(si+p); 
-        }
+             void deeperMethod(){
+             System.out.println(si+p); 
+            }
 
     }
 

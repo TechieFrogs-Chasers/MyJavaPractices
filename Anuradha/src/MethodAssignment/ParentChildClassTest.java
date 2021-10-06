@@ -14,11 +14,11 @@ public class ParentChildClassTest {
 // Static methods cannot be overridden because they are not dispatched on the object instance at runtime.
 // The compiler decides which method gets called.
         Parent pObj = new Parent();
-        pObj.print();   //should be accessed in static way i.e Parent.print();  As print is a static method
+       // pObj.print();   //should be accessed in static way i.e Parent.print();  As print is a static method
         Child cObj = new Child();
-        cObj.print();
+       // cObj.print();
 
         Parent obj = new Child();
-        obj.print();
+      //  obj.print();
     }
 }
