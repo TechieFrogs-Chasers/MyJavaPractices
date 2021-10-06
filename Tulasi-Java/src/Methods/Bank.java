@@ -42,6 +42,7 @@ public class Bank {//Driver class
         System.out.println("Money deposited in BankC is: " +"$"+ bankCObj.getBalance());
 
     }
-
 }
+
+
 
