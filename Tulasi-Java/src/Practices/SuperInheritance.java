@@ -19,7 +19,7 @@ class College extends University {//Parent class-mainclass
     private String name;
     int num = 5;
 
-    void collegeName() {//mainclass method-We can access methods of subclass instance
+    static void collegeName() {//mainclass method-We can access methods of subclass instance
         System.out.println("College Name ");
 
     }
@@ -33,7 +33,8 @@ class College extends University {//Parent class-mainclass
         this.name = name;
     }
 
-    protected void DegreeDetails() {
+    static void DegreeDetails() {//If we have same name methods then, we cant reduce the accessmodifiers visibility of the inheritance method form while doing the overriding.But we can increase the visibility.Protected->Public->Default->Private.
+        //For overriding we need more than one classes.for overloading one class inhalf. We cant override the static method.If we give static for two methods that have same name is called method hiding for the super class.
         System.out.println("Protected details");
 
     }
@@ -67,9 +68,9 @@ class Degree extends College {//Subclass
     int numOfDegreeCourses;
     int num = 10;
 
-    public void DegreeDetails() {//method for subclass
+     static void DegreeDetails() {//method for subclass-To hide superclass static method ,gave same name and static in subclass.Then super class static method will get hidden.
         System.out.println("Degree ");
-        super.DegreeDetails();
+        //super.DegreeDetails();
     }
 
     Degree() {//Control goes to the childclass constructor first ,but it executes parent class constructor first.
@@ -88,6 +89,7 @@ public class SuperInheritance {//Driver class
         //Setters and getters
         //We cannot accesss "this" and "super" in main method or any of the static contest.
         //If we have same for methods first it calls from its own class.Then it goes to parent and then it checks grandclass and executes.(Bottom to top)
+        //To call "super"-use super.method or variable();---If having the same naming and same signature(what we give enter line for method) convecions variables or methods -is called "Overriding".--We use "overriding" only in inheritance.
         myObjDegree.DegreeDetails();
         myObjDegree.collegeName();
         myObjDegree.univeristyname();
