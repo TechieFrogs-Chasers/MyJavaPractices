@@ -6,7 +6,7 @@ public class Bank {//Driver class
         return 0;
     }
 
-    static class BankA {//static class
+    static class BankA {//static firstclass
         int deposit = 1000;
 
         int getBalance() {//method
@@ -15,7 +15,7 @@ public class Bank {//Driver class
         }
     }
 
-    static class BankB {//static class
+    static class BankB {//static secondclass
         int deposit = 1500;
 
         int getBalance() {//method
@@ -24,7 +24,7 @@ public class Bank {//Driver class
 
     }
 
-    static class BankC {//static class
+    static class BankC {//static thirdclass
         int deposit = 2000;
 
         int getBalance() {//method
@@ -34,14 +34,15 @@ public class Bank {//Driver class
     }
 
     public static void main(String[] args) {//main
-        BankA bankAObj=new BankA();
-        BankB bankBObj=new BankB();
-        BankC bankCObj=new BankC();
+        BankA bankAObj=new BankA();//Instance for firstclass
+        BankB bankBObj=new BankB();//Instance for secondclass
+        BankC bankCObj=new BankC();//Instance for thirdclass
         System.out.println("Money deposited in BankA is: " +"$"+ bankAObj.getBalance());
         System.out.println("Money deposited in BankB is: " +"$"+ bankBObj.getBalance());
         System.out.println("Money deposited in BankC is: " +"$"+ bankCObj.getBalance());
 
     }
-
 }
+
+
 

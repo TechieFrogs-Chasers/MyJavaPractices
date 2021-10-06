@@ -22,7 +22,7 @@ public class Degree {//Driver class
     }
 
     public static void main(String[] args) {//main method
-        Degree mehtodobj = new Degree();//instance for method
+        Degree mehtodobj = new Degree();//Instance for method
         mehtodobj.getDegree();//accessing method
 
     }

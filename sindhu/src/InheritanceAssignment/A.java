@@ -5,25 +5,30 @@ public class A {
     int j;
 
     void show(){
-        System.out.println("method");
+        System.out.println(" The value of I and J are: "+ i +" & "+ j) ;
     }
     A(){
         System.out.println("constructor");
     }
+}
 
 class B extends A{
     int k;
-    B(){
+    B(int k){
+        this.k =k;
         System.out.println("constructor");
     }
 
-    void show(5){
-        System.out.println("method");
+    void show(){
+        System.out.println(" The value of K is : "+ k);
 
     }
+    
 
-    public static void main(String[] args) {
-        B  x = new B();
+public static void main(String[] args) {
+    
+     B  x = new B(5);
+
         x.show();
        
 
@@ -32,4 +37,4 @@ class B extends A{
 }
 
     
-}
+
