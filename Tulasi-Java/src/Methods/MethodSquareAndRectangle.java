@@ -1,6 +1,6 @@
 package Methods;//Package
 
-public class methodSquareAndRectangle {//Driver Class
+public class MethodSquareAndRectangle {//Driver Class
 
     void AreaRectangle(float length, float breadth) {//Method
         System.out.println("Enter length " + length + "Enter breadth " + breadth + "= " + (length * breadth));
@@ -11,9 +11,9 @@ public class methodSquareAndRectangle {//Driver Class
     }
 
     public static void main(String[] args) {//Main method
-        methodSquareAndRectangle myMethodObj = new methodSquareAndRectangle();
-        myMethodObj.AreaRectangle((float) 1.2, (float) 2.1);
-        myMethodObj.AreaRectangle((float) 1.4);
+        MethodSquareAndRectangle myMethodObj = new MethodSquareAndRectangle();//Instance for driver class
+        myMethodObj.AreaRectangle((float) 1.2, (float) 2.1);//Call method with two parameters
+        myMethodObj.AreaRectangle((float) 1.4);//call method with one parameter
 
     }
 }
