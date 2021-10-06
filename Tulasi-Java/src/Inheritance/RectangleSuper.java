@@ -40,6 +40,5 @@ public class RectangleSuper {//Driver class
         SquareClass squObj = new SquareClass(6);//Instance of subclass
         squObj.area();//call method
         squObj.Perimeter();//call method
-
     }
 }
