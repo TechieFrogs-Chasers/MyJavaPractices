@@ -1,7 +1,7 @@
-package Methods;
+package Methods;//Package
 
 
-class PrintNumI {
+class PrintNumI {//superclass
     int i;
 
     public void printNum() {
@@ -9,20 +9,20 @@ class PrintNumI {
     }
 }
 
-class PrintNumJ extends PrintNumI {
+class PrintNumJ extends PrintNumI {//subclass
     int j;
 
-    public void printNUM() {
+    public void printNum() {
         System.out.println("Value if j :" + j);
     }
 }
 
-public class PrintNum {
-    public static void main(String[] args) {
-        PrintNumJ obj = new PrintNumJ();
-        obj.i = 20;
-        obj.j = 30;
-        obj.printNUM();
+public class PrintNum {//Driverclass
+    public static void main(String[] args) {//main method
+        PrintNumJ obj = new PrintNumJ();//Instance for subclass
+        obj.i = 20;//call variable
+        obj.j = 30;//call variable
+        obj.printNum();//call method
 
     }
 }
