@@ -14,7 +14,7 @@ public class PurchaseItem {
     }
 
     public void setName(String name){
-        this.name = name
+        this.name = name;
     }
 
     public double getUnitPrice(){
@@ -22,21 +22,27 @@ public class PurchaseItem {
     }
 
     public void setUnitPrice(double unitPrice){
-        this.unitPrice = unitPrice
+        this.unitPrice = unitPrice;
     }
 }
 
 class WeighedItem{
     private double weight;
+
+    WeighedItem(){
+        System.out.println("weighed constructor");
+    }
 }
 
 class CountedItem{
     private int quantity;
+
+    CountedItem(){
+        System.out.println("counted constructor");
+    }
 }
 
-
-
-
+class Darling{
 public static void main(String[] args) {
         PurchaseItem x = new PurchaseItem("sindhu" , 5.0);
         x.setName("hanuman");
@@ -46,6 +52,8 @@ public static void main(String[] args) {
         
 
 }
+}
+
     
 
 

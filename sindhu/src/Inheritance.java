@@ -1,36 +1,60 @@
 package sindhu.src;
-class grandInheritance{
+ /*class grandInheritance{
     
-    int k=30;
-    static class staticInh{
-        int g=6;
-        static void hi(){
+   protected int k=30;
+
+static class staticInh{
+        static int g;
+        {
+            g=6;
+        }
+        
+        static boolean hi(){
             System.out.println("method");
+            return false;
 
         }
+
+
     }
-}
+}*/
 
-public class Inheritance extends grandInheritance {
 
-    int i=10;
+public class Inheritance {
+
+   protected int i=10;
     String name1 ="sindhu";
     int age;
+
+     static void hi(){
+        System.out.println("static");
+    }
+   
     
 }
 
 class subInheritance extends Inheritance{
     int j = 15;
     int id = 242;
-    String name= "haya";
+    String name1= "haya";
+
+   static  void hi(){
+        System.out.println("static");
+    }
+
+
+
 
 
 public static void main(String[] args) {
     subInheritance x = new subInheritance();
     System.out.println(x.i);
     System.out.println(x.name1);
-    System.out.println(x.k);
-    System.out.println(grandInheritance.g);
+    subInheritance.hi();
+
+    Inheritance a2 = new subInheritance();
+    System.out.println(a2.name1);
     
 }
+
 }

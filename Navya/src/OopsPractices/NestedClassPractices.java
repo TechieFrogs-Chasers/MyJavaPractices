@@ -3,7 +3,7 @@ package OopsPractices;
 public class NestedClassPractices {
     int a = 2;
     static String name = "navya";
-    void dispaly(){
+     protected void dispaly(){
         System.out.println("display outer class method "+name +" "+a );
         InnerNestedClassPractices myObj = new InnerNestedClassPractices();
         myObj.name( );
@@ -14,8 +14,8 @@ public class NestedClassPractices {
     /**
      * InnerNestedClassPractices
      */
-     class InnerNestedClassPractices {
-    int i = 3;
+     private  class InnerNestedClassPractices {
+     int i = 3;
      static int j = 8;   
      void name(){
         System.out.println("display inner class method "+ name +" "+ i+" "+a+ " "+j);
@@ -28,7 +28,7 @@ public class NestedClassPractices {
          static int l = 8;
              void nestInnerMethod(){
              System.out.println("dispaly nest Inner method "+ g + " "+ a+" "+ j );
-                 class InnerMethod{
+                   class InnerMethod{
                 
                 int c = 8;
                      void methodDispaly(){
