@@ -3,7 +3,8 @@ package sindhu.src.InheritanceAssignment;
 public class Counter {
     int i;
     void Increment(int i){
-      System.out.println("i=3");
+      this.i = i;
+      System.out.println("the value of i =  " + i);
     }
     
 }
