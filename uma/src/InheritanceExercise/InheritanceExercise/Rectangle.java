@@ -1,3 +1,4 @@
+package InheritanceExercise;
 public class Rectangle {
 
     int length= 10;
