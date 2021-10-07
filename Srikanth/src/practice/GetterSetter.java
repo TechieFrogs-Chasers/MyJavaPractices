@@ -29,5 +29,7 @@ public class GetterSetter {
         // srikanth.name = "TechiFrogs";
         srikanth.setName("TechiFrogs");
         System.out.println(srikanth.getName());
+        srikanth.setId(9);
+        System.out.println(srikanth.getId());
     }
 }
