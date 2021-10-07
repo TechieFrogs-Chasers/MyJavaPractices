@@ -26,18 +26,18 @@ abstract class Books {//abstract class
     }
 
     public static void main(String[] args) {//main method
-        Books obj = new Books() {//Instance for abstract -anonymous way
+       /* Books obj = new Books() {//Instance for abstract -anonymous way
             void numBooks() {//Implimentation abstract method
                 System.out.println("Books.");
             }
-        };
-        // Stores obj1 = new Stores();//Instance for subclass
-        // obj1.bookStores();
-        obj.numBooks();
-        obj.numStores();
-        obj.numSales();
-        obj.setNum(4);
-        System.out.println("No.of branches: " + obj.getNum());
+        };*/
+        Stores obj1 = new Stores();//Instance for subclass
+        obj1.bookStores();
+        obj1.numBooks();
+        // obj1.numStores();
+        obj1.numSales();
+        obj1.setNum(4);
+        System.out.println("No.of branches: " + obj1.getNum());
     }
 }
 
