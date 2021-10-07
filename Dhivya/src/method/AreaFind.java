@@ -1,3 +1,5 @@
+package method;
+
 public class AreaFind {
     public static void main(String[] args) {
         System.out.println("The area of Rectangle: "+ Area(3, 5));
