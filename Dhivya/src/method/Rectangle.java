@@ -1,3 +1,5 @@
+package method;
+
 import java.lang.*;
 
 public class Rectangle {
