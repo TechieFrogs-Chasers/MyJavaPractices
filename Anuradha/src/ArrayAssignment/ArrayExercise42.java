@@ -1,4 +1,4 @@
-package src.ArrayAssignment;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -31,5 +31,6 @@ public class ArrayExercise42 {
 
         char[] chars = string.toCharArray();
         System.out.print(Arrays.toString(chars)+" ");
+        sc.close();
     }
 }
