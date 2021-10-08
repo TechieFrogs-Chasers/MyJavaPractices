@@ -1,4 +1,4 @@
-package src.ArrayAssignment;
+
 
 import java.util.Scanner;
 public class ArrayExercise27 {

@@ -1,3 +1,5 @@
+package method;
+
 /*Created super and subclass, using getters and setters assigned value for 
 superclass variable and subclass variable. using subclass object called both the methods from
 the two classes.

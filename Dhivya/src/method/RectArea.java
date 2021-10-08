@@ -1,3 +1,5 @@
+package method;
+
 import java.util.Scanner;
 public class RectArea { 
     Scanner sc = new Scanner(System.in);
