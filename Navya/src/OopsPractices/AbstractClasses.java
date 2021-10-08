@@ -39,8 +39,8 @@ public class AbstractClasses extends SubClass{
             void dispaly(){
                 System.out.println("method implementation");
             }
-            void method() {
-                 System.out.println("implementation of abstract method");
+             void method() {
+             System.out.println("implementation of abstract method");
                 
             }
         };
