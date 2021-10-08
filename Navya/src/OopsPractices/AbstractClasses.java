@@ -39,10 +39,7 @@ public class AbstractClasses extends SubClass{
             void dispaly(){
                 System.out.println("method implementation");
             }
-
-            @Override
             void method() {
-                 //TODO Auto-generated method stub
                  System.out.println("implementation of abstract method");
                 
             }
