@@ -15,12 +15,6 @@ public class PaintingCost_5 {
         num_Of_Interior_Walls=myScannerObj.nextInt();
         num_Of_Exterior_Walls=myScannerObj.nextInt();
 
-        while (!myScannerObj.hasNextFloat()) {
-            System.out.println("This is a number");
-            myScannerObj.next();
-        }
-        num_Of_Interior_Walls = myScannerObj.nextFloat();
-
         if(num_Of_Interior_Walls==0 || num_Of_Exterior_Walls==0){
             System.out.println("Total estimated cost: "+ cost);
         }
