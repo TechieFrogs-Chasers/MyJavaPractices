@@ -12,7 +12,7 @@ public class Primenumber {
 
             }num=object.nextInt();
         }while(num<=0);
-         object.close(); //object closed 
+        object.close(); //object closed 
 
         for (i=2; i<num; i++)
         {
