@@ -7,8 +7,8 @@ public class Primenumber {
             System.out.println("enter the number ");
             while(!object.hasNextInt());             //here it checks weather the value is number or not 
             {
-                String s=object.next();
-                System.out.println(s+"this is not a number please enter a valid one ");
+                object.next();
+                System.out.println("this is not a number please enter a valid one ");
 
             }num=object.nextInt();
         }while(num<=0);
