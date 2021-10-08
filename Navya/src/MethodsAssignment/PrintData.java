@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
 class MainClass{
     int i;
     void printNum(int i){

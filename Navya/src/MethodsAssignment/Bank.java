@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
 class BankA{
     int getBalance(int a){
         System.out.println("BankA Balnce is "+a);

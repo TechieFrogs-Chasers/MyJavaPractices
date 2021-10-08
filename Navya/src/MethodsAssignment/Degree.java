@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
    public class Degree{
     void getDegree(){
         System.out.println("I got degree");

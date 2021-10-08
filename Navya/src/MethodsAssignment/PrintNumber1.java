@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
 
 public class PrintNumber1 {
     void printn(int i ,char c){

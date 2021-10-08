@@ -1,4 +1,4 @@
-package OopsPractices.InheritanceAssignment;
+package InheritanceAssignment;
 class Circles{
     private double radius;
     private String color;

@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
 
 public class RectangleAndSquare {
     public int areaOfRectangle( int l , int b){

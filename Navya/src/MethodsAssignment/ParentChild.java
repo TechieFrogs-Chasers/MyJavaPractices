@@ -1,4 +1,4 @@
-package OopsPractices.MethodsAssignment;
+package MethodsAssignment;
 class A{
     static void methodDispaly(){
         System.out.println("parent");
