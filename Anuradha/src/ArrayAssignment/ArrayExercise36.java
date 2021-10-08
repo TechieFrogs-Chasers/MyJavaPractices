@@ -1,4 +1,4 @@
-package src.ArrayAssignment;
+
 
 public class ArrayExercise36 {
 
