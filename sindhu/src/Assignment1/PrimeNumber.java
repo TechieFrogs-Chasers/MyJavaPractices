@@ -79,7 +79,7 @@ public class PrimeNumber {
             System.out.println("enter a number");
             while(!input.hasNextInt()){
                 String x = input.next();
-                System.out.println(x+"is not a valid number");
+                System.out.println(x+"please enter the positive number");
             }
             sc = input.nextInt();
         }while(sc<=0);
