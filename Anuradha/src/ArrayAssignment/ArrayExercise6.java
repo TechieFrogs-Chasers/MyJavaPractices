@@ -1,4 +1,3 @@
-package src.ArrayAssignment;
 
 import java.util.Scanner;
 
