@@ -1,5 +1,5 @@
-
-import java.util.Scanner;
+package Assignment2;
+import java.util.Scanner;       
 public class Area{
     Scanner sc = new Scanner (System.in);
         int l= sc.nextInt();
