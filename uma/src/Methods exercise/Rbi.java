@@ -2,10 +2,10 @@ public class Rbi {
      double interestRate;
      double minimumBlance;
      double withDrawalLimit;
-
+     double balance = 5000;
 
      double getInterestRate(){
-         return 10.0;
+         return 4.0;
      }
 
      double getwithDrawal(){
@@ -17,10 +17,6 @@ public class Rbi {
          return 10.0;
      }
 
-    
-     Rbi (double interestRate,double minimumBlance,double withDrawalLimit){
-
-     }
      Rbi(){
 
      }
@@ -33,18 +29,20 @@ class Customer{
     String address;
     int ssn;
 
-    void display(){
-        System.out.println("customer name: "+name +"and age is "+age);
+    void display(String name,int age,int ssn,String address){
+        System.out.println("customer name: "+name +"   and age is "+age);
         System.out.println("SSN number is  "+ssn);
         System.out.println("address is  "+address);
     }
 
 }
-class Account{
-    long accountNumber;
-    int balance;
 
-    void show(){
+class Account extends Rbi{
+    long accountNumber;
+    
+
+    void show(long accountNumber,double balance){
+         
         System.out.println("account number is  "+accountNumber);
         System.out.println("balance in the account is  "+balance);
     }
@@ -52,50 +50,88 @@ class Account{
 
 class Sbi extends Rbi{
 
-    Sbi(double interestRate,double minimumBlance,double withDrawalLimit){
+    Sbi(){
 
-        super(interestRate, minimumBlance, withDrawalLimit);
+        super();
     }
-    
+    double getInterestRate(){
+        return 4.0;
+    }
 
+    double getwithDrawal(){   
+     return 1000.0;
+    }
+
+    double getminmumBalance(){
+        return 2000.0;
+    }
 
 }
 class Icici extends Rbi{
     
-   Icici(double interestRate,double minimumBlance,double withDrawalLimit){
+   Icici(){
 
-    super(interestRate, minimumBlance, withDrawalLimit);
+    super();
    } 
+  
+    double getInterestRate(){
+       
+    return 5.0;
+    }
 
+    double getwithDrawal(){
 
+     return 1500.0;
+    }
 
+    double getminmumBalance(){
+     return 2500.0;
+    }
 
 }
 class Pnb extends Rbi{
    
-    Pnb(double interestRate,double minimumBlance,double withDrawalLimit){
+    Pnb(){
 
         super();
+    }
+    double getInterestRate(){
+       
+        return 6.0;
+    }
+
+    double getwithDrawal(){
+
+       return 500.0;
+    }
+
+    double getminmumBalance(){
+        return 3000.0;
     }
 
     public static void main(String[] args) {
 
         Customer objCustomer = new Customer();
-        objCustomer.display();
-
+        objCustomer.display("uma", 41, 3132313, "st.louis");
+    
         Account objAccount = new Account();
-        objAccount.show();
-        
-        Pnb obj = new Pnb(5/100, 1000, 500);
-        obj.getInterestRate();
+        objAccount.show(100000l,6000);
 
+        Rbi b = new Rbi();
+       
+         System.out.println("withdrawal limit in sbi is "+b.withDrawalLimit);
+         System.out.println("minimum balance for sbi is  "+b.getminmumBalance());
+         System.out.println("interest rate in sbi is  "+b.getInterestRate());
 
-        Icici obj1 = new Icici(5/100, 1500, 1000);
-         obj1.getminmumBalance();
-        System.out.println(obj1);
+       Rbi a = new Rbi();
+        System.out.println("withdrawal limit in icici is "+a.withDrawalLimit);
+        System.out.println("minimum balance for icici is  "+a.minimumBlance);
+        System.out.println("interest rate  for icici  "+a.getInterestRate());
 
-        Sbi objsSbi = new Sbi(6/100, 2000, 1500);
-        objsSbi.getwithDrawal();
+       
+        System.out.println("withdrawal limit in pnb is "+b.withDrawalLimit);
+        System.out.println("minimum balance for pnb is  "+b.minimumBlance);
+        System.out.println("interest rate in pnb is  "+b.getInterestRate());
 
     }
 

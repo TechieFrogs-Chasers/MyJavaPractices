@@ -1,3 +1,5 @@
+package method;
+
 public class Bank1{
 static int getBalance(int amount){
     System.out.println("The balance amount in Bank : " + amount) ;
