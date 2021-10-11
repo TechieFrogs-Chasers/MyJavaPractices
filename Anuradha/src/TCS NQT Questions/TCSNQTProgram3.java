@@ -22,11 +22,15 @@ public class TCSNQTProgram3 {
     else if(weight > 2000 && weight <= 4000)
         System.out.println("Time Estimated :35 minutes");
 
-    else if(weight > 4000 && weight <= 7000)
+    else if(weight > 4000 && weight < 7000)
         System.out.println("Time Estimated :45 minutes");
 
-    else 
+    else if(weight == 7000)
         System.out.println("OVER LOADED");
+
+    else{
+        System.out.println("INVALID INPUT");
+    }
 
     }
 }
