@@ -1,3 +1,5 @@
+package method;
+
 public class Integer_Char {
     public static void main(String[] args) {
         Integer_Char obj = new Integer_Char();

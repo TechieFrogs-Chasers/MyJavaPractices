@@ -1,3 +1,5 @@
+package method;
+
 import java.util.Scanner;
 public class MethodConstructor {
 public static void main(String[] args) {

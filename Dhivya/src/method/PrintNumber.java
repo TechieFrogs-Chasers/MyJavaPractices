@@ -1,3 +1,5 @@
+package method;
+
 public class PrintNumber {
     byte b;
     short s;

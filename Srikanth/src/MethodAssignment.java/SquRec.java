@@ -1,5 +1,3 @@
-//package MethodAssignment;
-
 public class SquRec {
     public void area(int s) {
         System.out.println("Area of square:" + (s * s));
