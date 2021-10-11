@@ -1,4 +1,4 @@
-package OopsPractices.OopsAssignment;
+package OopsAssignment;
 class Rectangle{
     int l,w,l1,w1;
   
