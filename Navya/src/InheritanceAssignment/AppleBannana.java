@@ -1,4 +1,4 @@
-package OopsPractices.InheritanceAssignment;
+package InheritanceAssignment;
 class Apple{
 int number_of_apples;
      Apple(){

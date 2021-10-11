@@ -1,4 +1,4 @@
-package OopsPractices.OopsAssignment;
+package OopsAssignment;
 
 import java.util.Scanner;
 

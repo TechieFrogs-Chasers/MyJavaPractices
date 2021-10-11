@@ -1,4 +1,4 @@
-package OopsPractices.InheritanceAssignment;
+package InheritanceAssignment;
 
  class ParentClass {
      private void parentDisplay(){

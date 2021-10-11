@@ -1,4 +1,4 @@
-package OopsPractices.InheritanceAssignment;
+package InheritanceAssignment;
 class PurchaseItem{
     private String name;
     private double unitprice;

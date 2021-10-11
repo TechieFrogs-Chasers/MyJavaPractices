@@ -1,4 +1,4 @@
-package OopsPractices.OopsAssignment;
+package OopsAssignment;
 
 public class AreaOfTriangle {
     int a = 3;
