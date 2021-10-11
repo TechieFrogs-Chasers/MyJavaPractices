@@ -10,7 +10,7 @@ public class TCSNQTProgram8 {
 
         int parentCommsion;
 
-        if(hasChild == 'N'){
+        if(hasChild == 'N' || hasChild == 'n' ){
            System.out.println("TOTAL MEMBERS:1");
         System.out.println("COMISSION DETAILS");
         parentCommsion = 500;
