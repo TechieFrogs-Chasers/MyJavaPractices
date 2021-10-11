@@ -1,3 +1,5 @@
+package sampleassignsments;
+
 import java.util.Scanner;
 
 public class Compute {
