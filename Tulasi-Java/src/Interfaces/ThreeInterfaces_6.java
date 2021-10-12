@@ -5,6 +5,8 @@ interface Interface1{
     void interface1Method1();
     void interface1Method2();
 
+    public interface Interfacepackage_3 {//Assignment-3
+    }
 }
 interface Interface2{
     void interface2Method1();
