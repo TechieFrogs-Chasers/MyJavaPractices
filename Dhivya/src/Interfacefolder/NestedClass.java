@@ -1,6 +1,5 @@
 package Interfacefolder;
 
-import jdk.internal.module.SystemModuleFinders;
 
 // The classes declared inside the interface must be only public or by deafult it is public.
 // we cannot have protected classes.
