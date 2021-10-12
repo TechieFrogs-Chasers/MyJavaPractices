@@ -20,9 +20,9 @@ public class PrimeNumber {
          } while (num<=0);
 
          if(num%2==0){
-         System.out.println(num+ "  is not a prime nuber");
+         System.out.println(num+ "  is not a prime number");
 
-         if( num==1)
+         if( num/2==1)
              System.out.println(num+ "  is not a prime number");
     
           }
