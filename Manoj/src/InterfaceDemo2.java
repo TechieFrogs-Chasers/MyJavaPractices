@@ -9,6 +9,7 @@ public class InterfaceDemo2 implements InterfaceDemo{
      public static void main (String...args){
          int i=30;
         InterfaceDemo2 obj=new InterfaceDemo2();
+        obj.defaultMethod(); //here we calling a default method 
         obj.display();
         obj.hello();
          System.out.println(InterfaceDemo.i);//we access static one by class name
