@@ -60,6 +60,7 @@ public class AbstractDemo {//Driver class
 
     public static void main(String[] args) {//Second main method
         Stores obj1 = new Stores();//Instance for subclass
+        int cost=155;
        /* Books obj = new Books() {//Instance for abstract class-anonymous way
             void numBooks() {//Implimentation of abstract method
                 System.out.println("Number of books!");

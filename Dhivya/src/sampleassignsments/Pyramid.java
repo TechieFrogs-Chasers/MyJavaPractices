@@ -1,3 +1,5 @@
+package sampleassignsments;
+
 public class Pyramid {
     public static void main(String[] args){
         for(int i=0;i<=5;i++){
@@ -7,5 +9,4 @@ public class Pyramid {
         System.out.println();
     }
 }
-    
 }
