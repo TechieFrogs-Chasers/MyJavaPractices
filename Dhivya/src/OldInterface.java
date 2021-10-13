@@ -12,7 +12,7 @@ public interface OldInterface {
             }
         }
         public static void main(String[] args) {
-            OldInterface.display(); //CAN'T ACCESS THE DEFAULT METHOD OF INTERFACE INSIDE THE SAME INTERFACE FILE.
+            //OldInterface.display(); //CAN'T ACCESS THE DEFAULT METHOD OF INTERFACE INSIDE THE SAME INTERFACE FILE.
             sampleStatic(); 
             //or 
             OldInterface.sampleStatic();     //bcz we cant create object for interface. that's why., but we can access static method
