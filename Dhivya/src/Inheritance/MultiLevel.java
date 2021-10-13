@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class MultiLevel {
     public static void main(String[] args) {
         Child obj = new Child();

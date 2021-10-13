@@ -3,7 +3,7 @@ package Interfacefolder;
 public interface DemoInterface {
     int a=10;
     String name ="Demo1";
-    int age = 25;
+    int age = 25; 
     float f = 6.14f;
     void display();
     void messege();
