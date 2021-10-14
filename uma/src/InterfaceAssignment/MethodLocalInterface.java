@@ -17,15 +17,14 @@ class Local {
     public MethodLocalInterface Outer(){   //method
 
         
-        
         class Inner implements MethodLocalInterface{  //method local class
 
-            
             public void property(){
 
             }
 
         }
+        System.out.println(Inner.a);
         return this.Outer();
 
     }
