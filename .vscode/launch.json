@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch printhalfpyramid",
+            "request": "launch",
+            "mainClass": "assignment1.printhalfpyramid",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch Parent",
             "request": "launch",
             "mainClass": "Interfaces.Parent",
