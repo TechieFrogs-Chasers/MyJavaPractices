@@ -23,17 +23,17 @@ static class Nested{        //static nested class
             /* non-static members can not access the static field */
         }
     
-static class DemoSubClass{   //another static nested class
+    static class DemoSubClass{   //another static nested class
         int count=12;
         String location="usa";
-      static  String colour="red";
+        static  String colour="red";
            private void product(){
                for(int i=0;i<=4;i++){
             System.out.println("enter product details:");
             System.out.println("enter no.of products:"+count);
             System.out.println("enter colour of the product:"+colour);
-            System.out.println("enter address:"+address);  //calling outer static neste class
-            System.out.println("print value of :"+i);
+            System.out.println("enter address:"+address);  //calling outer static nested class
+            System.out.println("print the value of i:"+i);
         }
     }
 }
