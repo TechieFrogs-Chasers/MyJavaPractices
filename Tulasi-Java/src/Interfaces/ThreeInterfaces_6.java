@@ -19,8 +19,8 @@ interface Interface3{
 
 }
 interface newInterface extends Interface1,Interface2,Interface3{
-    void newInterfaceMethod1();
-    void newInterfaceMethod2();
+    void newInterfaceMethod();
+
 }
 class classInterface implements newInterface{
     @Override
@@ -54,14 +54,11 @@ class classInterface implements newInterface{
     }
 
     @Override
-    public void newInterfaceMethod1() {
+    public void newInterfaceMethod() {
         System.out.println("newInterface- 1 and Method- 1");
     }
 
-    @Override
-    public void newInterfaceMethod2() {
-        System.out.println("newInterface- 1 and Method- 2");
-    }
+
 }
 public class ThreeInterfaces_6 {
     public static void main(String[] args) {
@@ -73,8 +70,8 @@ public class ThreeInterfaces_6 {
     interfaceObj.interface2Method2();
     interfaceObj.interface3Method1();
     interfaceObj.interface3Method2();
-    interfaceObj.newInterfaceMethod1();
-    interfaceObj.newInterfaceMethod2();
+    interfaceObj.newInterfaceMethod();
+
 
     }
 }

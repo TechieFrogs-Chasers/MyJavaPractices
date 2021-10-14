@@ -1,3 +1,4 @@
+//package MethodAssignment;
 public class Bank {
     public static void main(String[] args) {
         BankA A = new BankA();
