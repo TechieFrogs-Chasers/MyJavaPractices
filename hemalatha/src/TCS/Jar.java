@@ -4,24 +4,28 @@ import java.util.Scanner;
 public class Jar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int k,N=10;
+        System.out.println("enter no.of candies");
+        int num=sc.nextInt();
+        int N=10;
+        int k=5;
+        if(num>=1 && num<=k){
+            int remainingcandies = N-num;
+            System.out.println("number of candies:"+num);
+            System.out.println("number candies avilable in jar:"+remainingcandies);
+            
+        }
+        else {
+            System.out.println("INVALID OUTPUT");
+            System.out.println("number of candies left in jar:"+N);
+        }
+        sc.close();
     
-        //System.out.println("enter the no.of candies:");
-            for(int i=1;i<=N;++i){
-            System.out.println("enter the no.of candies:"+N);
-            //System.out.println("enter number of candies sold:"+i);
-            //for(int k=1;k<=i;k++){
-                //System.out.println("enter remaining candies in jar:"+k);
-                k = N - i;
-                System.out.println("enter number of candies sold:"+i);
-                System.out.println("remaining candies in jar:"+k);
-
-                sc.close();
+       
                 
 
             }
         }
-    }
+    
     
         
         
