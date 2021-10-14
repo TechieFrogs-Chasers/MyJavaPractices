@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Assign4$StaticFinal",
             "request": "launch",
             "mainClass": "Interfaces.Assign4$StaticFinal",
@@ -24,6 +25,12 @@
             "request": "launch",
             "mainClass": "TCS.Menu9",
             "projectName": "MyJavaPractices_2bc4cb1d"
+=======
+            "name": "Launch printhalfpyramid",
+            "request": "launch",
+            "mainClass": "assignment1.printhalfpyramid",
+            "projectName": "MyJavaPractices_8cf5baa5"
+>>>>>>> e0d6af2d758808e50ef283a37453639f07b4444f
         },
         {
             "type": "java",

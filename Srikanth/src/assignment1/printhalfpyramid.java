@@ -1,3 +1,5 @@
+package assignment1;
+
 public class printhalfpyramid {
 
     // Function to demonstrate printing pattern

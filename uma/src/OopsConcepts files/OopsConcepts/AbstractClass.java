@@ -84,8 +84,11 @@ class NonAbstract extends AbstractClass{
     public static void main(String[] args) {
         
 
-        NonAbstract objNonAbstract = new NonAbstract();
+        NonAbstract objNonAbstract = new NonAbstract(); //one way of calling abstract class methods
         objNonAbstract.display(10, "ram");
+
+        AbstractClass obj = new NonAbstract();     //second way 
+        obj.display(10, "uma");
         
     }
 }

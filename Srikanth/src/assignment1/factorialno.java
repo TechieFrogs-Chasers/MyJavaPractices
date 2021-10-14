@@ -1,3 +1,4 @@
+package assignment1;
 
 //Java Program to find the Factorial of a Number
 import java.util.*;
