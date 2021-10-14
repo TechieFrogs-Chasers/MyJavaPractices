@@ -24,13 +24,14 @@ public class Menu9{
                 break;
             }
             break;
+        }
             switch(ch){
                 case 'T':
                 System.out.println("welcome to CCD");
                 System.out.println("select your choice from sub menu:");
                 System.out.println("1.Plain Tea"+" "+"2.Assam Tea"+" "+"3.Ginger Tea"+" "+"4.Caradamom Tea"+" "+"5.Masala Tea"+" "+"6.Lemon Tea");
                 int sub1=sc.nextInt();
-                switch(sub){
+                switch(sub1){
                     case 1:System.out.println("enjoy your Plain Tea");
                     break;
                     case 2:System.out.println("enjoy your Assam Tea");
@@ -45,13 +46,14 @@ public class Menu9{
                     break;
                 }
                 break;
+            }
                 switch(ch){
                     case 'S':
                     System.out.println("welcome to CCD:");
                     System.out.println("select your choice from submenu");
                     System.out.println("1.Hot and Sour Soup"+" "+"2.Veg Corn Soup"+" "+"3.Tomato Soup"+" "+"4.Spicy Tomato Soup");
                     int sub2 = sc.nextInt();
-                    switch(sub){
+                    switch(sub2){
                         case 1:System.out.println("enjoy your Hot and Sour soup");
                         break;
                         case 2:System.out.println("enjoy your Veg Corn Soup");
@@ -63,13 +65,14 @@ public class Menu9{
                         break;
                     }
                     break;
+                }
                     switch(ch){
                         case 'B':
                         System.out.println("welcome to CCD:");
                         System.out.println("select your choice from submenu:");
                         System.out.println("1.Hot Choclate Drink"+" "+"2.Badam Drink"+" "+"3.Badam-Pista Drink");
                         int sub3 = sc.nextInt();
-                        switch(sub){
+                        switch(sub3){
                             case 1:System.out.println("enjoy your Hot Badam Drink");
                             break;
                             case 2:System.out.println("enjoy your Badam Drink");
@@ -78,19 +81,24 @@ public class Menu9{
                             break;
                         }
                         break;
+                    }
+                    sc.close();
                             
                 
                         
-                    }
+                    
                 }
+            }
                 
         
 
-                }
+                
 
 
-            }
-            }
+        
+            
 
-        }
-    }
+        
+    
+    
+    

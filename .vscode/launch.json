@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assign4$StaticFinal",
+            "request": "launch",
+            "mainClass": "Interfaces.Assign4$StaticFinal",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "Interfaces.Square",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Menu9",
+            "request": "launch",
+            "mainClass": "TCS.Menu9",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
             "name": "Launch Parent",
             "request": "launch",
             "mainClass": "Interfaces.Parent",
