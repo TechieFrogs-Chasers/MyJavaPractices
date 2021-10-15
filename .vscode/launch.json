@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Rbi",
+            "request": "launch",
+            "mainClass": "Rbi",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent",
+            "request": "launch",
+            "mainClass": "Parent",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch printhalfpyramid",
             "request": "launch",
             "mainClass": "assignment1.printhalfpyramid",
