@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 /* create class and implementing interface */
 
  interface Fruits {

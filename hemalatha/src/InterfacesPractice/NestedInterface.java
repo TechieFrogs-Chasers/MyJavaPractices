@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 /* nested interafces in class */
 
 interface NestedInterface {

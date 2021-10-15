@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 /* multiple inheritence using interface */
 
 interface Person {

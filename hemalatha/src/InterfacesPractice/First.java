@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 
 public interface First {
     int k=4;

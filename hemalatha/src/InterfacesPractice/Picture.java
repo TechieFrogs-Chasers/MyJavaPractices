@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 
 public interface Picture {
     int i = 6;

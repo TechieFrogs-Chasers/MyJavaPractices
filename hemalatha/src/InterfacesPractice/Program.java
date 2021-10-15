@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 /* default method in interface */
 
  interface Program {

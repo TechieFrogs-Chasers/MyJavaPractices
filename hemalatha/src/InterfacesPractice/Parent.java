@@ -1,4 +1,4 @@
-package Interfaces;
+package InterfacesPractice;
 
     public class Parent {
     interface A{
@@ -10,7 +10,7 @@ package Interfaces;
             }
         }
         
-            private class Child1 implements A{
+            private class Son implements A{
                 public void msg(){
                     System.out.println("enter another class");
                 }

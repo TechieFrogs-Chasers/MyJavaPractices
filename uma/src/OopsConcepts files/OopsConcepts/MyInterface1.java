@@ -37,7 +37,7 @@ interface Interface2{
 
    // }
 
-   //default void hello(int i){ // allows duplicate default methods in own interface but not allowed in the imp,emented class
+   //default void hello(int i){ // allows duplicate default methods in own interface but not allowed in the implemented class
 
    //}
   // default void hello(){  //duplicate method not allowed
@@ -80,12 +80,13 @@ interface Son extends MyInterface1,Interface2,Interface3,Interface{   //  multip
     }
 
 }
-     //interface Son10  implements MyInterface1,Interface2{   //    error "permits expected"
+     //interface Son10  implements MyInterface1,Interface2{   //error "permits expected",interface can not implement another interface
+    
+     //interface can only extend  interfaces
 
 
 
-
-  class Democlass implements Son{
+    class Democlass implements Son{
 
      public void hello(){
 
@@ -107,6 +108,7 @@ interface Son extends MyInterface1,Interface2,Interface3,Interface{   //  multip
   }
 
  // interface with single abstract method is called functional interface
+ // interface with no fields or methods is called tag/ marker interface
  
 interface Single{
     void one();

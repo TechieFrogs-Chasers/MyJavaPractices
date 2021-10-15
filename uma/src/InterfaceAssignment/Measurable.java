@@ -18,23 +18,6 @@ class Employee implements Measurable{
 }
 
 
-class All implements AllPublic{
 
-    @Override
-    public void ownpack1() {
-       
-        
-    }
-
-    @Override
-    public void ownpack2() {
-       
-        
-    }
-
-    @Override
-    public void ownpack3() {
-      
-    }
     
-}
+

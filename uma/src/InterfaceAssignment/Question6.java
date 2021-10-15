@@ -1,4 +1,4 @@
-public interface Question6 extends one,two,three {
+public interface Question6 extends one {
 
     void method();
     
@@ -21,52 +21,60 @@ interface three{
     void three_method2();
 
 }
-class Question1 extends Question2 implements Question6{
 
-    @Override
+class Question2{
+    
+
+}
+
+class Question1  extends Question2 implements Question6{
+
     public void one_method1() {
+           
+    }
+    public void one_method2(){ 
         
     }
-
-    @Override
-    public void one_method2() {
-        
+    public void method() {
+       
     }
 
-    @Override
-    public void two_method1() {
-        
+
+    //Question1(Question6 i){   //constructor with interfcae as datatype (instead of int i --interface i)
+
+    //}
+
+    public static void accept(one obj){
+
+       obj.one_method1();
     }
 
-    @Override
-    public void two_method2() {
+     public static void main(String[] args) {
+
+        Question1 objQuestion1 = new Question1();
+        
+        objQuestion1.one_method2();
+
+
+
+
+        Question1.accept(new one(){   //interface acts as anonymous inner class
+
+            public void one_method1() {
+        
+            }
+            public void one_method2() {
+   
+            }
+            
+        });
        
         
-    }
+    }  
+       
+    
 
-    @Override
-    public void three_method1() {
-        
-        
-    }
 
-    @Override
-    public void three_method2() {
-        
-        
-    }
-
-    @Override
-    public void method() {
-        
-    }
-    static void over(interface one){
-        
-    }
-
-}
-class Question2{
-    public static void main(String[] args) {
-        
-    }
-}
+    
+    
+}    
