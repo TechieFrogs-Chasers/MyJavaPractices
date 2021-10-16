@@ -1,3 +1,5 @@
+package assignment1;
+
 import java.io.*;
 
 public class addbuffer {
