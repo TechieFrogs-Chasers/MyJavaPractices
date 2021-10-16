@@ -4,9 +4,9 @@ public class Interface_marketing implements InterfaceTest {
 
     public static final float value = (float) 5.3;
 
-    public void valuemethod() {
+    final public void valuemethod() {
         System.out.println("ValueMethod");
-    }
+    }//final method
 
     @Override
     public int privateMethod() {
@@ -22,22 +22,29 @@ public class Interface_marketing implements InterfaceTest {
         System.out.println("Method2");
     }
 
-    interface forMethod {
+    interface forMethod {//interface with private method
+
         private void forMethod() {
             System.out.println("Private formethod");
         }
 
     }
 
-    public static class Interface_sales extends Interface_marketing implements forMethod {
+    interface tagging {//interface with no methods
+
+    }
+    // interface tagging{}duplicate interface not allowed
+
+
+    public static class Interface_sales extends Interface_marketing implements forMethod, tagging {
         void method() {
             System.out.println("Method");
         }
 
-        @Override
-        public void valuemethod() {//methods to Implement
-            super.valuemethod();
-        }
+        // @Override
+        // public void valuemethod() {//methods to Implement-given final in method ,so we cant override
+        //     super.valuemethod();
+        // }
 
         @Override
         void method2() {

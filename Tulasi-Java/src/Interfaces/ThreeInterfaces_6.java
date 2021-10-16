@@ -1,76 +1,118 @@
 package Interfaces;
 
 
-interface Interface1{
-    void interface1Method1();
-    void interface1Method2();
+interface Elementary {//parent interface
 
-    public interface Interfacepackage_3 {//Assignment-3
-    }
-}
-interface Interface2{
-    void interface2Method1();
-    void interface2Method2();
+    void firstYr1();
+
+    void lastYr1();
 
 }
-interface Interface3{
-    void interface3Method1();
-    void interface3Method2();
 
+interface MiddleSchool {
+    void firstYr2();
+
+    void lastYr2();
 }
-interface newInterface extends Interface1,Interface2,Interface3{
-    void newInterfaceMethod();
 
+interface HighSchool {
+    void firstYr3();
+
+    void lastYr3();
 }
-class classInterface implements newInterface{
-    @Override
-    public void interface1Method1() {
-        System.out.println("Interface- 1 and Method- 1");
-    }
 
-    @Override
-    public void interface1Method2() {
-        System.out.println("Interface- 1 and Method- 2");
-    }
+interface County extends Elementary, MiddleSchool, HighSchool {//child interface
 
-    @Override
-    public void interface2Method1() {
-        System.out.println("Interface- 2 and Method- 1");
-    }
+    void schoolEducation();
 
-    @Override
-    public void interface2Method2() {
-        System.out.println("Interface- 2 and Method- 2");
-    }
-
-    @Override
-    public void interface3Method1() {
-        System.out.println("Interface- 3 and Method- 1");
-    }
-
-    @Override
-    public void interface3Method2() {
-        System.out.println("Interface- 3 and Method- 2");
-    }
-
-    @Override
-    public void newInterfaceMethod() {
-        System.out.println("newInterface- 1 and Method- 1");
-    }
+    void collegeEduction();
 
 
 }
-public class ThreeInterfaces_6 {
+
+
+class Country {//parent class
+
+    void diplay() {
+        System.out.println("display");
+    }
+}
+
+
+public class ThreeInterfaces_6 extends Country implements County {//child class
+
+
+    @Override
+    public void firstYr1() {
+
+    }
+
+    @Override
+    public void lastYr1() {
+        System.out.println("Grade-5");
+    }
+
+    @Override
+    public void firstYr2() {
+        System.out.println("Grade-6");
+    }
+
+    @Override
+    public void lastYr2() {
+        System.out.println("Grade-8");
+    }
+
+    @Override
+    public void firstYr3() {
+        System.out.println("Grade-9");
+    }
+
+    @Override
+    public void lastYr3() {
+        System.out.println("Grade-12");
+    }
+
+    @Override
+    public void schoolEducation() {
+        System.out.println("Grade-k-8");
+    }
+
+    @Override
+    public void collegeEduction() {
+
+    }
+
+
+    void ele(Elementary E) {
+        System.out.println("ElementrySchool");
+        E.firstYr1();
+        E.lastYr1();
+    }
+
+    void mid(MiddleSchool M) {
+        System.out.println("MiddleSchool");
+        M.firstYr2();
+        M.lastYr2();
+    }
+
+    void Hig(HighSchool H) {
+        System.out.println("HighSchool");
+        H.firstYr3();
+        H.lastYr3();
+    }
+
+    void sch(County C) {
+        System.out.println("School");
+        C.schoolEducation();
+        C.collegeEduction();
+    }
+
     public static void main(String[] args) {
-
-    classInterface interfaceObj=new classInterface();
-    interfaceObj.interface1Method1();
-    interfaceObj.interface1Method2();
-    interfaceObj.interface2Method1();
-    interfaceObj.interface2Method2();
-    interfaceObj.interface3Method1();
-    interfaceObj.interface3Method2();
-    interfaceObj.newInterfaceMethod();
+        ThreeInterfaces_6 obj = new ThreeInterfaces_6();
+        obj.ele(obj);
+        obj.Hig(obj);
+        obj.mid(obj);
+        obj.sch(obj);
 
 
     }
