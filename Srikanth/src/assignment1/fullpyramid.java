@@ -1,3 +1,5 @@
+package assignment1;
+
 public class fullpyramid {
     // Function to demonstrate printing pattern
     public static void printTriagle(int n) {
