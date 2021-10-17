@@ -5,7 +5,8 @@ interface InterfaceTest {//Interface is a blue print of a class
 
 
     void valuemethod();//public abstract void valuemethod();//functional interface
-     int privateMethod();//object class method
+
+    int privateMethod();//object class method
 
     private String data() {
         return null;
@@ -16,6 +17,7 @@ interface InterfaceTest {//Interface is a blue print of a class
     public static void main(String[] args) {
 
     }
+
     default void defaultMethod() {//default method uses from Java 8
         System.out.println("Interface Default Method");
     }
@@ -27,15 +29,19 @@ interface InterfaceTest {//Interface is a blue print of a class
     static void sameName() {
         System.out.println("Static method");
     }
+abstract class abstractInInterface{//abstract class
+      abstract  void abstractMethod();
 
-    class OverrideMethod implements InterfaceTest,Interface1{//Overriding the default method ,when we extending other interfacen in own interface.
+}
+    class OverrideMethod implements InterfaceTest, Interface1 {//Overriding the default method ,when we extending other interfacen in own interface.
+
         @Override
         public void valuemethod() {
 
         }
 
         @Override
-      public int privateMethod() {
+        public int privateMethod() {
             return 0;
         }
 
@@ -61,9 +67,13 @@ interface Interface1 {//Interface1
     default void sameName() {
         System.out.println("Default method");
     }
-   /* static void sameName(){
-        System.out.println("Static method");
-    }*/
+
+    /* static void sameName(){//if method has same name was not allowed
+         System.out.println("Static method");
+     }*/
+    static void sameName(int a) {//if method has same name and had parameters
+        System.out.println("int a=10");
+    }
 }
 
 interface Interface2 {//Interface2
