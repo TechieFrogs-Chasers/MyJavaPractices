@@ -7,6 +7,22 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "Launch Rbi",
+            "request": "launch",
+            "mainClass": "Rbi",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent",
+            "request": "launch",
+            "mainClass": "Parent",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+=======
+<<<<<<< HEAD
             "name": "Launch Assign4$StaticFinal",
             "request": "launch",
             "mainClass": "Interfaces.Assign4$StaticFinal",
@@ -26,6 +42,7 @@
             "mainClass": "TCS.Menu9",
             "projectName": "MyJavaPractices_2bc4cb1d"
 =======
+>>>>>>> ec1e841c3af47edd7a11cb115748f6f07f321a66
             "name": "Launch printhalfpyramid",
             "request": "launch",
             "mainClass": "assignment1.printhalfpyramid",
