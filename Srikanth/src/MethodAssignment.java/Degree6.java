@@ -23,7 +23,7 @@ class Postgraduate extends Degree3 {
     }
 }
 
-public class Degree {
+public class Degree6 {
     public static void main(String[] args) {
         Degree3 obj = new Degree3();
         Undergraduate obj1 = new Undergraduate();
