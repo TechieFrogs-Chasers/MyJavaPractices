@@ -3,7 +3,20 @@ package Practices;//Package
 interface InterfaceTest {//Interface is a blue print of a class
     int num = 200;//public static final int num=200;
 
-    void valuemethod();//public abstract void valuemethod();
+
+    void valuemethod();//public abstract void valuemethod();//functional interface
+
+    int privateMethod();//object class method
+
+    private String data() {
+        return null;
+    }
+
+    boolean equals();//functional interface method
+
+    public static void main(String[] args) {
+
+    }
 
     default void defaultMethod() {//default method uses from Java 8
         System.out.println("Interface Default Method");
@@ -15,6 +28,32 @@ interface InterfaceTest {//Interface is a blue print of a class
 
     static void sameName() {
         System.out.println("Static method");
+    }
+abstract class abstractInInterface{//abstract class
+      abstract  void abstractMethod();
+
+}
+    class OverrideMethod implements InterfaceTest, Interface1 {//Overriding the default method ,when we extending other interfacen in own interface.
+
+        @Override
+        public void valuemethod() {
+
+        }
+
+        @Override
+        public int privateMethod() {
+            return 0;
+        }
+
+        @Override
+        public boolean equals() {
+            return false;
+        }
+
+        @Override
+        public void defaultMethod() {
+            InterfaceTest.super.defaultMethod();
+        }
     }
 }
 
@@ -28,9 +67,13 @@ interface Interface1 {//Interface1
     default void sameName() {
         System.out.println("Default method");
     }
-   /* static void sameName(){
-        System.out.println("Static method");
-    }*/
+
+    /* static void sameName(){//if method has same name was not allowed
+         System.out.println("Static method");
+     }*/
+    static void sameName(int a) {//if method has same name and had parameters
+        System.out.println("int a=10");
+    }
 }
 
 interface Interface2 {//Interface2
@@ -51,6 +94,16 @@ class InterfaceDemo implements InterfaceTest, Interface1, Interface2 {//Interfac
     @Override
     public void valuemethod() {
         System.out.println(num);
+    }
+
+    @Override
+    public int privateMethod() {
+        return 0;
+    }
+
+    @Override
+    public boolean equals() {
+        return false;
     }
 
     @Override
@@ -105,6 +158,7 @@ class InterfaceDemo implements InterfaceTest, Interface1, Interface2 {//Interfac
         obj1.defaultMethod();
         obj1.sameName();//call sameName default method
         //obj4.innerImplementationMethod();
+
     }
 
 }
