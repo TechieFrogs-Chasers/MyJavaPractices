@@ -20,10 +20,11 @@ public class StringDemo2 {
 
         String s7="Dog";
         String s8="cat";
+        String s9="1at";
         //here in asci code captial  letters have lesser values than lower case letters
         System.out.println(s7.compareTo(s8)); //here it gives we get negative value.
-
-
+        System.out.println(s8.compareTo(s9)); //number values are lesser than lower case letters so that it gives you positive value
+        
 
 
     
