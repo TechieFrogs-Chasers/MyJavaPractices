@@ -13,7 +13,7 @@ class Apple {
 
     }
 
-    static class EncapsulationApple {
+    final static class EncapsulationApple {
 
         private String productName;
 
