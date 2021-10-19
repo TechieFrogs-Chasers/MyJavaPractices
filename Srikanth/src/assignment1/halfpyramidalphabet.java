@@ -1,3 +1,5 @@
+package assignment1;
+
 public class halfpyramidalphabet {
     public static void main(String[] args) {
         char last = 'E', alphabet = 'A';

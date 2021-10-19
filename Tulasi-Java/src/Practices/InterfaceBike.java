@@ -15,7 +15,7 @@ interface Bike {//Interface
 
             void twoTires() {//method in nested class
                 System.out.println("No.of tires");
-                interface CostOfTires {//Interface in nested class method----In interface there should not have local classes.And local members can't be static.
+                interface CostOfTires {//Interface in nested class method----In interface there should not have method local inner classes.And local members can't be static.
 
                     public static void main(String[] args) {//Main method in interface
                         twoWheeler objTwoWheeler = new twoWheeler();

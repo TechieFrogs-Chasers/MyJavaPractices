@@ -1,3 +1,5 @@
+package assignment1;
+
 public class halfpyramidno {
     public static void main(String[] args) {
         int rows = 5;

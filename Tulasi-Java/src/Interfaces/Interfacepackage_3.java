@@ -10,8 +10,7 @@ interface Interfacepackage_3 {
     void method3();
 
 }
-
-class Interfacepackage implements Interface1.Interfacepackage_3 {//Assignment -6
+class Interfacepackage implements Interfacepackage_3 {//Assignment -6
 
     public void method1() {
         System.out.println("Method-1");

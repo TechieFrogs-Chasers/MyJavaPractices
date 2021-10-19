@@ -1,3 +1,4 @@
+
 package Interfacefolder;
 
 import Interfacefolder.NestedClass.ClassinsideInterface;

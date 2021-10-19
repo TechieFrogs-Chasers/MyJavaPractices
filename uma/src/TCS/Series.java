@@ -1,31 +1,10 @@
-public class Series {
-
-    
-
-
+public class Series{
     public static void main(String[] args) {
-        int X = 16;
-        findTerm(X);
-         
-       
-    }
+        int n=15;
+        //int a=0;
 
-    static  void findTerm(int n){
-     
-        if(n%2==0){
+        for(int i = 0; i<=n; i++){
 
-            n = n / 2;
-            n = 2 * (n - 1);
-            System.out.println(n / 2);
-            
         }
-        else{
-    
-        n = (n / 2) + 1;
-        n = 2 * (n - 1);
-        System.out.println(n);
-        }
-
     }
-    
 }
