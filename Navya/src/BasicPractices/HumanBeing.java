@@ -1,10 +1,10 @@
 package BasicPractices;
-import java.lang.ProcessBuilder.Redirect.Type;
+//import java.lang.ProcessBuilder.Redirect.Type;
 
 public class HumanBeing {
     public static void main(String[] args) {
         
-    int id = 10;
+  //  int id = 10;
     String nature = "kind";
 
     String behaviour = "good";

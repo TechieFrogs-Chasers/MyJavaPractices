@@ -14,6 +14,7 @@
                 }
                 rows = myScannerObj.nextInt();
             }while(rows <= 0);
+            myScannerObj.close();
                 int number=1;  
             for(int i = 0; i < rows; i++) {  
                 for(int space = i; space < rows ; ++space) {  
