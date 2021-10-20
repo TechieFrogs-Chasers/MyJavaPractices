@@ -11,6 +11,10 @@ package OopsPractices;
 AbstractPractices(){
 System.out.println("it is a constructor");
 }
+AbstractPractices(int a){
+System.out.println(a);
+}
+
  }
  abstract class SubClass extends AbstractPractices{
 
@@ -24,6 +28,9 @@ System.out.println("it is a constructor");
     void method() {
         // TODO Auto-generated method stub
         
+    }
+    SubClass(){
+        super(3);
     }
 
  }

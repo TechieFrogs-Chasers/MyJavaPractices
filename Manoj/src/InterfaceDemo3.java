@@ -49,7 +49,7 @@ interface B extends A{  //here we  use extends keyword
         System.out.println("implements meth4()");
         
 
-      /* interface C{  
+      /* interface C{   //java doesnt support method inner interface 
            void meth5();
         }
         C obj2=new C();
