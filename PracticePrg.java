@@ -527,6 +527,8 @@ do{
             PracticePrg y = new PracticePrg();
             y.display();
             y.find(n1,n2);
+
+            input.close();
         }
         
 

@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringBuff",
+            "request": "launch",
+            "mainClass": "StringBuff",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethods",
+            "request": "launch",
+            "mainClass": "StringMethods",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encaps",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Encaps",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Test",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPractice",
+            "request": "launch",
+            "mainClass": "OopsConcepts.StringPractice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPracice",
+            "request": "launch",
+            "mainClass": "OopsConcepts.StringPracice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch showRoom",
+            "request": "launch",
+            "mainClass": "OopsConcepts.showRoom",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dealer",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Dealer",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch concrete",
+            "request": "launch",
+            "mainClass": "concrete",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Again",
+            "request": "launch",
+            "mainClass": "Again",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "Cat",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodeGym",
+            "request": "launch",
+            "mainClass": "CodeGym",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Int",
+            "request": "launch",
+            "mainClass": "Int",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Percentage",
+            "request": "launch",
+            "mainClass": "Percentage",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marks",
+            "request": "launch",
+            "mainClass": "Marks",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bank",
+            "request": "launch",
+            "mainClass": "Bank",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent",
+            "request": "launch",
+            "mainClass": "Parent",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch printhalfpyramid",
             "request": "launch",
             "mainClass": "assignment1.printhalfpyramid",

@@ -7,7 +7,7 @@ public class Capsule1{
      static int stat;
      private String name;
      private int empid;
-     final int access =25;   // only get, no setter for final int will be generated
+     final int access =25;   // only getter, no setter for final int will be generated
 
 
      public static void main(String[] args) {
