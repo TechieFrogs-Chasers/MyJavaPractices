@@ -1,3 +1,5 @@
+package assignment1;
+
 public class reversepyramid {
     public static void main(String[] args) {
         int rows = 6; // Number of Rows we want to print

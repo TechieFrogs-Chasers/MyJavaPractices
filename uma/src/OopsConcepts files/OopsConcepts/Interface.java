@@ -5,7 +5,7 @@ public interface Interface {
 
     int i=10;    //variables are public static final by default
 
-    void display();    //in interface, methods are abstract by default
+    void display();    //in interface, methods are  public and abstract by default
    
     public static void main(String[] args) {
         

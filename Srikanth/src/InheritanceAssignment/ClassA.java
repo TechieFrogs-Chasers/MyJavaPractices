@@ -1,4 +1,4 @@
-package InheritanceAssignment;
+//package InheritanceAssignment;
 
 public class ClassA {
     int i;

@@ -8,7 +8,7 @@ interface StaticAndFinal {
 }
 class Implicitly implements StaticAndFinal{
     private int value=88;
-    protected byte vlaue1=4;
+    protected byte value1=4;
 
     public int getValue() {
         return value;
@@ -18,19 +18,19 @@ class Implicitly implements StaticAndFinal{
         this.value = value;
     }
 
-    public byte getVlaue1() {
-        return vlaue1;
+    public byte getValue1() {
+        return value1;
     }
 
-    public void setVlaue1(byte vlaue1) {
-        this.vlaue1 = vlaue1;
+    public void setValue1(byte vlaue1) {
+        this.value1 = vlaue1;
     }
 }
 public class ImplicitlyStaticAndFinal_4{
     public static void main(String[] args) {
         Implicitly obj=new Implicitly();
         System.out.println(obj.num+","+obj.num2+","+obj.charletter+ " ,"+obj.num3);
-        System.out.println(obj.getValue()+ " ,"+ obj.getVlaue1());
+        System.out.println(obj.getValue()+ " ,"+ obj.getValue1());
 
     }
 }
