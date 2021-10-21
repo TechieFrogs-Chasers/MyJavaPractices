@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Question15",
+            "request": "launch",
+            "mainClass": "Question15",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question16",
+            "request": "launch",
+            "mainClass": "Question16",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question7",
+            "request": "launch",
+            "mainClass": "Question7",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question_6",
+            "request": "launch",
+            "mainClass": "Question_6",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question6",
+            "request": "launch",
+            "mainClass": "Question6",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question5",
+            "request": "launch",
+            "mainClass": "Question5",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch StringDoubts",
             "request": "launch",
             "mainClass": "StringDoubts",
