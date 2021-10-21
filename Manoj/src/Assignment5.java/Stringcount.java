@@ -1,4 +1,4 @@
-//package Assignment5.java;
+package Assignment5.java;
 
 public class Stringcount {
     public static void main(String...args){
