@@ -16,7 +16,7 @@ public class StringDemo2 {
         String s5="cat";
         String s6="catmeow";
         //here first three letter are same and 2nd word have extra four letters 
-        System.out.println(s5.compareTo(s6)); 
+        System.out.println(s6.compareTo(s5)); 
 
         String s7="Dog";
         String s8="cat";
