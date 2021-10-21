@@ -19,6 +19,22 @@ public class StringDemo1 {
 
      System.out.println(s1==s2);//here it checks the values and with references of storage locations
 
+     System.out.println(s1.endsWith(" "));// here endswith checks the given string is particular letter 
+     
+     String str1=String.format("%d",99); //integer 
+     String str2=String.format("%s","manoj"); //string
+     String str3=String.format("%f", 45.00); //float 
+     String str4=String.format("%c",'M'); //char value
+     
+     System.out.println(str1);
+     System.out.println(str2);
+     System.out.println(str3);
+     System.out.println(str4);
+     System.out.println(String.format("%s",s1)); 
+    
+     
+
+
     }
     
 }
