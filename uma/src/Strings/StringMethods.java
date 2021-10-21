@@ -17,7 +17,7 @@ public class StringMethods {
   String str1= "lavu ramkumar";
 
  //System.out.println(str.charAt(1));
- //System.out.println(str1.codePointAt(1));
+ System.out.println(str1.codePointAt(1));
  //System.out.println(name1.codePointAt(3));
  System.out.println(s);
  //System.out.println(str.substring(4, 9));

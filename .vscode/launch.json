@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringDoubts",
+            "request": "launch",
+            "mainClass": "StringDoubts",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringCapacity",
+            "request": "launch",
+            "mainClass": "StringCapacity",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch StringBuff",
             "request": "launch",
             "mainClass": "StringBuff",

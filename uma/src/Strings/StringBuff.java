@@ -17,9 +17,19 @@ public class StringBuff {
 
         
 
-        StringBuffer buff2 = new StringBuffer(100);
+        StringBuffer buff2 = new StringBuffer("hello everyone");
+
+
+        buff2.append(true);
+        buff2.appendCodePoint(10);
+
+        buff2.charAt(5);
+        buff2.delete(7,8);//starting from the given number ,deletes the difference(8-7=1) ,,one character
 
         System.out.println(buff2);
+        
     }
     
 }
+
+
