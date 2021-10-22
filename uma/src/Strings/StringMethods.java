@@ -1,3 +1,5 @@
+
+
 public class StringMethods {
 
     static String name = "lavu";
@@ -13,11 +15,11 @@ public class StringMethods {
   // String s = lastname + name; // can not add one static and one non static
   String s = firstName + lastName;
 
-  String str = "    uma devi";
+  String str = "uma devi";
   String str1= "lavu ramkumar";
 
- //System.out.println(str.charAt(1));
- System.out.println(str1.codePointAt(1));
+ System.out.println(str.charAt(1));  // m 
+ System.out.println(str1.codePointAt(1)); // ascii code at the point (1 )is "a" and its value is 97
  //System.out.println(name1.codePointAt(3));
  System.out.println(s);
  //System.out.println(str.substring(4, 9));
@@ -34,12 +36,13 @@ public class StringMethods {
  System.out.println(s.compareTo(str));
  System.out.println(s.equalsIgnoreCase(str1));
  System.out.println(s.indexOf('v', 3));
- System.out.println(s.isBlank());
- System.out.println(s.lastIndexOf(str));
+ System.out.println(s.isBlank()); //false
+ System.out.println(s.lastIndexOf(""));// prints 12
  System.out.println(str.replace("uma", "ram"));
  System.out.println(str.strip()); //removes before and after spaces
  System.out.println(s.repeat(2)); //repeats the string value 2 times
  System.out.println(s.matches(str));
+ System.out.println(s.toCharArray());
 
 
 

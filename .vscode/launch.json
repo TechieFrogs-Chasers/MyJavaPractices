@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Question31",
+            "request": "launch",
+            "mainClass": "Question31",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question44",
+            "request": "launch",
+            "mainClass": "Question44",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question39",
+            "request": "launch",
+            "mainClass": "Question39",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question36",
+            "request": "launch",
+            "mainClass": "Question36",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question32",
+            "request": "launch",
+            "mainClass": "Question32",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question30",
+            "request": "launch",
+            "mainClass": "Question30",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question22",
+            "request": "launch",
+            "mainClass": "Question22",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question18",
+            "request": "launch",
+            "mainClass": "Question18",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuild",
+            "request": "launch",
+            "mainClass": "StringBuild",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "StringBuilder",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ToString",
+            "request": "launch",
+            "mainClass": "ToString",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethodsExamples1",
+            "request": "launch",
+            "mainClass": "StringMethodsExamples1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethodsExamples",
+            "request": "launch",
+            "mainClass": "StringMethodsExamples",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch Question15",
             "request": "launch",
             "mainClass": "Question15",
