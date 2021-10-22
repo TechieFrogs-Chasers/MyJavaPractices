@@ -1,9 +1,10 @@
-public class Inheritdemo {
+public  class Inheritdemo {
     void name(){
         System.out.println("inherit 2");
     }
     
 }
+
 class Inherit2nd extends Inheritdemo{
     void name(){
         System.out.println("inherit 3");

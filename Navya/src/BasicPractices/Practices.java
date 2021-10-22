@@ -132,15 +132,17 @@ System.out.println(i+ " "+j);
      String password = car.nextLine();
      String password1 = "NavyaChowdary";
      System.out.println(password);
+     car.close();
       if (password == password1){ //checks if password is correct
         System.out.println("Welcome to page"); // prints if password is correct
       }
      else if (password != "NavyaChowdary"){ //checks if password is incorrect
         System.out.println("Access Denied"); // prints if password is incorrect
       }
+       
       //nested if statments//
       int s = 19;
-      int m = 6;
+    //  int m = 6;
 if (s < 10)
 {
 if (s%2==0)
@@ -250,6 +252,7 @@ System.out.println("a is lesser than 4");
 Scanner myObj = new Scanner(System.in);
 System.out.println("enter age");
 int age = myObj.nextInt();
+System.out.println("Age = " + age);
 System.out.println("enter place:");
 char c = myObj.next().charAt(5);
 System.out.println(c);
@@ -258,7 +261,9 @@ boolean b = myObj.hasNextBoolean();
 System.out.println(b);
 myObj.useDelimiter("/");
 String City = myObj.next();
+System.out.println(City);
 //System.out.println("Enter city:" City);
+myObj.close();
 
 
 }

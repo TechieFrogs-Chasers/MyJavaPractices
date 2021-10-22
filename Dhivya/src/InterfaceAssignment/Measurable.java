@@ -1,25 +1,25 @@
 package InterfaceAssignment;
 public interface Measurable {
-    int[] measure = {60000,56890,34678};
-    double getMeasure();   
+   //double[] measure = {60000,56890,34678};
+  double getMeasure();       
 }
-class Employee implements Measurable{
-    @Override
-    public double getMeasure() {
-        return 0;
+class Employee{
+    static double average=80;
+    public static double  average(Measurable object){
+        object.getMeasure();   
+        double average=80;
+        return average;
     }
-    double average(int[] measure){
-       double sum =0;
-       int j =0;
-        for (int i= 0;i<measure.length;i++){
-            sum+= measure[i] ;
-            j=i;
-        }
-       double avg = sum/j;
-       return avg;
-    }
-    public static void main(String[] args) {
-        Employee emp = new Employee();
-        System.out.println("The average salary of the employee:"+ emp.average(measure));   
-    }
+    public static void main(String[] args) 
+    {
+        Employee.average(new Measurable()
+        {
+            public double getMeasure()
+            {
+                System.out.println("hi am accessing interface anonymously: " + average);
+                return average;
+            }
+        });
+        
+     }
 }

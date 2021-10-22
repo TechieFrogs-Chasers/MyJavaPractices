@@ -3,10 +3,17 @@ package Abstraction;
 public class AbstractDemo {
     public static void main(String[] args) {
         SubClass1 obj = new SubClass1();
+        Sample s = new Sample(){
+/*Tried to create object for abstract class by defining the ABSTRACT methods inside
+the parathesis}*/
+            @Override
+            void a_method() {
+                // TODO Auto-generated method stub   
+            }      
+        };
         obj.a_method();
         obj.normal();
-    }
-    
+    }    
 }
 abstract class Sample
 {
