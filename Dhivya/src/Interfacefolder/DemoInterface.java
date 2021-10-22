@@ -15,6 +15,7 @@ public interface DemoInterface {
     }
     public static void main(String[] args) {
         System.out.println("In main method of interface:");
+        System.out.println("the values of the fields: " + a +" , " +name+" , " + age+" , " + f );
         statictMethod();
       //  DemoInterface.defaultMethod(); we could access only the static method of the interface.
       // not able to access the default method i.e the method created with keyword "default"

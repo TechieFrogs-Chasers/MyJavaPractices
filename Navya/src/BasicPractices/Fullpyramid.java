@@ -29,7 +29,7 @@ public class Fullpyramid {
             }
             System.out.println();
         }*/
-        int a=5;
+        // int a=5;
        // for(int a = 1; a >= 5; a++){
          /*loop1:
            do {
@@ -52,7 +52,7 @@ public class Fullpyramid {
                    System.out.println(a);
                    a++;
                }*/
-               aa:
+              // aa:
                for(int i = 1; i <= 3; i++){
                    bb:
                    for(int j = 1; j<=3; j++){

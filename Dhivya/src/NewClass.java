@@ -12,6 +12,16 @@ public class NewClass implements NewInterfaceFile,OldInterface{
         NewInterfaceFile.super.display();
         System.out.println(" INSIDE CLASS METHOD");
     }
+    @Override
+    public void protectmethod() {
+        // TODO Auto-generated method stub
+        
+    }
+    @Override
+    public void hi() {
+        // TODO Auto-generated method stub
+        
+    }
     
 
 

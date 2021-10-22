@@ -2,7 +2,7 @@ package Interfaces.sub3;
 
 import Interfaces.sub1.Interface1;
 import Interfaces.sub2.Interface2;
-import Practices.InnerClass;
+
 
 public class Interface3 extends Interface2 {
     public Interface1 dismethod(Interface3 In){
