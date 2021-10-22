@@ -6,7 +6,7 @@ public class Comparestring {
         String s2="mahesh";
 
         String s3= "253";
-        int i =integer.parseInt(s3);
+        int i =Integer.parseInt(s3);
         System.out.println(i);
         
         System.out.println(s1==s2);
