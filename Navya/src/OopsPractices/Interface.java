@@ -1,4 +1,7 @@
 package OopsPractices;
+
+import java.util.Comparator;
+
 class MyInterface{
     interface message {
         void msg();
@@ -7,6 +10,10 @@ class MyInterface{
  interface Interface1{
     void display();
     int i = 6;
+    void myDispaly();
+   default void staticPrivate(String name){
+        System.out.println( name + i);
+    }
 }
  
  interface Interface2 {
@@ -15,11 +22,17 @@ class MyInterface{
 private static void staticHello(){
      System.out.println(" static method over ride ");
  }
- default void staticPrivate(){
+ default void staticPrivate( ){
     staticHello();
+ }
+ static void staticHello( int a,int b ){
+     System.out.println(a + " "+ b);
  }
  }
  interface Interface3 {
+   // private static void staticHello(){
+
+   // }
     void hello();
     static void staticHello(){
         System.out.println("Display static method");
@@ -61,5 +74,16 @@ private static void staticHello(){
        interfaceObj.hii();
        Interface3.staticHello();
        interfaceObj.defaultHii();
+       Interface2.staticHello(6,8);
+       interfaceObj.staticPrivate("navya");
+       Interface1 interObj = new Interface(){
+          public void display(){
+              System.out.println("Anonymus instance ");
+           }
+       };
+       interObj.display();
       }
   }
+//  class nameComparator implements Comparator{
+      
+ // }

@@ -1,7 +1,7 @@
 public class StringDemo1 {
     public static void main(String...args){
      String s1=new String("manoj bellapukonda "); //1st  way of calling a string by creating an object.
-     String s2="Manoj bellapukonda ";     //2nd way of calling a string 
+     String s2="Manoj bellapukonda ";     //2nd way of calling a string with literal way
      System.out.println(s1);
      System.out.println(s2);
 
@@ -16,6 +16,24 @@ public class StringDemo1 {
 
      System.out.println(s1.equals(s2));//here we using equals method to see the given strings are equall are not
      System.out.println(s1.equalsIgnoreCase(s2));
+
+     System.out.println(s1==s2);//here it checks the values and with references of storage locations
+
+     System.out.println(s1.endsWith(" "));// here endswith checks the given string is particular letter 
+     
+     String str1=String.format("%d",99); //integer 
+     String str2=String.format("%s","manoj"); //string
+     String str3=String.format("%f", 45.00); //float 
+     String str4=String.format("%c",'M'); //char value
+     
+     System.out.println(str1);
+     System.out.println(str2);
+     System.out.println(str3);
+     System.out.println(str4);
+     System.out.println(String.format("%s",s1)); 
+    
+     
+
 
     }
     
