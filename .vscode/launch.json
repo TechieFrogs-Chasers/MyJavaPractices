@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConvertDate",
+            "request": "launch",
+            "mainClass": "ConvertDate",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch Question31",
             "request": "launch",
             "mainClass": "Question31",
