@@ -67,7 +67,7 @@ class TestReturnInterface implements ReturnInterface,ReturnInterface1{
     }
     
 }
-class Test implements ReturnInterface{
+class Test1 implements ReturnInterface{
 
 
     //public static void accept(ReturnInterface()){   // misplaced constructs
