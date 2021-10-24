@@ -35,8 +35,8 @@ public class StringDemo1 {
      String str4=String.format("%c",'M'); //char value
      //String str5=String.format("%tc",new Date());
       
-      //string.formatted method 
-     //this method is introduced in java 15 for foramtting an instance of the formating string class
+      //string.formatted() method 
+     //this method is introduced in java 15 for foramtting an instance of the formating string class with supplied arguments
      String str="Date is %tD and time is %tT";
      String formatted=str.formatted(LocalDate.now(),LocalTime.now()); //formatted is introduced in java15 for 
     
@@ -48,6 +48,13 @@ public class StringDemo1 {
      System.out.println(String.format("%30s",s1)); 
      System.out.println(formatted);
 
+     //java is using the printf() method . this method prints the contents on the standard output stream and does't return anything.
+
+     System.out.printf("Today date is %tD%n",LocalDate.now());
+
+     //System.out.println(s1.reverse()); this method is not defined for string 
+
+     
 
      /*String s3="459";
      int i =Integer.parseInt(s3);
