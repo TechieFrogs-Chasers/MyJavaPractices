@@ -1,5 +1,6 @@
 package JavaBasicsAssignments;
 
+
 import java.util.Scanner;
 
 public class alphabetPyramid {

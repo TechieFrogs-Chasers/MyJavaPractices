@@ -1,4 +1,6 @@
 package JavaBasicsAssignments;
+JavaBasicsAssignments;
+
 
 import java.util.Scanner;
 
