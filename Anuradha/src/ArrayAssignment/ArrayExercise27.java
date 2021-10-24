@@ -1,5 +1,5 @@
 
-
+package ArrayAssignment;
 import java.util.Scanner;
 public class ArrayExercise27 {
 

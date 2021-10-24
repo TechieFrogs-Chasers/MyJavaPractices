@@ -1,4 +1,4 @@
-package MyJavaPractices.Anuradha.src.AbstractionAssignment;
+package AbstractionAssignment;
 
 abstract class Marks{
     float subj1,subj2,subj3,subj4,percentage;
