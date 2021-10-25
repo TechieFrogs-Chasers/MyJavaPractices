@@ -26,7 +26,7 @@ public class naturalSum {
              scannerObj.close();    
           for( i=1;i<=num;i++)
         { 
-            sum= sum+ i;
+            sum= sum+ i;   //sum += i
         }
        System.out.println("The sum of the natural numbers  " +num+ "  is:  "+sum);
        

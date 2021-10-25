@@ -31,6 +31,11 @@ public class StringDemo1 {
      System.out.println(str3);
      System.out.println(str4);
      System.out.println(String.format("%s",s1)); 
+
+
+     String s3="459";
+     int i =Integer.parseInt(s3);
+     System.out.println(i);
     
      
 

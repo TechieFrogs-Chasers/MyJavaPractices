@@ -34,6 +34,55 @@
         },
         {
             "type": "java",
+            "name": "Launch alphabetLoop",
+            "request": "launch",
+            "mainClass": "alphabetLoop",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion1",
+            "request": "launch",
+            "mainClass": "StrQuestion1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllArrays",
+            "request": "launch",
+            "mainClass": "AllArrays",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayPractice",
+            "request": "launch",
+            "mainClass": "ArrayPractice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion11",
+            "request": "launch",
+            "mainClass": "StrQuestion11",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch String1",
+            "request": "launch",
+            "mainClass": "String1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch Question31",
             "request": "launch",
             "mainClass": "Question31",

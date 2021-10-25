@@ -1,3 +1,5 @@
+package AbstractionAssignment;
+
 abstract class Animals{
 
     abstract void cats();

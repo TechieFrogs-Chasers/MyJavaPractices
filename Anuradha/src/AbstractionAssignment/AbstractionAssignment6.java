@@ -1,3 +1,4 @@
+package AbstractionAssignment;
 abstract class Shape1{
     abstract double rectangleArea(float l,float b);
     abstract double square(float s);

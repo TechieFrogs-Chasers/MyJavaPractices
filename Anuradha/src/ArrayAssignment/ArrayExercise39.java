@@ -1,4 +1,4 @@
-
+package ArrayAssignment;
 
 import java.util.Scanner;
 
