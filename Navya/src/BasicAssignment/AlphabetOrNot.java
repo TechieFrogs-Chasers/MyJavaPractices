@@ -8,7 +8,7 @@ public class AlphabetOrNot {
     char alpha;
     do{
         while (myObj.hasNextInt()) {
-            char ch;
+           // char ch;
            // String input = myObj.next();
             System.out.println(" This is not a Alphabet,Please enter valid Alphabet:");
             /*ch = myObj.next().charAt(0);

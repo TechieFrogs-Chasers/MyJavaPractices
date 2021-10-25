@@ -1,3 +1,5 @@
+package assignment1;
+
 import java.util.*;
 
 public class AddingInt {
@@ -6,10 +8,10 @@ public class AddingInt {
         Scanner object = new Scanner(System.in);
 
         System.out.println("Enter a value: ");
-        int x = AddingInt.validate(object);
+        int x = validate(object);
 
         System.out.println("Enter another value: ");
-        int y = AddingInt.validate(object);
+        int y = validate(object);
 
         int sum = add(x, y);
         System.out.println("Sum of two no is: " + sum);

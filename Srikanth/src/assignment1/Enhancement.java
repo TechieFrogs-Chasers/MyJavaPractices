@@ -1,3 +1,5 @@
+package assignment1;
+
 public class Enhancement {
     public static void main(String[] args) {
         int week = 4;

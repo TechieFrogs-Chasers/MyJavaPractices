@@ -1,3 +1,5 @@
+package assignment1;
+
 public class invertedpyramid {
     public static void main(String[] args) {
         int rows = 5;

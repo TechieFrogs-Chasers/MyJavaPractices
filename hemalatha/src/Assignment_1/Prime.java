@@ -11,6 +11,7 @@ public class Prime {
             while(!sc.hasNext()){
                 int val= sc.nextInt();
             }
+        }
             
            while(i<=num/2);
             {
@@ -24,6 +25,9 @@ public class Prime {
                 else
                 System.out.println("this is not a prime number");
                 sc.close();
+        
+    }
+}
 
              
          
@@ -33,6 +37,6 @@ public class Prime {
 
         
         
-    }
     
-}
+    
+
