@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch stringBufferCapacity",
+            "request": "launch",
+            "mainClass": "practice.stringBufferCapacity",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuffer1",
+            "request": "launch",
+            "mainClass": "practice.StringBuffer1",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "practice.StringBuilder",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
             "name": "Launch ConvertDate",
             "request": "launch",
             "mainClass": "ConvertDate",
