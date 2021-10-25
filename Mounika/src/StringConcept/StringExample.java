@@ -1,7 +1,5 @@
-package Strings;
-
-
-public class String {
+public class StringExample {
+    
     public static void main(String[] args) {
         char[] ch = {'M','O','U'};
         String st = new String(ch);
@@ -76,12 +74,10 @@ public class String {
                                                 System.out.println(s7.replace("Welcome", "Hi"));
                                                 System.out.println(s7.contains("welcome everyone. Welcome"));
                                                 System.out.println(s7.contains("Heloo"));
-                                                System.out.println(String.format("name is %s", str7));
+                                               System.out.println(String.format("name is %s", str7));
 
 
 
     }
     
 }
-    
-
