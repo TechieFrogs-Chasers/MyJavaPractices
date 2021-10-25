@@ -11,15 +11,15 @@ public class EvenOrOdd {
         // why string here is string accepts both int value and char values
         System.out.println(num+" is "+ value + " Number");
     }    
-    static short validation(Scanner scanner){
+    static short validation(Scanner scObj){
         short num;   
         do{
             System.out.println("Enter a Value");
-             while(!scanner.hasNextShort()){
-                 String input = scanner.next();
+             while(!scObj.hasNextShort()){
+                 String input = scObj.next();
                  System.out.println("Please enter a valid number");
              }
-             num = scanner.nextShort();
+             num = scObj.nextShort();
              //System.out.println("Entered Value is Valid");
              
         }while(num<0);  
