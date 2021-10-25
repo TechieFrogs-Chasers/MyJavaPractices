@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class SwapNumber {
     public static void main(String[] args) {
         Scanner scObj = new Scanner(System.in);

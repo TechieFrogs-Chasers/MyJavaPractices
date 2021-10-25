@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class Addition {
     int i;
     static short s;

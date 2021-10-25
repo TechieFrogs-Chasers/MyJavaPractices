@@ -1,3 +1,5 @@
+import Strings.String;
+
 public class SwitchYield {
     public static void main(String[] args) {
        // String day = "Wed";

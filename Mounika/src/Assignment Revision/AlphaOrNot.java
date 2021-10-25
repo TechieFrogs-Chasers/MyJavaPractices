@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import Strings.String;
 public class AlphaOrNot {
     public static void main(String[] args) {
         char ch;

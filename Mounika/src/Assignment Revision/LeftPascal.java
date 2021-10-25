@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import Strings.String;
 public class LeftPascal {
     public static void main(String[] args) {
         int num;

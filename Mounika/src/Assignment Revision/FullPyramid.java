@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
+import Strings.String;
 
-
-public class FullPyramidNumber {
-    public class FullPyramid {
+public class FullPyramid {
     public static void main(String[] args) {
 
         int num1;
@@ -23,13 +22,11 @@ public class FullPyramidNumber {
             System.out.print("  ");
         }
             while (k != 2 * i - 1){ 
-               System.out.print(i+ " ");
+               System.out.print("* ");
                ++k;
             }
             System.out.println();
     }
 }
 }
- 
-
-}
+    

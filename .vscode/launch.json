@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch String",
+            "request": "launch",
+            "mainClass": "Strings.String",
+            "projectName": "MyJavaPractices_f231602c"
+        },
+        {
+            "type": "java",
             "name": "Launch stringBufferCapacity",
             "request": "launch",
             "mainClass": "practice.stringBufferCapacity",

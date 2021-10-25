@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class HalfPyramidAlpha {
     
     public static void main(String[] args) {

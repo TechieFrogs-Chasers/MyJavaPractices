@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class Palindrome {
     public static void main(String[] args) {
         int num,temp, y=0, reversenumber=0;

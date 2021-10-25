@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import Strings.String;
 public class Lcm{
 
 public static void main(String[] args) {

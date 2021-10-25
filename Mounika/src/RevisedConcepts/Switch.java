@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class Switch {
     public static void main(String[] args) {
         int year = 1992;

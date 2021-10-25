@@ -1,3 +1,5 @@
+import Strings.String;
+
 public class Variables {
     //instance variables
     int marks= 900;
