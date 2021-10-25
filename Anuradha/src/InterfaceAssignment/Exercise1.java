@@ -10,7 +10,6 @@ interface RegularPolygon{
 default void getPerimeter(int num, double length) {
     System.out.println("Perimeter : "+num * length);
 }
-
 default void getInteriorAngle(int num, double radius) {
     System.out.println("Interior Angle :"+(((num) - 2) * (Math.PI) / radius) * 2);
 }
@@ -30,7 +29,6 @@ class EquilateralTriangle implements RegularPolygon{
     }
     
 }
-
 class SquarePolygon implements RegularPolygon{
     int length;
     

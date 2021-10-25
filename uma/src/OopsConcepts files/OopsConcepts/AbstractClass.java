@@ -61,7 +61,7 @@ abstract class Abstract extends AbstractClass{
 
     abstract class AbInner2 extends Abstract{    //nested  inner abstract  class
 
-        public static void main(String[] args) {   // no "run"
+        public static void main(String[] args) {   // no "run",treats like a normal method
    
         }
 
