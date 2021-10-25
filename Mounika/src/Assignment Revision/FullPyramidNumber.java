@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import Strings.String;
-
-
-
 public class FullPyramidNumber {
     public class FullPyramid {
     public static void main(String[] args) {

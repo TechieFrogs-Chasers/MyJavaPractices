@@ -1,4 +1,4 @@
-import Strings.String;
+import RevisedConcepts;
 
 public class Variables {
     //instance variables
