@@ -10,7 +10,7 @@ public class Assignment_16 {
     }
 
     public static int methodNumber(int[] largestThirdNum, int total) {
-        Arrays.sort(largestThirdNum);
+        Arrays.sort(largestThirdNum);//to sort number in array we use -Array.sort()
         return largestThirdNum[total - 3];
     }
 }
