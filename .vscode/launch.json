@@ -6,48 +6,367 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
-            "name": "Launch Rbi",
+            "name": "Launch String",
             "request": "launch",
-            "mainClass": "Rbi",
+            "mainClass": "Strings.String",
+            "projectName": "MyJavaPractices_f231602c"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringBufferCapacity",
+            "request": "launch",
+            "mainClass": "practice.stringBufferCapacity",
             "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuffer1",
+            "request": "launch",
+            "mainClass": "practice.StringBuffer1",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "practice.StringBuilder",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertDate",
+            "request": "launch",
+            "mainClass": "ConvertDate",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetLoop",
+            "request": "launch",
+            "mainClass": "alphabetLoop",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion1",
+            "request": "launch",
+            "mainClass": "StrQuestion1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllArrays",
+            "request": "launch",
+            "mainClass": "AllArrays",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayPractice",
+            "request": "launch",
+            "mainClass": "ArrayPractice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion11",
+            "request": "launch",
+            "mainClass": "StrQuestion11",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch String1",
+            "request": "launch",
+            "mainClass": "String1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question31",
+            "request": "launch",
+            "mainClass": "Question31",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question44",
+            "request": "launch",
+            "mainClass": "Question44",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question39",
+            "request": "launch",
+            "mainClass": "Question39",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question36",
+            "request": "launch",
+            "mainClass": "Question36",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question32",
+            "request": "launch",
+            "mainClass": "Question32",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question30",
+            "request": "launch",
+            "mainClass": "Question30",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question22",
+            "request": "launch",
+            "mainClass": "Question22",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question18",
+            "request": "launch",
+            "mainClass": "Question18",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuild",
+            "request": "launch",
+            "mainClass": "StringBuild",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "StringBuilder",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ToString",
+            "request": "launch",
+            "mainClass": "ToString",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethodsExamples1",
+            "request": "launch",
+            "mainClass": "StringMethodsExamples1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethodsExamples",
+            "request": "launch",
+            "mainClass": "StringMethodsExamples",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question15",
+            "request": "launch",
+            "mainClass": "Question15",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question16",
+            "request": "launch",
+            "mainClass": "Question16",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question7",
+            "request": "launch",
+            "mainClass": "Question7",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question_6",
+            "request": "launch",
+            "mainClass": "Question_6",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question6",
+            "request": "launch",
+            "mainClass": "Question6",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question5",
+            "request": "launch",
+            "mainClass": "Question5",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDoubts",
+            "request": "launch",
+            "mainClass": "StringDoubts",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringCapacity",
+            "request": "launch",
+            "mainClass": "StringCapacity",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuff",
+            "request": "launch",
+            "mainClass": "StringBuff",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMethods",
+            "request": "launch",
+            "mainClass": "StringMethods",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encaps",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Encaps",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Test",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPractice",
+            "request": "launch",
+            "mainClass": "OopsConcepts.StringPractice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPracice",
+            "request": "launch",
+            "mainClass": "OopsConcepts.StringPracice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch showRoom",
+            "request": "launch",
+            "mainClass": "OopsConcepts.showRoom",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dealer",
+            "request": "launch",
+            "mainClass": "OopsConcepts.Dealer",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch concrete",
+            "request": "launch",
+            "mainClass": "concrete",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Again",
+            "request": "launch",
+            "mainClass": "Again",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "Cat",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodeGym",
+            "request": "launch",
+            "mainClass": "CodeGym",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Int",
+            "request": "launch",
+            "mainClass": "Int",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Percentage",
+            "request": "launch",
+            "mainClass": "Percentage",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marks",
+            "request": "launch",
+            "mainClass": "Marks",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bank",
+            "request": "launch",
+            "mainClass": "Bank",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
             "name": "Launch Parent",
             "request": "launch",
             "mainClass": "Parent",
-            "projectName": "MyJavaPractices_8cf5baa5"
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",
-=======
-<<<<<<< HEAD
-            "name": "Launch Assign4$StaticFinal",
-            "request": "launch",
-            "mainClass": "Interfaces.Assign4$StaticFinal",
-            "projectName": "MyJavaPractices_2bc4cb1d"
-        },
-        {
-            "type": "java",
-            "name": "Launch Square",
-            "request": "launch",
-            "mainClass": "Interfaces.Square",
-            "projectName": "MyJavaPractices_2bc4cb1d"
-        },
-        {
-            "type": "java",
-            "name": "Launch Menu9",
-            "request": "launch",
-            "mainClass": "TCS.Menu9",
-            "projectName": "MyJavaPractices_2bc4cb1d"
-=======
->>>>>>> ec1e841c3af47edd7a11cb115748f6f07f321a66
             "name": "Launch printhalfpyramid",
             "request": "launch",
             "mainClass": "assignment1.printhalfpyramid",
             "projectName": "MyJavaPractices_8cf5baa5"
->>>>>>> e0d6af2d758808e50ef283a37453639f07b4444f
         },
         {
             "type": "java",

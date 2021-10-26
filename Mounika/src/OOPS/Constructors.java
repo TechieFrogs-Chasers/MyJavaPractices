@@ -53,14 +53,14 @@ public class Constructors {
             Students studentsObj1 = new Students(600, 500); //for constructor passing paramters
             //Students.studentsInClass1= 80;
             studentsObj1.studentsInClass2 = 150;
-            Students studentsObj2 = new Students("Mounika", 500); //for constructor passing paramters
-            Students studentsObj3 = new Students(600, "n"); //for constructor passing paramters
-            studentsObj1.boys=20;
-            Constructors constructorsObj = new Constructors();
-            Constructors.numberofclasses=4;
-            constructorsObj.age = 29;
-            constructorsObj.name="MADHU";
-                System.out.println("NAME :"+constructorsObj.name+" AGE :"+constructorsObj.age);
+                Students studentsObj2 = new Students("Mounika", 500); //for constructor passing paramters
+                Students studentsObj3 = new Students(600, "n"); //for constructor passing paramters
+                    studentsObj1.boys=20;
+                    Constructors constructorsObj = new Constructors();
+                    Constructors.numberofclasses=4;// as num of class is sattic, called directly with cl name
+                constructorsObj.age = 29;
+                constructorsObj.name="MADHU";
+                    System.out.println("NAME :"+constructorsObj.name+" AGE :"+constructorsObj.age);
         /*Line above need to keep in mind instance variable can print with the obj only for 
         static and local in the time prime obj is not req*/
                 System.out.println(Students.studentsInClass1+" "+studentsObj1.studentsInClass2);//80 static variablle

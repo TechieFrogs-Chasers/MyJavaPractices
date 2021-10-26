@@ -6,7 +6,7 @@ package InterfaceAssignment;
 public class ToProveStaticAndFinal implements Assignment4{
     public static void main(String[] args) {
         
-     ToProveStaticAndFinal obj = new ToProveStaticAndFinal();
+     //ToProveStaticAndFinal obj = new ToProveStaticAndFinal();
      //Assignment4.name = "add"; //we cannot change the variable values because of  static and final
     }
 }

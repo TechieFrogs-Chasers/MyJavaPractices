@@ -1,7 +1,4 @@
 package OopsPractices;
-
-import OopsPractices.SubClass.SubInner;
-
 class MainCalss{
     int a;
     private int b;
@@ -16,7 +13,7 @@ class MainCalss{
         System.out.println(" In parameter main class Constructors " +i+" "+name);
     }
 }
-class SubClass extends MainCalss{
+class SubClass1 extends MainCalss{
     int j;
     protected int i ;
     static class SubInner {
@@ -37,12 +34,12 @@ class SubClass extends MainCalss{
             System.out.println("In SubInner Parameter Constructor : "+ j +" "+ h );
         }
     }
-    SubClass(){
+    SubClass1(){
         super(5 , " navya");
         System.out.println(" In Sub class Constructor ");
     }
 }
-class Child extends SubInner{
+class Child extends SubClass1{
     //class Child extends SubClass{
 char Alpha ;
 Child(){
@@ -51,10 +48,10 @@ Child(){
 }
 
     public static void main(String[] args) {
-        SubClass subObj = new SubClass();
+        SubClass1 subObj = new SubClass1();
         subObj.mainDisplay();
         Child childObj = new Child();
-        childObj.subInnerDisplay();
+       // childObj.subInnerDisplay();
     }
 }
 public class InheritancePractices {

@@ -1,6 +1,6 @@
 package OopsConcepts;
 
-// can not define top level class as "private"  or "protected" since even JVM ca not see it
+// can not define top level class as "private"  or "protected" since even JVM can not see it
 // class that has no defined access modifier  is called default access modifier
 
 // private --- scope with in the class only

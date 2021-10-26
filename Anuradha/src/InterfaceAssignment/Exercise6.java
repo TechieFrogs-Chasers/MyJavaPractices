@@ -42,30 +42,22 @@ public class Exercise6 implements Number {
         System.out.println("TWO1");
         
     }
-
-
     public void Two2() {
         System.out.println("TWO2");
         
     }
-
     public void Three1() {
         System.out.println("THREE1");
         
     }
-
     public void Three2() {
         System.out.println("THREE2");
         
     }
-
-   
-    public void num1() {
+   public void num1() {
         System.out.println("NUM1");
         
     }
-
-  
     public void num2() {
        System.out.println("NUM2");
         
