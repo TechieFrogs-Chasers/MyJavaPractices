@@ -5,7 +5,7 @@ public class StringDemo1 {
     public static void main(String...args){
      String s1=new String("manoj bellapukonda "); //1st  way of calling a string by creating an object.
      //String s1="manoj bellapukonda";
-     String s2="Manoj bellapukonda";     //2nd way of calling a string with literal way
+     String s2=" Manoj bellapukonda";     //2nd way of calling a string with literal way
      System.out.println(s1);
      System.out.println(s2);
 
@@ -18,7 +18,7 @@ public class StringDemo1 {
      System.out.println(s1.concat(s2));//here we are adding two strings by concatination 
      System.out.println(s2.concat(s1));
 
-    s1= s1.concat("java");
+     s1= s1.concat("java");
      System.out.println(s1);
 
      System.out.println(s1.equals(s2));//here we using equals method to see the given strings are equall are not
@@ -30,8 +30,8 @@ public class StringDemo1 {
      
      
      String str1=String.format("%d",99); //integer 
-     String str2=String.format("%20s","manoj"); //string
-     String str3=String.format("%f", 45.00); //float 
+     String str2=String.format("%30s","manoj"); //string
+     String str3=String.format("%.3f", 450.95); //float 
      String str4=String.format("%c",'M'); //char value
      //String str5=String.format("%tc",new Date());
       
@@ -45,16 +45,16 @@ public class StringDemo1 {
      System.out.println(str2);
      System.out.println(str3);
      System.out.println(str4);
-     System.out.println(String.format("%30s",s1)); 
+     System.out.println(String.format("%s",s1)); 
      System.out.println(formatted);
 
      //java is using the printf() method . this method prints the contents on the standard output stream and does't return anything.
 
      System.out.printf("Today date is %tD%n",LocalDate.now());
 
-     //System.out.println(s1.reverse()); this method is not defined for string 
+     //System.out.println(s1.reverse()); //this method is not defined for string 
 
-     
+
 
      /*String s3="459";
      int i =Integer.parseInt(s3);

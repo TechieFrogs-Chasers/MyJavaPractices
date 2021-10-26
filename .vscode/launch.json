@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Arraymeth",
+            "request": "launch",
+            "mainClass": "Arraymeth",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap",
+            "request": "launch",
+            "mainClass": "Praticenew.swap",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindromenum",
+            "request": "launch",
+            "mainClass": "Assignment.Palindromenum",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime2",
+            "request": "launch",
+            "mainClass": "Praticenew.prime2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo2",
+            "request": "launch",
+            "mainClass": "StringDemo2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo1",
+            "request": "launch",
+            "mainClass": "StringDemo1",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
             "name": "Launch Stringpro",
             "request": "launch",
             "mainClass": "Assignment5.java.Stringpro",
