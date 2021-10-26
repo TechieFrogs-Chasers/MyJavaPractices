@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //import java.io.CharArrayReader;
 
-public class AllArrays {
+public class ArraysScanner {
 
 
     public static void main(String[] args) {
@@ -61,6 +61,10 @@ public class AllArrays {
            System.out.println(total);
             
         }
+
+
+       // scanner with arrays----------------------------------
+
         int[] scan = new int[5];
 
         Scanner sc = new Scanner(System.in);

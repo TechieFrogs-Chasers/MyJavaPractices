@@ -6,7 +6,7 @@ import javax.lang.model.util.ElementScanner14;
 public class Stringisnumeric {
      static boolean isStringNumeric(String number){ //boolean is a return type  
               boolean isNumeric;
-              if (number==null);{
+              if (number==null){
               isNumeric=false; 
               }
               else

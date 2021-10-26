@@ -6,7 +6,94 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "Launch Arraymeth",
+            "request": "launch",
+            "mainClass": "Arraymeth",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap",
+            "request": "launch",
+            "mainClass": "Praticenew.swap",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindromenum",
+            "request": "launch",
+            "mainClass": "Assignment.Palindromenum",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime2",
+            "request": "launch",
+            "mainClass": "Praticenew.prime2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo2",
+            "request": "launch",
+            "mainClass": "StringDemo2",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo1",
+            "request": "launch",
+            "mainClass": "StringDemo1",
+            "projectName": "MyJavaPractices_5f34fb7c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringpro",
+            "request": "launch",
+            "mainClass": "Assignment5.java.Stringpro",
+            "projectName": ""
+=======
+<<<<<<< HEAD
+            "name": "Launch ArrayMeth",
+            "request": "launch",
+            "mainClass": "ArrayMeth",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayAsParameter",
+            "request": "launch",
+            "mainClass": "ArrayAsParameter",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayInMethods",
+            "request": "launch",
+            "mainClass": "ArrayInMethods",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateChar",
+=======
             "name": "Launch String",
+>>>>>>> 3deb35030556abae5bdb74e9604f6d791dc73e7f
             "request": "launch",
             "mainClass": "Strings.String",
             "projectName": "MyJavaPractices_f231602c"
@@ -31,6 +118,7 @@
             "request": "launch",
             "mainClass": "practice.StringBuilder",
             "projectName": "MyJavaPractices_8cf5baa5"
+>>>>>>> 131b5c0d122cc2d86e0edad7e4320d6b700b8811
         },
         {
             "type": "java",
