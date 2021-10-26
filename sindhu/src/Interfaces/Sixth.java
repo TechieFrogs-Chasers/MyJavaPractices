@@ -32,47 +32,35 @@ class Guava implements Orange1{
         System.out.println("haya");
     }
 
-    @Override
-    public void hi1() {
+     public void hi1() {
         System.out.println("sindhu");
     }
        
     
-
-    @Override
-    public void hello1() {
+ public void hello1() {
         System.out.println("haya");
-        // TODO Auto-generated method stub
         
     }
 
-    @Override
-    public void hi() {
+ public void hi() {
         System.out.println("sindhu");
     }
         
         
-    
-
-    @Override
-    public void hello() {
+public void hello() {
         System.out.println("haya");
         
         
     }
 
-    @Override
-    public void hi3() {
+public void hi3() {
         System.out.println("sindhu");
     }
         
         
-    
-
-    @Override
-    public void hello3() {
+public void hello3() {
         System.out.println("haya");
-        // TODO Auto-generated method stub
+        
         
     }
 }
