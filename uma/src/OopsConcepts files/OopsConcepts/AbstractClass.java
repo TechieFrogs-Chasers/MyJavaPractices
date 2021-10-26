@@ -61,7 +61,7 @@ abstract class Abstract extends AbstractClass{
 
     abstract class AbInner2 extends Abstract{    //nested  inner abstract  class
 
-        public static void main(String[] args) {   // no "run"
+        public static void main(String[] args) {   // no "run",treats like a normal method
    
         }
 
@@ -84,8 +84,11 @@ class NonAbstract extends AbstractClass{
     public static void main(String[] args) {
         
 
-        NonAbstract objNonAbstract = new NonAbstract();
+        NonAbstract objNonAbstract = new NonAbstract(); //one way of calling abstract class methods
         objNonAbstract.display(10, "ram");
+
+        AbstractClass obj = new NonAbstract();     //second way 
+        obj.display(10, "uma");
         
     }
 }

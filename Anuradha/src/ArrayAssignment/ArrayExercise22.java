@@ -1,5 +1,5 @@
 
-
+package ArrayAssignment;
 public class ArrayExercise22 {
 
     public static void main(String[] args) {
