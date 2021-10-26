@@ -5,8 +5,10 @@ public class ScannerExam {
     public static void main(String[] args) {
         Scanner inObj = new Scanner (System.in);
         System.out.println("Enter First Name");
+
         String name = inObj.next();
         System.out.println("Enter Last Name");
+        
         String lastName = inObj.next();//only in single token print
         System.out.println("Enter Address");
         inObj.nextLine();

@@ -24,15 +24,15 @@ int breadth;
        return  length*breadth;
 
    }
-   public static int validation(Scanner scanner){
+   public static int validation(Scanner scObj){
        int num;
        do{
            System.out.println("please enter a valid number");
-           while(!scanner.hasNextInt()){
-               String str = scanner.next();
+           while(!scObj.hasNextInt()){
+               String str = scObj.next();
                System.out.println("please enter a valid number");
             }
-            num = scanner.nextInt();
+            num = scObj.nextInt();
         }while(num<=0);
         System.out.println("Enter value is a valid number ");
         return num;

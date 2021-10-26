@@ -1,3 +1,5 @@
+package AbstractionAssignment;
+
 abstract class BankAbst{
     abstract int getBalance();
 }

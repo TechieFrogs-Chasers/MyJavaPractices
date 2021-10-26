@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Arraymeth",
             "request": "launch",
             "mainClass": "Arraymeth",
@@ -52,6 +53,72 @@
             "request": "launch",
             "mainClass": "Assignment5.java.Stringpro",
             "projectName": ""
+=======
+<<<<<<< HEAD
+            "name": "Launch ArrayMeth",
+            "request": "launch",
+            "mainClass": "ArrayMeth",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayAsParameter",
+            "request": "launch",
+            "mainClass": "ArrayAsParameter",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayInMethods",
+            "request": "launch",
+            "mainClass": "ArrayInMethods",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateChar",
+=======
+            "name": "Launch String",
+>>>>>>> 3deb35030556abae5bdb74e9604f6d791dc73e7f
+            "request": "launch",
+            "mainClass": "Strings.String",
+            "projectName": "MyJavaPractices_f231602c"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringBufferCapacity",
+            "request": "launch",
+            "mainClass": "practice.stringBufferCapacity",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuffer1",
+            "request": "launch",
+            "mainClass": "practice.StringBuffer1",
+            "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "practice.StringBuilder",
+            "projectName": "MyJavaPractices_8cf5baa5"
+>>>>>>> 131b5c0d122cc2d86e0edad7e4320d6b700b8811
         },
         {
             "type": "java",
@@ -59,6 +126,55 @@
             "request": "launch",
             "mainClass": "ConvertDate",
             "projectName": "MyJavaPractices_8cf5baa5"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetLoop",
+            "request": "launch",
+            "mainClass": "alphabetLoop",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion1",
+            "request": "launch",
+            "mainClass": "StrQuestion1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllArrays",
+            "request": "launch",
+            "mainClass": "AllArrays",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayPractice",
+            "request": "launch",
+            "mainClass": "ArrayPractice",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrQuestion11",
+            "request": "launch",
+            "mainClass": "StrQuestion11",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch String1",
+            "request": "launch",
+            "mainClass": "String1",
+            "projectName": "MyJavaPractices_5246a9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "MyJavaPractices_5246a9cc"
         },
         {
             "type": "java",

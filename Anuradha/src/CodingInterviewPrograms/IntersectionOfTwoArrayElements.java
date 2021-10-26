@@ -1,3 +1,6 @@
+package CodingInterviewPrograms;
+
+
 import java.util.Scanner;
 
 public class IntersectionOfTwoArrayElements {

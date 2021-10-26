@@ -1,3 +1,5 @@
+import RevisedConcepts;
+
 public class Variables {
     //instance variables
     int marks= 900;
