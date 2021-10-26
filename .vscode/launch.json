@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch ArrayMeth",
             "request": "launch",
             "mainClass": "ArrayMeth",
@@ -42,107 +43,33 @@
         {
             "type": "java",
             "name": "Launch DuplicateChar",
+=======
+            "name": "Launch String",
+>>>>>>> 3deb35030556abae5bdb74e9604f6d791dc73e7f
             "request": "launch",
-            "mainClass": "DuplicateChar",
-            "projectName": "MyJavaPractices_5246a9cc"
+            "mainClass": "Strings.String",
+            "projectName": "MyJavaPractices_f231602c"
         },
         {
             "type": "java",
-            "name": "Launch Subset",
+            "name": "Launch stringBufferCapacity",
             "request": "launch",
-            "mainClass": "Subset",
-            "projectName": "MyJavaPractices_5246a9cc"
+            "mainClass": "practice.stringBufferCapacity",
+            "projectName": "MyJavaPractices_8cf5baa5"
         },
         {
             "type": "java",
-            "name": "Launch TotalVowels",
+            "name": "Launch StringBuffer1",
             "request": "launch",
-            "mainClass": "TotalVowels",
-            "projectName": "MyJavaPractices_5246a9cc"
+            "mainClass": "practice.StringBuffer1",
+            "projectName": "MyJavaPractices_8cf5baa5"
         },
         {
             "type": "java",
-            "name": "Launch Punctuation",
+            "name": "Launch StringBuilder",
             "request": "launch",
-            "mainClass": "Punctuation",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch SubIndex",
-            "request": "launch",
-            "mainClass": "SubIndex",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch SubWithContain",
-            "request": "launch",
-            "mainClass": "SubWithContain",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch Question17",
-            "request": "launch",
-            "mainClass": "Question17",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch ClearWithNew",
-            "request": "launch",
-            "mainClass": "ClearWithNew",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch SettingLength",
-            "request": "launch",
-            "mainClass": "SettingLength",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch ClearSB",
-            "request": "launch",
-            "mainClass": "ClearSB",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch IsNumeric",
-            "request": "launch",
-            "mainClass": "IsNumeric",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringToDate",
-            "request": "launch",
-            "mainClass": "StringToDate",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch ConcatArrays",
-            "request": "launch",
-            "mainClass": "ConcatArrays",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch Anagram",
-            "request": "launch",
-            "mainClass": "Anagram",
-            "projectName": "MyJavaPractices_5246a9cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringQuestion2",
-            "request": "launch",
-            "mainClass": "StringQuestion2",
-            "projectName": "MyJavaPractices_5246a9cc"
+            "mainClass": "practice.StringBuilder",
+            "projectName": "MyJavaPractices_8cf5baa5"
         },
         {
             "type": "java",
