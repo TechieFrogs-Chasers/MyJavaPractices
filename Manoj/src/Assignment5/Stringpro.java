@@ -1,4 +1,4 @@
-//package Assignment5.java;
+package Assignment5;
 
 public class Stringpro {
     public static void main(String...args){

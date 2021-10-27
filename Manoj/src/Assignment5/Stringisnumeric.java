@@ -1,4 +1,4 @@
-package Assignment5.java;
+package Assignment5;
 import java.util.concurrent.atomic.DoubleAccumulator;
 
 import javax.lang.model.util.ElementScanner14;
