@@ -10,6 +10,12 @@ public class Largestarray {
             }
         }
         System.out.println("maximun element is:" + max);
+        for (int i=1;i<arr.length;i++){
+         if (arr[i]<max){
+               max=arr[i];
+         }
+        }
+        System.out.println("minimum value is : "+max);
     }
     
 }
