@@ -7,6 +7,26 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "Launch Duplicate",
+            "request": "launch",
+            "mainClass": "Arrays.Duplicate",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Left",
+            "request": "launch",
+            "mainClass": "Arrays.Left",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Copy",
+            "request": "launch",
+            "mainClass": "Arrays.Copy",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+=======
+<<<<<<< HEAD
             "name": "Launch Arraymeth",
             "request": "launch",
             "mainClass": "Arraymeth",
@@ -111,14 +131,20 @@
             "request": "launch",
             "mainClass": "practice.StringBuffer1",
             "projectName": "MyJavaPractices_8cf5baa5"
+>>>>>>> ceccca4b3a793e186001043d666068cd80b7bbe9
         },
         {
             "type": "java",
             "name": "Launch StringBuilder",
             "request": "launch",
+<<<<<<< HEAD
+            "mainClass": "Strings.StringBuilder",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+=======
             "mainClass": "practice.StringBuilder",
             "projectName": "MyJavaPractices_8cf5baa5"
 >>>>>>> 131b5c0d122cc2d86e0edad7e4320d6b700b8811
+>>>>>>> ceccca4b3a793e186001043d666068cd80b7bbe9
         },
         {
             "type": "java",

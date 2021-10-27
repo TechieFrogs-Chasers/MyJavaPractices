@@ -1,4 +1,4 @@
-package Assignment5.java;
+package Assignment5;
 public class Stringisnumeric2 {
     public static void main(String...args){
         String num="4 5";

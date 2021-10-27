@@ -1,4 +1,4 @@
-package Assignment5.java;
+package Assignment5;
 public class Clearstringbuffer {
     public static void main (String...args){
         StringBuffer str=new StringBuffer("maonj"); //created a string buffer 

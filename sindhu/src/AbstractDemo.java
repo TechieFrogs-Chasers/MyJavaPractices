@@ -88,6 +88,10 @@ abstract class AbstractDemo{
     void hey(){
         System.out.println("normal method");
     }
+
+    AbstractDemo(){
+
+    }
 }
 
 abstract class subclass extends AbstractDemo{
@@ -103,7 +107,7 @@ abstract class subclass extends AbstractDemo{
     
 }
 
-class otherclass extends subclass{
+abstract class otherclass extends subclass{
     int id;
 
     void oy(){
@@ -118,9 +122,9 @@ class otherclass extends subclass{
 
     public static void main(String[] args) {
 
-        otherclass x = new otherclass();
+       /* otherclass x = new otherclass();
         x.hi();
-        x.hey();
+        x.hey();*/
         
         
     }
