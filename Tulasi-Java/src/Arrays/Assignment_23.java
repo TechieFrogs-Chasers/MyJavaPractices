@@ -8,6 +8,7 @@ public class Assignment_23 {
         int size;
         System.out.println("Enter size of the matrix : ");
         size=scannerObj.nextInt();
+        scannerObj.close();
         for(int i=0;i<size;i++){
             for (int j=0;j<size;j++){
                 if(i==j){
