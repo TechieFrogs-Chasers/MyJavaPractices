@@ -10,17 +10,20 @@ public class Strings {//Driver class
         String nam = new String("company");//String obj-one in the heap and String constant pool and the obj created that obj awlays points to Heap area.
         String nam1 = new String();//String literals
         String n = new String("Company");
+        String fullName = new String("  techi company techi ");
+        byte num = 55;
+        String date = "October 10 2021";
+        Integer x = 15;
         String n1 = na.concat(n);
 
         if ((n == names) | (na == nam)) {
             System.out.println("String values are same");
-        }
-        else {
+        } else {
             System.out.println("String values are not same");
         }
 
         names.concat("names ");
-        System.out.println(names.concat(" names "));//new string will created,but reference of name is not changed.(new will created but I it not pointed to new obj)-Concat() method takes only one argument of string and concat it with other string.
+        System.out.println(names.concat(" names "));//new string will created,but reference of name is not changed.(new will created but it not pointed to new obj)-Concat() method takes only one argument of string and concat it with other string.
         names = names.concat(" name ");//Here new string is pointed to names(newly created string,point to that parituclar obj).
         System.out.println(names + nam);//+ operator can take any number of arguments and concatenates all the strings
         System.out.println(name.equals(names));//different literals-compare only value
@@ -42,7 +45,27 @@ public class Strings {//Driver class
         System.out.println(na.charAt(2));//charAt() returns a character at specified index-charAt() method
         System.out.println(n);
         System.out.println(names);
-        System.out.println(n.compareTo(names));
+        System.out.println(n.compareTo(names));//compareTo() method-compare two strings
+        System.out.println(fullName.trim());//trim() method-will move space in front and end of the sentence.
+        System.out.println(fullName.replace("Techi", "Telecom"));//repalce() method-will repalce a word
+        System.out.println(String.valueOf(num));//valueof() method-valueof String must given with Strung word not the String name.
+        System.out.println(fullName.substring(1, 9));//substring() method-will count no.of string having in line,It includes 0 as first letter,it will diplay lastbut on letter.Ex- (0,8)-It will display upto 7
+        System.out.println(fullName.isEmpty());//isEmpty() method- To check is string empty or not.
+        System.out.println(fullName.intern());
+        String output = fullName.toUpperCase() + fullName.substring(3);
+        System.out.println(output);
+        System.out.println(fullName);
+        System.out.println(fullName.codePointCount(0, 1));
+        System.out.println(fullName);
+        System.out.println(fullName.charAt(5));//char value
+        System.out.println(fullName.codePointCount(0,6));
+        System.out.println(fullName.codePointAt(5));//unicode numeric number
+        System.out.println(x.toString());//
+        System.out.println(Integer.toString(500));
+        System.out.println(fullName.hashCode());//returns the hashcode value of this string.
+        System.out.println(fullName.getBytes());
+        System.out.println(name.intern());
+
     }
 
 }

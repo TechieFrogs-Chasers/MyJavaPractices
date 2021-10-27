@@ -1,5 +1,4 @@
-
-
+package AbstractionAssignment;
 abstract class Shape2{
    
     protected boolean filled = true;   

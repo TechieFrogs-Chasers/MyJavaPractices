@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Strings.String;
+
 public class ControlStatements {
     public static void main(String[] args) {
         Scanner scannerObj = new Scanner(System.in);
