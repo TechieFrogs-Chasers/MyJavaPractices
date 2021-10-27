@@ -4,7 +4,34 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch Duplicate",
+            "request": "launch",
+            "mainClass": "Arrays.Duplicate",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Left",
+            "request": "launch",
+            "mainClass": "Arrays.Left",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Copy",
+            "request": "launch",
+            "mainClass": "Arrays.Copy",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "Strings.StringBuilder",
+            "projectName": "MyJavaPractices_2bc4cb1d"
+        },
         {
             "type": "java",
             "name": "Launch ConvertDate",
