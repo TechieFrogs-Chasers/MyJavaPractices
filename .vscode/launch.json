@@ -4,7 +4,195 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch ProgramTest",
+            "request": "launch",
+            "mainClass": "CodingTest.ProgramTest",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCSNQTProgram4",
+            "request": "launch",
+            "mainClass": "TCSNQTProgram4",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise30",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise30",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise27",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise27",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch EqualPartsOfString",
+            "request": "launch",
+            "mainClass": "practice.EqualPartsOfString",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise19",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise19",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program8",
+            "request": "launch",
+            "mainClass": "Anuradha.Strings.Program8",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise7",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise7",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise6",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise6",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise5",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise5",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise3",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise3",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch enumDemo",
+            "request": "launch",
+            "mainClass": "practice.ENUM.enumDemo",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise23",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise23",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise10",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise10",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise8",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise8",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program2",
+            "request": "launch",
+            "mainClass": "Anuradha.Strings.Program2",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise1",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise1",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayExercise4",
+            "request": "launch",
+            "mainClass": "ArrayAssignment.ArrayExercise4",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractionAssignment4",
+            "request": "launch",
+            "mainClass": "AbstractionAssignment.AbstractionAssignment4",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidationsDoc",
+            "request": "launch",
+            "mainClass": "practice.ValidationsDoc",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "BasicsAssignment.NumberPrograms.AddTwoNumbers",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidationsTest",
+            "request": "launch",
+            "mainClass": "practice.ValidationsTest",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExercise2",
+            "request": "launch",
+            "mainClass": "StringsAssignment.StringExercise2",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOrOdd",
+            "request": "launch",
+            "mainClass": "BasicsAssignment.NumberPrograms.EvenOrOdd",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch downCasting",
+            "request": "launch",
+            "mainClass": "practice.TypeCasting.downCasting",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch downCastingExample",
+            "request": "launch",
+            "mainClass": "practice.TypeCasting.downCastingExample",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpCastingExample",
+            "request": "launch",
+            "mainClass": "practice.TypeCasting.UpCastingExample",
+            "projectName": "MyJavaPractices_26e4d283"
+        },
         {
             "type": "java",
             "name": "Launch ConvertDate",

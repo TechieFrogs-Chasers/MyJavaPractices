@@ -1,4 +1,4 @@
-package TypeCasting;
+package practice.TypeCasting;
 
 public class downCasting {
     
@@ -39,3 +39,4 @@ class Cat extends Animal{
         System.err.println("cat eating");
     }
 }
+
