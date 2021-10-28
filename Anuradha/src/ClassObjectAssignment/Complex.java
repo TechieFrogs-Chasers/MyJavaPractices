@@ -1,3 +1,4 @@
+package ClassObjectAssignment;
 import java.util.Scanner;
 public class Complex {
     double real,img;

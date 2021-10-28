@@ -1,3 +1,4 @@
+package InterfaceAssignment;
 interface Measurable{
     default double getMeasure(){
         return 5.5;

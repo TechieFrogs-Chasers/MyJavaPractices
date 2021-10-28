@@ -19,8 +19,7 @@ public class TCSNQTProgram4 {
         }
 
         String encryptedText = new String(encrptedText);// converting charArray to string
-
-        System.out.println(encryptedText);
+       System.out.println(encryptedText);
 
     }
     

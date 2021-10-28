@@ -1,7 +1,7 @@
 
-
-import java.util.Scanner;
 package ArrayAssignment;
+import java.util.Scanner;
+
 public class ArrayExercise12 {
     public static void main(String[] args) {
         

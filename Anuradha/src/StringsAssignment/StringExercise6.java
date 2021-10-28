@@ -1,3 +1,5 @@
+package StringsAssignment;
+
 public class StringExercise6 {
 
     public static void main(String[] args) {
@@ -35,3 +37,7 @@ public class StringExercise6 {
     }
     
 }
+/*S1 && S2 are Equal
+S1 && S3 are Not Equal
+S1 && Str are Equal
+Str && Str1 are Equal */

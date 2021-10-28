@@ -1,5 +1,4 @@
-package NumberPrograms;
-
+package BasicsAssignment.NumberPrograms;
 import java.util.Scanner;
 public class Factorial {
     public  static void main(String[] args) 

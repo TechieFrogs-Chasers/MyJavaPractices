@@ -12,7 +12,7 @@ public class TCSNQTProgram11 {
         {
             if (year % 100 == 0)// If it is not divisible by 100 then it is a leap year.
             {
-                if (year % 400 == 0)// If it is not divisible by 400 then it is a leap year.
+                if (year % 400 == 0)// If it is  divisible by 400 then it is a leap year.
                 {
                     leapyear = true;
                 } else {
