@@ -8,6 +8,7 @@ public interface InterfaceExercise3 {
     
 }
 */ 
+package InterfaceAssignment;
 class Exercise3 implements Interface.InterfaceExercise3 {
 
     public void method1() {

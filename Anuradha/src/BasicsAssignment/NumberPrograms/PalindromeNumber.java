@@ -1,4 +1,4 @@
-package NumberPrograms;
+package BasicsAssignment.NumberPrograms;
 
 import java.util.Scanner;
 public class PalindromeNumber {

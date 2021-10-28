@@ -1,5 +1,5 @@
+package InterfaceAssignment;
 interface Vehicles{
-    
     void print();
 }
 

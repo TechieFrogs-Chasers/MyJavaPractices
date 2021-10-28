@@ -1,3 +1,4 @@
+package ClassObjectAssignment;
 public class Student2 {
     String name;
     int roll_no;

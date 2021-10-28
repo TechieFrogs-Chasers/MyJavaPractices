@@ -1,3 +1,5 @@
+package StringsAssignment;
+
 import java.util.Scanner;
 public class StringExercise24 {
     public static void main(String[] args) {

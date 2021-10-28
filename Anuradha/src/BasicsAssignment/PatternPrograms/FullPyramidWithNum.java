@@ -1,4 +1,4 @@
-package PatternPrograms;
+package BasicsAssignment.PatternPrograms;
 import java.util.*;
 class FullPyramidWithNum{
     public static void main(String[] args) {

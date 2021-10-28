@@ -37,6 +37,7 @@ public class ArraysDemo {
 
         }
    }
+
    public static void arrdata( float[] j,byte [] f,double[] d){
 
        float[] arr1 = {1.5F,6.5F};
