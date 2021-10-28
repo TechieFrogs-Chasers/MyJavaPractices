@@ -1,4 +1,4 @@
-package NumberPrograms;
+package BasicsAssignment.NumberPrograms;
 
 import java.util.*;
 public class AddTwoNumbers { // Class Declaration

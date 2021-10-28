@@ -1,3 +1,4 @@
+package ClassObjectAssignment;
 public class Triangle2 {
     int a,b,c;
 

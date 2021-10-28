@@ -1,6 +1,6 @@
 
 
-
+package ClassObjectAssignment;
 public class Ex7Class {
 
     void dis(){
