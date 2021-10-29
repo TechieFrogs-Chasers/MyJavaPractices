@@ -14,8 +14,8 @@ public class First {
         y[i] = x[i];
     }
 
-    for(int i=0;i<y.length;i++){
-        System.out.println(y[i]);
+    for(int j=0;j<y.length;j++){
+        System.out.println(y[j]);
     }
     
 }
