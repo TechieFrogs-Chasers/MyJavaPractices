@@ -1,3 +1,5 @@
+package StringsAssignment;
+
 public class StringExercise7 {
     public static void main(String[] args) {
         String str = new String("java");
@@ -17,3 +19,7 @@ public class StringExercise7 {
     }
     
 }
+
+/*Str && Str1 are Not Equal
+Str && Str are Equal
+*/

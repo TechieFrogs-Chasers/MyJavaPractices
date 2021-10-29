@@ -29,7 +29,6 @@ public class ArrayExercise2 {
                       count++;
                       freq[j] = visited;
                   }
-
               }
 
               if(freq[i] != visited)

@@ -1,4 +1,4 @@
-
+package InterfaceAssignment;
 interface One{
     void One1();
     void One2();

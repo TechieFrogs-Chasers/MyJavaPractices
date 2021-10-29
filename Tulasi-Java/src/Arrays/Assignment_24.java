@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Scanner;
 
 public class Assignment_24 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Sparse matrix-matrix having more '0'.
         int rows=0,column=0,count=0;
 
         Scanner scannerObj=new Scanner(System.in);

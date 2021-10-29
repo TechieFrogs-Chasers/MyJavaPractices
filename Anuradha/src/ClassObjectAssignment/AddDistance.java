@@ -1,3 +1,5 @@
+package ClassObjectAssignment;
+
 import java.util.Scanner;
 public class AddDistance {
     double inch;
