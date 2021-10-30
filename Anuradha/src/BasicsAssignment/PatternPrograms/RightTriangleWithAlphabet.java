@@ -1,4 +1,4 @@
-package PatternPrograms;
+package BasicsAssignment.PatternPrograms;
 import java.util.Scanner;
 public class RightTriangleWithAlphabet {public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

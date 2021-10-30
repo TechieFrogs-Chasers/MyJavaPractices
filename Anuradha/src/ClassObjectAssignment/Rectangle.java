@@ -1,3 +1,4 @@
+package ClassObjectAssignment;
 public class Rectangle {
     int a,b;
 

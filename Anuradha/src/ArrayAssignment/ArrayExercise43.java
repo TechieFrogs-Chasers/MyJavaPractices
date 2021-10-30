@@ -11,7 +11,6 @@ public class ArrayExercise43 {
         for(int i = 0;i< intArr.length;i++){
             intArr[i]=sc.nextInt();
         }
-
         sc.close();
         System.out.println("Entered values are");
         for(int n:intArr){

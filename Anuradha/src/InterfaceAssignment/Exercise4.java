@@ -1,3 +1,4 @@
+package InterfaceAssignment;
 interface VariableType{
   //  int num;   (default it is final can't be blank)
    int num = 10;

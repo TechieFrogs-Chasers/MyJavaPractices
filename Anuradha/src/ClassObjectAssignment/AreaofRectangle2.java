@@ -1,3 +1,4 @@
+package ClassObjectAssignment;
 import java.util.Scanner;
 public class AreaofRectangle2 {
  static int a;
