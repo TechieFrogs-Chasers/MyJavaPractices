@@ -7,11 +7,12 @@ public class Assignment_6 {
     public static void main(String[] args) {
         Scanner scannerObj = new Scanner(System.in);
         System.out.println("Enter two number : ");
-        int num = scannerObj.nextInt();
-        int num1 = scannerObj.nextInt();
+
         int sum, sub, multiply;
 
         try {
+            int num = scannerObj.nextInt();
+            int num1 = scannerObj.nextInt();
             sum = num + num1;
             System.out.println("Sum of two number: " + sum);
             try {//nested try block
