@@ -20,6 +20,7 @@ public class ArrayAsParameter {
       myfav(arr);
      // obj.myreturn(arr);
       obj.unknown(new int[]{20,50,12}); // anonymous array
+      obj.unknown(new int[3]); //prints 0,0,0 //  anonymous array
       obj.inturn();
         
     }

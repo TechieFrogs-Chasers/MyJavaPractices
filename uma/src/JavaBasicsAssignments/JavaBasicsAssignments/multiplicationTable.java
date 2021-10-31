@@ -31,7 +31,20 @@ public class multiplicationTable {
 
       System.out.println(num+ " * "+ i + " = "+ num*i);
 
-    
+
+      //another way 
+
+     /* int i = 1;
+
+      while (i < 11) {
+          int j = 1;
+          while (j < 11) {
+              System.out.print(i * j);
+              System.out.print(" ");
+              j++;
+          }
+          System.out.println();
+          i++;*/
 
 
 

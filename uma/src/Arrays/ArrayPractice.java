@@ -46,8 +46,8 @@ public class ArrayPractice{
         System.out.println(showroom[1]);
 
 
-        int[] x = new int[(byte) 10];
-        double[] dou = new double[(float) 2.4f]
+       // int[] x = new int[(byte) 10];
+        //double[] dou = new double[(float) 2.4f]
 
 
 
