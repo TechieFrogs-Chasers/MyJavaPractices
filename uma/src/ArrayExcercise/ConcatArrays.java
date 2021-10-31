@@ -1,4 +1,4 @@
-//import java.util.Arrays;
+import java.util.Arrays;
 
 public class ConcatArrays {
 
@@ -15,20 +15,20 @@ public class ConcatArrays {
 
        System.out.println(length); // only adds lengths,does not add arrays
 
-      /* int[] add1 = new int[length];
+       int[] add1 = new int[length];
        int count=0;
 
        for (int i  : a){
-           i=add1[i];
+           add1[count]=i;
            count++; 
        } 
            
        for (int j : b) {
        
-           j=add1[j];
+           add1[count]=j;
            count++;  
        }
-       System.out.println(Arrays.toString(add1));*/
+       System.out.println(Arrays.toString(add1));
        
 
 
