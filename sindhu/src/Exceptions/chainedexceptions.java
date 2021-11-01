@@ -1,4 +1,4 @@
-package sindhu.src.Exceptions;
+package Exceptions;
 
 import java.io.IOException;
 
