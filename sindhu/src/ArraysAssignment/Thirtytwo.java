@@ -4,7 +4,7 @@ public class Thirtytwo {
 
     public static void main(String[] args) {
         
-        int x[][] = new int[3][2]; //3 rows 2 colums
+        int[][] x = new int[3][2]; //3 rows 2 colums
 
         int y[][] = new int [3][2];
 
@@ -20,15 +20,23 @@ public class Thirtytwo {
 
                 z1[i][j] = x1[i][j] + y1[i][j];
 
-                System.out.println(z1[i][j]);
+                
             }
 
-            System.out.println();
         }
 
 
 
 
-    }
     
+
+    System.out.println("addition of two matrices");
+        for(int[] row : z1) {
+        for (int column : row) {
+            System.out.print(column + "    ");
+        }
+        System.out.println();
+    
+}
+    }
 }

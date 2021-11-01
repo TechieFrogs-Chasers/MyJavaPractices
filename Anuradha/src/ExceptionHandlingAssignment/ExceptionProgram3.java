@@ -1,3 +1,5 @@
+package ExceptionHandlingAssignment;
+
 import java.util.Scanner;
 public class ExceptionProgram3 {
     public static void main(String[] args) {

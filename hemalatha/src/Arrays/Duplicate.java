@@ -6,9 +6,9 @@ public class Duplicate {
         System.out.println("duplicate elements in array");
         for(int i=0;i<arr.length;i++){  // search for elements
             for(int j=i+1;j<arr.length;j++){
-                if(arr[i]==arr[j])
+                if(arr[i]==arr[j])    //condition
                 {
-                    System.out.println(arr[j]);
+                    System.out.println(arr[j]);  //print the elements 
                 }
 
             }
