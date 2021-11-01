@@ -13,7 +13,7 @@ public class ProgramTest {
          intArr[i] = ValidationsDoc.validateInt(scannerObj); //validation method from validationDoc class
         }
         scannerObj.close();
-        int min = intArr[0], max = intArr[0];
+        int min = intArr[0], max = intArr[0]; //initializing min amd max values to first element in the array
 
         for(int i = 0; i < intArr.length;i++){
 

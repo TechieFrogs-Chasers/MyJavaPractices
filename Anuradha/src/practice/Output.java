@@ -1,3 +1,5 @@
+package practice;
+
 class Output 
 {
  
@@ -12,5 +14,6 @@ class Output
              sum(10,20);
              sum(10,20,30);
              sum(10,20,30,40);
+
         } 
 }
