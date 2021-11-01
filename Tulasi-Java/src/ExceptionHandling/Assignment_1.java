@@ -8,9 +8,10 @@ public class Assignment_1 {
         int num, num1, sum;
         System.out.println("Enter the numbers to sum : ");
         Scanner scannerObj = new Scanner(System.in);
-        num = scannerObj.nextInt();
-        num1 = scannerObj.nextInt();
+
         try {
+            num = scannerObj.nextInt();
+            num1 = scannerObj.nextInt();
             sum = num + num1;
             System.out.println("Sum of numbers : " + sum);
         }

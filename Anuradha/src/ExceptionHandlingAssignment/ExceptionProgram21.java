@@ -1,3 +1,4 @@
+package ExceptionHandlingAssignment;
 import java.util.Scanner;
 
 public class ExceptionProgram21 {

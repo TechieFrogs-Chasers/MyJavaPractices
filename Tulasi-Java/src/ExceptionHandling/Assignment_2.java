@@ -11,11 +11,12 @@ public class Assignment_2 {
         int sum;
         Scanner scannerObj=new Scanner(System.in);
         System.out.println("Enter two number to sum: ");
-        num =scannerObj.nextInt();
-        num1=scannerObj.nextByte();
+
         int arr[]={1,6,4,96};
 
         try {
+            num =scannerObj.nextInt();
+            num1=scannerObj.nextByte();
             sum=num+num1;
             System.out.println("Sum of two numbers : "+ sum);
             System.out.println("Element in array at index 1 is: "+ arr[1]);
