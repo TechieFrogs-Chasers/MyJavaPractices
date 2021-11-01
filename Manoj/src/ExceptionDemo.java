@@ -18,7 +18,9 @@ public class ExceptionDemo {
         //it gives the exception name ,reason ,line number ,method ,class ,program name.
 
        }
-
+        finally{
+            System.out.println("finall block ");
+        }
        System.out.println("after statements ");
 
     }
