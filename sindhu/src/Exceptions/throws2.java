@@ -4,6 +4,8 @@ public class throws2 {
 
     void m1() throws ArithmeticException,ArrayIndexOutOfBoundsException,NegativeArraySizeException{
 
+        //ur method may throw other  exceptions. so, we can write multiple exceptions
+
      //void m1(){
 
         try{
@@ -43,9 +45,9 @@ public class throws2 {
         
 
         try{
-            throw new NegativeArraySizeException();
+            throw new NullPointerException();
         }
-        catch(NegativeArraySizeException n){
+        catch(NullPointerException n){
 
             System.out.println("custommessage4");
             
