@@ -75,6 +75,9 @@ public class StringExample {
                                                 System.out.println(s7.contains("welcome everyone. Welcome"));
                                                 System.out.println(s7.contains("Heloo"));
                                                System.out.println(String.format("name is %s", str7));
+                                               System.out.println(s7.isEmpty());
+                                               System.out.println(s7.isBlank());
+                                               System.out.println(s7.substring(8, 11));
 
 
 
