@@ -1,3 +1,4 @@
+package InterfaceAssignment;
 public interface Exercise7{          //Interface Package
     void  num();
 }

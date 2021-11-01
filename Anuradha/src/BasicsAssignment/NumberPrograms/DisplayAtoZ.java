@@ -1,4 +1,4 @@
-package NumberPrograms;
+package BasicsAssignment.NumberPrograms;
 
 class DisplayAtoZ {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package ExceptionHandlingAssignment;
 class classcast{
     String name;
     String color;

@@ -24,3 +24,9 @@ public class AbstractionAssignment4 {
         
     }
 }
+
+
+/*This is a constructor of AbstractParent class
+This is abstract method
+This is Normal Method od Abstract class
+*/

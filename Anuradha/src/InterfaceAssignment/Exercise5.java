@@ -1,3 +1,4 @@
+package InterfaceAssignment;
 interface FastFood {
     void starter();
     void  mainCourse();

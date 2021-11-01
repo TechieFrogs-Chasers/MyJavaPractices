@@ -1,4 +1,6 @@
-import java.util.Random;
+package StringsAssignment;
+
+     import java.util.Random;
 import java.util.Scanner;
 
 public class StringExercise10 {

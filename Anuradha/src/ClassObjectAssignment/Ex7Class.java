@@ -1,5 +1,8 @@
 
 
+package ClassObjectAssignment;
+
+import InterfaceAssignment.Exercise7;
 
 public class Ex7Class {
 

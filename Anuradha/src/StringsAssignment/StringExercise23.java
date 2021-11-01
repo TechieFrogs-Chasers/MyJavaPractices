@@ -1,3 +1,5 @@
+package StringsAssignment;
+
 import java.util.Scanner;
 public class StringExercise23 {
     public static void main(String[] args) {
@@ -14,5 +16,5 @@ public class StringExercise23 {
             }
         }
         System.out.println("Entered string is :"+str+"\n"+ "Count of punctuation marks is"+count);    }
-    
+
 }

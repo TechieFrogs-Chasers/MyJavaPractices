@@ -1,3 +1,5 @@
+package StringsAssignment;
+
 public class StringExercise12 {
     public static void main(String[] args) {
         StringBuffer str = new StringBuffer();

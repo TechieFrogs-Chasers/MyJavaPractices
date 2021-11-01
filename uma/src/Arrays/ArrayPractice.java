@@ -36,7 +36,25 @@ public class ArrayPractice{
         System.out.println(total);   //prints total of elements in array
 
 
+        String[] showroom = {"BMW","AUDI","HONDA"};
+        System.out.println(showroom[2]);
+
+        showroom[2]= "TESLA";  // replace an element, prints  TESLA instead of HONDA
+        System.out.println(showroom[2]);
+
+        showroom[1] = "   ";  // delete/clear an element ,prints empty space
+        System.out.println(showroom[1]);
+
+
+       // int[] x = new int[(byte) 10];
+        //double[] dou = new double[(float) 2.4f]
+
+
+
+
+
 
     }
+
 
 }
