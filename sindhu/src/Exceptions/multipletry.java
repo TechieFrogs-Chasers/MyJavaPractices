@@ -9,22 +9,23 @@ public class multipletry {
         try{
             int i = 50;
             int j = 0;
+            
             try{
 
                 int x = i/j;
             }
-            catch(ArrayIndexOutOfBoundsException ai){
-                ai.printStackTrace();
+            catch(ArrayIndexOutOfBoundsException ae){  //it will not read system.exit it will comes out of the loop
+                ae.printStackTrace();
+                
 
             }
+            System.exit(0); 
+           
             
             
         }
-        catch(ArithmeticException ae){
-
-            ae.printStackTrace();
-
-        }
+        
+        
        
 
         finally{
