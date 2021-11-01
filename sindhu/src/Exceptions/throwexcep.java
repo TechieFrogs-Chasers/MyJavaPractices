@@ -29,12 +29,13 @@ public class throwexcep {
         try{
 
             int[] x = {1,2,3,4};
-           int y = x[5];
+            throw new ArithmeticException("not valid"); //RETHROWING AN EXCEPTION
+           //int y = x[5];
     
            }catch(NullPointerException ni){
                ni.printStackTrace();
             }
-            catch(ArrayIndexOutOfBoundsException ae){
+            catch(ArithmeticException ae){
     
                 ae.printStackTrace();
     
