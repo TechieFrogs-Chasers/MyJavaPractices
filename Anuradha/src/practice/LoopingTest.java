@@ -1,3 +1,4 @@
+package practice;
 public class LoopingTest {
     public static void main(String[] args) {
         System.out.println("---------for in for---------");

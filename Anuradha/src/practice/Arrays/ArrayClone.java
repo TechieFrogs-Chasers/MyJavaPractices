@@ -1,4 +1,4 @@
-package Arrays;
+package practice.Arrays;
 
 public class ArrayClone {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class ArrayClone {
             System.out.print(i+ " ");
         }
 
-        int[] arrClone = arrMain.clone();
+        int[] arrClone = arrMain.clone(); //clone method
 
         System.out.println();
         for(int i:arrClone){

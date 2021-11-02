@@ -1,4 +1,4 @@
-
+package practice;
 public class HumanBeing {
     String nature = "kind";
     String behaviour = "good";

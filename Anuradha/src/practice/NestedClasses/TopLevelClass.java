@@ -1,4 +1,4 @@
-package NestedClasses;
+package practice.NestedClasses;
 public class TopLevelClass {
     public static void main(String[] args) {
         //package examples

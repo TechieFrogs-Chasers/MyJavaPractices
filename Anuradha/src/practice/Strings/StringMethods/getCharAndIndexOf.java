@@ -1,4 +1,4 @@
-package Strings.StringMethods;
+package practice.Strings.StringMethods;
 
 public class getCharAndIndexOf {
     public static void main(String[] args) {

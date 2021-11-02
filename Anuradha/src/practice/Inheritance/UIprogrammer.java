@@ -1,4 +1,4 @@
-package Inheritance;
+package practice.Inheritance;
 
 public class UIprogrammer extends Programmer{
   /* cannot override final method

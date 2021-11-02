@@ -1,4 +1,4 @@
-package Strings.StringMethods;
+package practice.Strings.StringMethods;
 
 //CompareTo returns integer value
 public class CompareToMethod {

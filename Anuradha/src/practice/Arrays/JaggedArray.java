@@ -1,5 +1,4 @@
-package Arrays;
-
+package practice.Arrays;
 public class JaggedArray {
 
     public static void main(String[] args)

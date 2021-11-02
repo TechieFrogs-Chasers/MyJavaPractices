@@ -1,4 +1,5 @@
-    import java.util.Scanner;
+package MethodAssignment;
+import java.util.Scanner;
     class RBIBank{  //Base class
 
     double min_balance = 10000;

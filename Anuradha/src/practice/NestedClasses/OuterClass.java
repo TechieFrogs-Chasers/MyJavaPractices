@@ -1,4 +1,4 @@
-package NestedClasses;
+package practice.NestedClasses;
 public class OuterClass {
 
     String outer = "Outer";

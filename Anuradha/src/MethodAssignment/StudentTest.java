@@ -1,4 +1,5 @@
 //import java.util.Scanner;
+package MethodAssignment;
  class Students {
     String name;
     int age;

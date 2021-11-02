@@ -1,3 +1,4 @@
+package MethodAssignment;
 class Bank{
 
     public int getBalance(){
