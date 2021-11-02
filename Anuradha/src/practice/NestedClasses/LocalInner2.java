@@ -1,4 +1,4 @@
-package NestedClasses;
+package practice.NestedClasses;
 class localInner2{  
   //  private int data=30;//instance variable  
     void display(){  

@@ -1,3 +1,5 @@
+package InterfaceAssignment;
+
 interface Shapes{
     void draw();
     double getArea();

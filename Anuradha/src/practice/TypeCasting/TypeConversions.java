@@ -1,4 +1,4 @@
-package TypeCasting;
+package practice.TypeCasting;
 
 public class TypeConversions {
     

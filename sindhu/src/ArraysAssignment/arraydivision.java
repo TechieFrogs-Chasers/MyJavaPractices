@@ -27,7 +27,7 @@ public class arraydivision {
         for(int j = 0; j <= m; j++) {
         System.out.print(" "+(array[i][j]/array1[i][j]));
         }
-        System.out.println(" ");
+       // System.out.println(" ");
         }
         }
         }

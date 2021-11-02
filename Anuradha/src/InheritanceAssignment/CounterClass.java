@@ -1,3 +1,5 @@
+
+package InheritanceAssignment;
 class Counter{
     int i = 0;
 

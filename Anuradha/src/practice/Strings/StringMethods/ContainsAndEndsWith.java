@@ -1,4 +1,4 @@
-package Strings.StringMethods;
+package practice.Strings.StringMethods;
 
 public class ContainsAndEndsWith {
     public static void main(String[] args) {

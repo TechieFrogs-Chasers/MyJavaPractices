@@ -1,4 +1,4 @@
-package Interface;
+package practice.Interface;
 
 interface AnimalInterface {     //interface Animal
     int group = 5;             //public static final variable

@@ -1,5 +1,4 @@
-package Constructors;
-
+package practice.Constructors;
 public class ExampleClass {
 
     //Instance initializer block

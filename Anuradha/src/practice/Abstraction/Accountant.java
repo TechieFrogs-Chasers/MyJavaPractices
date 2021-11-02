@@ -1,4 +1,4 @@
-package Abstraction;
+package practice.Abstraction;
 
 public class Accountant extends Employee{
 

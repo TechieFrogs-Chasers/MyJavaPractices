@@ -1,6 +1,10 @@
 
+package InheritanceAssignment;
 
-    public class Ex7SubClass  extends Ex7Class {   //Ex7Class from ClassObject Assignment
+import ClassObjectAssignment.Ex7Class;
+import InterfaceAssignment.Exercise7;
+
+public class Ex7SubClass  extends Ex7Class {   //Ex7Class from ClassObject Assignment
          
         Exercise7 displayProtected(){
             Ex7Class exObj = new Ex7Class();

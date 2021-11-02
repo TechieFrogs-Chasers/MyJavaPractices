@@ -1,3 +1,4 @@
+package InheritanceAssignment;
 class RectangleClass2 {
     int length;
     int breadth;

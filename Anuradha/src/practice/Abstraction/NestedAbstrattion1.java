@@ -1,4 +1,4 @@
-package Abstraction;
+package practice.Abstraction;
 
 // normal class -->(abstract class,static class,inner class)
 class InnerAbstractTopClassExample{  //Top Class

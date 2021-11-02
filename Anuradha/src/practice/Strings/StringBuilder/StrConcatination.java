@@ -1,4 +1,4 @@
-package Strings.StringBuilder;
+package practice.Strings.StringBuilder;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package Strings.REGEX;
+package practice.Strings.REGEX;
 
 import java.util.regex.*;
 

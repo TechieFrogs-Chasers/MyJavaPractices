@@ -1,4 +1,4 @@
-package Interface;
+package practice.Interface;
 
 //protected interface inside class
 class Cube 
