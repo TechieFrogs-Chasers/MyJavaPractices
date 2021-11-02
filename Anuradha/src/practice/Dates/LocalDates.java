@@ -18,7 +18,5 @@ public class LocalDates {
         LocalDateTime myObj2 = LocalDateTime.now(); //create dateTime object
         System.out.println(myObj2); //display current date and Time 
 
-
-        
-    
+    }
 }

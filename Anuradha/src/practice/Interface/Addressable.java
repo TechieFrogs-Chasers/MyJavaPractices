@@ -1,4 +1,4 @@
-package Interface;
+package practice.Interface;
 
  interface AddressableInterface
 {

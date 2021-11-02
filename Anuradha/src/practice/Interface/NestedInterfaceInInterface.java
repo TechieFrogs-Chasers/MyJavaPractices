@@ -1,4 +1,4 @@
-package Interface;
+package practice.Interface;
 
 //protected,private modifers can't be given only public and abstract are permitted
     //interface inside another interface
