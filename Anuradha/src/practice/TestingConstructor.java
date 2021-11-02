@@ -1,3 +1,4 @@
+package practice;
 public class TestingConstructor {  //class name with main method
     String name;
     int id;
