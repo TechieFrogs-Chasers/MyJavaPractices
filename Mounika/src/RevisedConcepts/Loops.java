@@ -1,5 +1,3 @@
-import Strings.String;
-
 public class Loops {
 
     // simple for loop
