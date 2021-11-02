@@ -1,4 +1,5 @@
- class RectangleClass {
+package InheritanceAssignment;
+class RectangleClass {
     int length;
     int breadth;
 

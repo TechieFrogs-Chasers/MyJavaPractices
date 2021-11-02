@@ -1,3 +1,4 @@
+package MethodAssignment;
 class Parent{ 
     static void print(){
     System.out.println("Parent");

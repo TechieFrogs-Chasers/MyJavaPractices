@@ -1,3 +1,5 @@
+package InheritanceAssignment;
+
 class Apple {
     int numberOfItems = 5;
 }

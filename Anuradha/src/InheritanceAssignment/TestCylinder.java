@@ -1,3 +1,4 @@
+package InheritanceAssignment;
 class Circle1{
     private double radius;
     private String color;
