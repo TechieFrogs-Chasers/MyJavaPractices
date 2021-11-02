@@ -1,3 +1,4 @@
+package InheritanceAssignment;
 class ParentClass{
   
    public void PrintParent(){

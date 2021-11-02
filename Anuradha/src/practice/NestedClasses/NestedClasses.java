@@ -1,4 +1,4 @@
-package NestedClasses;
+package practice.NestedClasses;
 public class NestedClasses {
     int id;
     String name;

@@ -1,3 +1,4 @@
+package practice;
 public class lastindexonString {
 	public static void main(String[] args) {		 
 		String str = "This is of last index of example";

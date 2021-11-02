@@ -1,3 +1,4 @@
+package practice;
 class LocalInner2{  
     private int data=30;//instance variable  
    

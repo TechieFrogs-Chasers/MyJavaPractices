@@ -1,3 +1,4 @@
+package MethodAssignment;
 public class PrintClass {
 
    public  void printn(int n)

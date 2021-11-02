@@ -1,4 +1,4 @@
-package Interface;
+package practice.Interface;
 
 public class AnimalInterfaceDemo implements AnimalInterface,ClassificationOfAnimals {
     // inheriting interfaces animalInterface and ClassificationInterface (Multiple Inheritance)

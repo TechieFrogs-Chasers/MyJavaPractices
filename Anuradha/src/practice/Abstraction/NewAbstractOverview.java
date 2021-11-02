@@ -1,4 +1,4 @@
-package Abstraction;
+package practice.Abstraction;
 
 abstract class OuterAbsClass{
     abstract void outerAbsClassMethod();

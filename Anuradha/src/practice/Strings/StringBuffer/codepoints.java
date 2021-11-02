@@ -1,4 +1,4 @@
-package Strings.StringBuffer;
+package practice.Strings.StringBuffer;
 
 import java.util.stream.IntStream;
 

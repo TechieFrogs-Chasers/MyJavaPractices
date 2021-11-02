@@ -1,4 +1,4 @@
-package Strings.StringBuffer;
+package practice.Strings.StringBuffer;
 
 public class appendInsertRepeat {
     public static void main(String[] args) {
