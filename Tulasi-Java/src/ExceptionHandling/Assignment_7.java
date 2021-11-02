@@ -6,33 +6,41 @@ import java.util.Scanner;
 
 public class Assignment_7 {
     public static void main(String[] args) {
-        Scanner scannerObj=new Scanner(System.in);
+        Scanner scannerObj = new Scanner(System.in);
         System.out.println("Enter integer : ");
+        int num = scannerObj.nextInt();
+        scannerObj.nextLine();
+        System.out.println("Enter second integer : ");
+        int num1 = scannerObj.nextInt();
+        scannerObj.nextLine();
 
         try {
-            int i =scannerObj.nextInt();
-            i = i / 0;
-            System.out.println("In First try block");
-        } catch (ArithmeticException ae) {
-            System.out.println("In First Catch Block");
-            System.out.println("Arithmetic Exception Handled :\n" + ae);
-
-            try {
-                throw new IOException();
-            } catch (IOException ioe) {
-                System.out.println("In Second Catch Block");
-                System.out.println("IOException Handled :\n" + ioe);
-                try {
-                    throw new NumberFormatException();
-                } catch (NumberFormatException nfe) {
-                    System.out.println("In Third Catch Block");
-                    System.out.println("NumberFormatException Handled  :\n" + nfe);
-                }
-
-            }
-
+            int num2=scannerObj.nextInt();
+            int num3 = scannerObj.nextInt();
+            test(num2, num3);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.getMessage());
+            System.out.println(e.getCause());
         }
 
     }
+    static void test(int num2, int num3) throws Exception {
+        try {
+            if (num3 == 0) {
+                throw new ArithmeticException("Cause");
+            } else {
+                System.out.println(num2 / num3);
+            }
+        } catch (ArithmeticException e) {
+            try {
+                throw new IOException("Actual cause", e);
+            } catch (IOException ex) {
+                throw new Exception("Another cause,ex");
+            }
+        }
+    }
 }
+
+
 

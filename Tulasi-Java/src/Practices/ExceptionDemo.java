@@ -39,6 +39,17 @@ public class ExceptionDemo {
             System.out.println("FInal statement");
         }
 
-
+        try
+        {
+            int i, sum1;
+            sum = 10;
+            for (i = -1; i < 3 ;++i)
+                sum = (sum / i);
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.print("0");
+        }
+        //System.out.print(sum1);-Value of variable sum is printed outside of try block, sum is declared only in try block, outside try block it is undefined.
     }
 }
