@@ -50,7 +50,7 @@ class hello extends Practice{
 
 
 
-        Practice z = k;
+        Practice z = new dog();
         z.m1();
         
 
