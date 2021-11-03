@@ -1,4 +1,4 @@
-
+/*
 package InheritanceAssignment;
 
 import ClassObjectAssignment.Ex7Class;
@@ -21,3 +21,4 @@ public class Ex7SubClass  extends Ex7Class {   //Ex7Class from ClassObject Assig
         }
     
 }
+*/
