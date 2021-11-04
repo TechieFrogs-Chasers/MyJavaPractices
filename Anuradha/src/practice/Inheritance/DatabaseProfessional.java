@@ -1,4 +1,4 @@
-package Inheritance;
+package practice.Inheritance;
 
 public class DatabaseProfessional extends Employee {
   

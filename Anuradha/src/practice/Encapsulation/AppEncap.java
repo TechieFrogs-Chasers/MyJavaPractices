@@ -1,4 +1,4 @@
-package Encapsulation;
+package practice.Encapsulation;
 public class AppEncap {
     public static void main(String[] args) throws Exception {
         EncapsulationTest encapTestObj = new EncapsulationTest();

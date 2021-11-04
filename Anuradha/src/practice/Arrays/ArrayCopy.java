@@ -1,4 +1,4 @@
-package Arrays;
+package practice.Arrays;
 
 public class ArrayCopy {
     public static void main(String[] args) {

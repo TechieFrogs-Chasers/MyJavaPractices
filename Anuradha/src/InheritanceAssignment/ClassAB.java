@@ -1,3 +1,4 @@
+package InheritanceAssignment;
 class A{
   int i;
   int j;

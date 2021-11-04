@@ -1,3 +1,4 @@
+package practice;
 public class LargestOfThreeTernary {
     int output = 100;
     public static void main(String[] args)

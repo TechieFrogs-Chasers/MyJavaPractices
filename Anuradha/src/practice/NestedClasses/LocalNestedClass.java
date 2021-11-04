@@ -1,4 +1,4 @@
-package NestedClasses;
+package practice.NestedClasses;
 public class LocalNestedClass {
     int a = 10;
     int b = 20;

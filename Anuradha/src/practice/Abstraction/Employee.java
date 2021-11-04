@@ -1,4 +1,4 @@
-package Abstraction;
+package practice.Abstraction;
 
 public  abstract class Employee {
     //Variables=static+non

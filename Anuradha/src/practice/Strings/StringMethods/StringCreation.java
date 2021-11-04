@@ -1,4 +1,4 @@
-package Strings;
+package practice.Strings.StringMethods;
 
 public class StringCreation {
 

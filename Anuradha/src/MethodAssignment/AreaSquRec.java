@@ -1,3 +1,5 @@
+package MethodAssignment;
+
 public class AreaSquRec {
 
     public void area(int s){
