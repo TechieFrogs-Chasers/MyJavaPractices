@@ -9,7 +9,7 @@ public class ArrayClone {
             System.out.print(i+ " ");
         }
 
-        int[] arrClone = arrMain.clone();
+        int[] arrClone = arrMain.clone(); //clone method
 
         System.out.println();
         for(int i:arrClone){

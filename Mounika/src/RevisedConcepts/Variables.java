@@ -1,4 +1,6 @@
-import RevisedConcepts;
+package RevisedConcepts;
+
+
 
 public class Variables {
     //instance variables
