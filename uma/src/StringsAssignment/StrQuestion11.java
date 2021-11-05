@@ -18,7 +18,7 @@ public class StrQuestion11 {
 
         int length = 10;  //length of the random string
 
-        for(int i=0; i<=length; i++){
+        for(int i=0; i<length; i++){
 
             int index = ran.nextInt(alphaNumeric.length());
 
