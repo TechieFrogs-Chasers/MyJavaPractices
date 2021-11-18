@@ -46,7 +46,7 @@ class SubClass2 extends MainClass1{//sub class or child class or derived class o
     }
 }
 
-class SubClass3 extends MainClass.InnerClass{// inheriting the inner class of main class
+class SubClass3 extends MainClass1.InnerClass{// inheriting the inner class of main class
 
     public static void main(String[] args) {
 

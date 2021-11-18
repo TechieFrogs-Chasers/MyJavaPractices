@@ -1,3 +1,5 @@
+package Array;
+
 public class MultiDimensional {
     
     public static void main(String[] args) {
