@@ -15,6 +15,5 @@ public class TreeMap_26 {
         System.out.println("Keys greater than or equal to 2:-"+ treeMap_obj.ceilingKey(2));
         System.out.println("Keys greater than or equal to 5:-"+ treeMap_obj.ceilingKey(5));
         System.out.println("Keys greater than or equal to 6:-"+ treeMap_obj.ceilingKey(6));
-
     }
 }
