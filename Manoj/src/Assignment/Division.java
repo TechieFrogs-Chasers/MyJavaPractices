@@ -29,7 +29,7 @@ public class Division {
             }num=object.nextInt();
 
          } while(num<=0);
-        return num; //return is used to exit from the method 
+        return num; //return is used to exit from the method which the method  is return type 
         
     }
     

@@ -1,3 +1,4 @@
+import java.lang.String;
 public class Encapsul {
     int i ;
     float f;
