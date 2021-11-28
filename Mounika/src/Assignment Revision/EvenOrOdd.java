@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import Strings.String;
+
 public class EvenOrOdd {
     
 

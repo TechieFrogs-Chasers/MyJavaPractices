@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import Strings.String;
 
 public class ControlStatements {
     public static void main(String[] args) {

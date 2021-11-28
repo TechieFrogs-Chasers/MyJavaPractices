@@ -1,3 +1,4 @@
+package InheritanceAssignment;
 class Member{
 
    String Name;

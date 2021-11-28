@@ -1,3 +1,5 @@
+
+package InheritanceAssignment;
 class ParentClass2{
   
     private void PrintParent(){

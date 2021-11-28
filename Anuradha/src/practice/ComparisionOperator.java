@@ -1,3 +1,4 @@
+package practice;
 class ComparisionOPerator{
     public static void main(String[] args) {
         /*== is an equality operator, confusingly enough,

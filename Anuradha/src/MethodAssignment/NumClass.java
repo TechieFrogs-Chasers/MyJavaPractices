@@ -1,3 +1,4 @@
+package MethodAssignment;
 class I{
     int i ;
   public void printNum(){

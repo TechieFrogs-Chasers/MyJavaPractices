@@ -1,4 +1,4 @@
-package Encapsulation;
+package practice.Encapsulation;
 
  class EncapsulationTest {
      private String  sum;

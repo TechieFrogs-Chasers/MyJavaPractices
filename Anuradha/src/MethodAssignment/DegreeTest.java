@@ -1,3 +1,4 @@
+package MethodAssignment;
 class Degree{
 
     public void getDegree(){

@@ -1,4 +1,4 @@
-package Arrays;
+package practice.Arrays;
 
 public class Array2DClone {
     public static void main(String[] args) {

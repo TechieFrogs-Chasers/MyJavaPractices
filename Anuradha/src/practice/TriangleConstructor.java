@@ -1,4 +1,4 @@
-
+package practice;
     public class TriangleConstructor {
 
         int a,b;
