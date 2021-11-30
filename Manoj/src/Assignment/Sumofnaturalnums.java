@@ -1,4 +1,4 @@
-
+package Assignment;
 import java.util.Scanner;
 public class Sumofnaturalnums {
     public static void main(String...args){
