@@ -13,14 +13,12 @@ public class Assignment_19 {
         map.put("Subject-3", "GK");
         map.put("Subject-4", "Computers");
 
-        Iterator<String> it = map.keySet().iterator();
+        Iterator<Map.Entry<String, String>> it = map.entrySet().iterator();
         while (it.hasNext()) {
-            String key = it.next();
-            System.out.println("The Map Value is: " + map.get(key));
-            if (key.equals(2)) {
-                map.put("Subject-5","PE");
-                System.out.println(map);
-            }
+            Map.Entry<String, String> entry = it.next();
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+            map.put("Subject-5", "PE");
+
         }
     }
 }

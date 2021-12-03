@@ -13,7 +13,8 @@ public class Assignment_18 {
         map.put("Subject-4", "Computers");
         Iterator<Map.Entry<String, String>> i = map.entrySet().iterator();
         while (i.hasNext()) {
-            System.out.println(i.next());
+            Map.Entry<String, String> entry = i.next();
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
             map.put("Subject-5", "PE");
         }
 
@@ -27,8 +28,10 @@ public class Assignment_18 {
         hmap.put("Orange", (byte) 6);
         Iterator<Map.Entry<String, Byte>> it = hmap.entrySet().iterator();
         while (it.hasNext()) {
-            System.out.println(it.next());
-            //map.put("Grey",(byte)7);
+            Map.Entry<String, Byte> entry = it.next();
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+            hmap.put("White", (byte)8);
+
         }
         //LinkedHashMap
 
@@ -41,8 +44,9 @@ public class Assignment_18 {
         lmap.put("Orange", 600);
         Iterator<Map.Entry<String, Integer>> ith = lmap.entrySet().iterator();
         while (ith.hasNext()) {
-            System.out.println(ith.next());
-           // map.put("Subject-5", 700);
+            Map.Entry<String, Integer> entry = ith.next();
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+            lmap.put("White", 800);
 
             //HashTable
             Hashtable<String, Byte> ht = new Hashtable<>();
@@ -54,8 +58,9 @@ public class Assignment_18 {
             ht.put("Orange", (byte) 6);
             Iterator<Map.Entry<String, Byte>> htt = ht.entrySet().iterator();
             while (htt.hasNext()) {
-                System.out.println(htt.next());
-                //map.put("Grey",(byte)7);
+                Map.Entry<String, Byte> entry1 = htt.next();
+                System.out.println("Key = " + entry1.getKey() + ", Value = " + entry.getValue());
+                ht.put("White", (byte)8);
             }
 
         }
