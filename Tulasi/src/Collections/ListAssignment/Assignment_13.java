@@ -28,6 +28,5 @@ public class Assignment_13 {
         for(String arr:als){
             System.out.println(arr);
         }
-
     }
 }
