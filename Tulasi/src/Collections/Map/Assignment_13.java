@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-//How do you remove all elements of Tree Map or Hash Map at a time?
+//13.How do you remove all elements of Tree Map or Hash Map at a time?
 public class Assignment_13 {
     public static void main(String[] args) {
         //TreeMap
@@ -17,10 +17,8 @@ public class Assignment_13 {
         {
             System.out.println(tm.getKey()+":-"+tm.getValue());
         }
-
         map.clear();
         System.out.println("Remove all elements of Tree Map :"+map);
-
         //HashMap
         Map<String,Byte> hmap=new HashMap<>();
         hmap.put("Red", (byte) 1);
@@ -32,7 +30,5 @@ public class Assignment_13 {
         System.out.println("HashMap :"+hmap);
         hmap.clear();
         System.out.println("Remove all elements of Hash Map :"+hmap);
-
-
     }
 }

@@ -16,7 +16,7 @@ public class Assignment_7 {
         al.add(3);
         al.add(8);
         al.add(2);
-        System.out.println("Orignial elements list 1: " + al);
+        System.out.println("Original elements list 1: " + al);
         ArrayList<Integer> mulal = new ArrayList<>();
         mulal.add(3);
         mulal.add(1);
@@ -28,7 +28,7 @@ public class Assignment_7 {
         mulal.add(9);
         mulal.add(1);
         mulal.add(6);
-        System.out.println("Orignial elements list 2: " + mulal);
+        System.out.println("Original elements list 2: " + mulal);
         al.addAll(mulal);
         System.out.println("After join/merge multiple Array Lists-"+al);
     }

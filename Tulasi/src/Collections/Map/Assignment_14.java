@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.Map;
 import java.util.TreeMap;
 
-//Can we add null key/null value to a Tree Map and prove with an example?
+//14.Can we add null key/null value to a Tree Map and prove with an example?
 //TreeMap doesnot allow null key and but it allows null value
 public class Assignment_14 {
     public static void main(String[] args) {

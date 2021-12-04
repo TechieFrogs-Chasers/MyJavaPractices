@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//WAP to copy one Hash Map to another Hash Map?
+//9.WAP to copy one Hash Map to another Hash Map?
 public class Assignment_9 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();
@@ -20,6 +20,5 @@ public class Assignment_9 {
 
         map.putAll(mp);
         System.out.println("Copy one Hash Map to another Hash Map: "+map);
-
     }
 }

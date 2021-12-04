@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-//Explain Can add duplicate user-defined objects to Tree Map with an example? If yes then what is solution?
+//23.Explain Can add duplicate user-defined objects to Tree Map with an example? If yes then what is solution?
 public class Assignment_23_UserDefined {
     public static void main(String[] args) {
         Set<Student> tm=new TreeSet<Student>();

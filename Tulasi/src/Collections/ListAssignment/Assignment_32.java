@@ -2,7 +2,7 @@ package Collections.ListAssignment;
 
 import java.util.ArrayList;
 
-//WAP to initialize an Array List in java?
+//33.WAP to initialize an Array List in java?
 public class Assignment_32 {
     public static void main(String[] args) {
         ArrayList<String> al=new ArrayList<>();

@@ -10,7 +10,7 @@ public class Assignment_3 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
         al.remove("Red");//removing particular object.
         al.remove(1);//remove particular index.
         System.out.println("After removing particular element from ArrayList-"+al);

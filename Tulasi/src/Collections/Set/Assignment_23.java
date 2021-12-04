@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.TreeSet;
 
-//How to make HashSet/LinkedHashSet/TreeSet as thread safe?
+//23.How to make HashSet/LinkedHashSet/TreeSet as thread safe?
 public class Assignment_23 {
     public static void main(String[] args) {
         //HashSet
@@ -41,9 +41,7 @@ public class Assignment_23 {
         lls.add(55);
 
         System.out.println("Original set: "+ lls);
-      //Collections.synchronizedSet (new LinkedList<>(lls));
+         //Collections.synchronizedSet (new LinkedList<>(lls));
         System.out.println("LinkedHashSet as thread safe: "+lls);
-
-
     }
 }

@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Iterator;
-//How check HashSet is empty or not with an example?
+//3.How check HashSet is empty or not with an example?
 public class Assignment_3 {
 	public static void main(String[] args) {
 		HashSet <Integer> hs= new HashSet<>();

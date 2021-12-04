@@ -2,7 +2,7 @@ package Collections.Set;
 
 import java.util.TreeSet;
 
-//Can we add null element in TreeSet?
+//20.Can we add null element in TreeSet?
 public class Assignment_20 {
     public static void main(String[] args) {
         TreeSet<Integer> ts=new TreeSet<>();

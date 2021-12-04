@@ -2,7 +2,7 @@ package Collections.Map;
 
 import java.util.*;
 
-//How to make a Hash Map or Linked Hash Map or Tree Map as thread safe?
+//17.How to make a Hash Map or Linked Hash Map or Tree Map as thread safe?
 public class Assignment_17 {
     public static void main(String[] args) {
         //TreeMap

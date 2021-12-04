@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-//Copy one HashSet to another HashSet?
+//10.Copy one HashSet to another HashSet?
 public class Assignment_10 {
     public static void main(String[] args) {
 
@@ -16,6 +16,5 @@ public class Assignment_10 {
 
         HashSet<String> copyset = new HashSet<String>(hs);
         System.out.println("Copy HashSet: "+copyset);
-
     }
 }

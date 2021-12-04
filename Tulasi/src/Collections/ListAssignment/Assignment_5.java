@@ -10,7 +10,7 @@ public class Assignment_5 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
         al.removeAll(al);
         System.out.println("After removing all elements of an Array List at a time-"+al);
     }

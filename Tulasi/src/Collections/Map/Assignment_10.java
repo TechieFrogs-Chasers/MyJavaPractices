@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//WAP to get particular entry from given Hash Map?
+//10.WAP to get particular entry from given Hash Map?
 public class Assignment_10 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();

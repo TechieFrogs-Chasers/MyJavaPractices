@@ -1,10 +1,9 @@
 package Collections.ListAssignment;
-//How do you insert an element at a particular position of an Array List?
+
 import java.util.ArrayList;
 import java.util.Iterator;
-
+//28.How do you insert an element at a particular position of an Array List?
 public class Assignment_28 {
-
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
         al.add(3);

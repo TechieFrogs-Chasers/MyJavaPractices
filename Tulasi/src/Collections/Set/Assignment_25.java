@@ -3,7 +3,7 @@ package Collections.Set;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-//How to avoid ConcurrentModificationException with an example?--fail-safe
+//25.How to avoid ConcurrentModificationException with an example?--fail-safe
 public class Assignment_25 {
     public static void main(String[] args) {
 

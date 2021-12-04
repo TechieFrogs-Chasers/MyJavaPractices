@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-//To Compare two HashSets?
+//9.To Compare two HashSets?
 public class Assignment_9 {
 	public static void main(String[] args) {
 		HashSet<String> hs=new HashSet<String>();

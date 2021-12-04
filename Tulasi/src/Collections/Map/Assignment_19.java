@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-//How to avoid ConcurrentModificationException in HashMap with an example?
+//19.How to avoid ConcurrentModificationException in HashMap with an example?
 public class Assignment_19 {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
@@ -18,7 +18,6 @@ public class Assignment_19 {
             Map.Entry<String, String> entry = it.next();
             System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
             map.put("Subject-5", "PE");
-
         }
     }
 }

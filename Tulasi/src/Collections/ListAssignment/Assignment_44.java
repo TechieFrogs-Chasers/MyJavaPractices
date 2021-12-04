@@ -3,7 +3,7 @@ package Collections.ListAssignment;
 import java.util.ArrayList;
 import java.util.Collections;
 
-//Print odd and even numbers in ArrayList?
+//44.Print odd and even numbers in ArrayList?
 public class Assignment_44 {
     public static void main(String[] args) {
         int[] num={1,5,3,4,2,8,6,7,10,19,55,76,88,44,22,33,11,79};

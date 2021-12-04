@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-//WAP to retrieve only keys from given HashMap?
+//27.WAP to retrieve only keys from given HashMap?
 public class Assignment_27 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();

@@ -1,6 +1,6 @@
 package Collections.Set;
 
-public class UserDefinedClass {
+public class UserDefinedClass_29 {
 
         int rollNo;
         String name;
@@ -30,7 +30,7 @@ public class UserDefinedClass {
         this.subject = subject;
     }
 
-    public UserDefinedClass(int rollNo, String name, String subject) {
+    public UserDefinedClass_29(int rollNo, String name, String subject) {
         this.rollNo = rollNo;
         this.name = name;
         this.subject = subject;

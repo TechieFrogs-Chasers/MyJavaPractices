@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//WAP to remove particular entry from Hash Map with an example?
+//4.WAP to remove particular entry from Hash Map with an example?
 public class Assignment_4 {
     public static void main(String[] args) {
         Map<String,Byte> map=new HashMap<>();
@@ -17,7 +17,5 @@ public class Assignment_4 {
         map.remove("Orange");
         map.remove("Pink",(byte)5);
         System.out.println("Remove particular entry from Hash Map: "+map);
-
-
     }
 }

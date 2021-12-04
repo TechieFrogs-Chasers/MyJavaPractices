@@ -2,7 +2,7 @@ package Collections.Set;
 
 import java.util.HashSet;
 
-//Display non-common elements in 2 HashSets?
+//15.Display non-common elements in 2 HashSets?
 public class Assignment_15 {
     public static void main(String[] args) {
         HashSet<String> hs=new HashSet<String>();
@@ -20,8 +20,6 @@ public class Assignment_15 {
         hs1.add("N");
         System.out.println("Original set2:  "+ hs1);
         hs.removeAll(hs1);
-
         System.out.println(hs);
-
     }
 }

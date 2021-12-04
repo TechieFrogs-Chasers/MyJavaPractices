@@ -3,8 +3,8 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//Can we add null key/null value to a Hash Map and prove with an example?
-//HashMap will allows one null kay and multiple null values.
+//15.Can we add null key/null value to a Hash Map and prove with an example?
+//HashMap will allows one null key and multiple null values.
 public class Assignment_15 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();

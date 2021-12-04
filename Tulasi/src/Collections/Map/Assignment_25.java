@@ -2,7 +2,7 @@ package Collections.Map;
 
 import java.util.*;
 
-//Can we add multiple null’s in Map implemented classes? If yes prove with an example?
+//25.Can we add multiple null’s in Map implemented classes? If yes prove with an example?
 //HashMap,LinkedHashMap-1 null key& multiple null values, TreeMap-0 null key& allow null value,Hashtable- doesnot allow null keys or values.
 public class Assignment_25 {
     public static void main(String[] args) {

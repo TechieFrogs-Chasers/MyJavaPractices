@@ -3,7 +3,7 @@ package Collections.ListAssignment;
 import java.util.ArrayList;
 import java.util.Collections;
 
-//WAP to sort Array List in ascending order?
+//35.WAP to sort Array List in ascending order?
 public class Assignment_35 {
     public static void main(String[] args) {
 

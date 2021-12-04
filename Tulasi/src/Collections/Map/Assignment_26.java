@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-//How to make Map implemented classes as read-only with an example?
+//26.How to make Map implemented classes as read-only with an example?
 public class Assignment_26 {
     public static void main(String[] args) {
         Map<String,Integer> hm=new HashMap<>();

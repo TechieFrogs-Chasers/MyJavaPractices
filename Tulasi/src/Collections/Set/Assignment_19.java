@@ -3,7 +3,7 @@ package Collections.Set;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-//How to remove all elements of TreeSet or HashSet at a time?
+//19.How to remove all elements of TreeSet or HashSet at a time?
 public class Assignment_19 {
     public static void main(String[] args) {
         //TreeSet
@@ -27,7 +27,5 @@ public class Assignment_19 {
         System.out.println("Original set: "+ hs);
         hs.clear();
         System.out.println("Remove all elements of HashSet: "+hs);
-
-
     }
 }

@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-//WAP to retrieve both key & value pairs  from given HashMap?
+//29.WAP to retrieve both key & value pairs  from given HashMap?
 public class Assignment_29 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();
@@ -21,8 +21,5 @@ public class Assignment_29 {
         while (it.hasNext()) {
             System.out.println(it.next());
         }
-
-
-
     }
 }

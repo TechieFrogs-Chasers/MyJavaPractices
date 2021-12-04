@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//WAP to replace particular entry in given Hash Map?
+//7.WAP to replace particular entry in given Hash Map?
 public class Assignment_7 {
     public static void main(String[] args) {
         Map<String,Byte> map=new HashMap<>();

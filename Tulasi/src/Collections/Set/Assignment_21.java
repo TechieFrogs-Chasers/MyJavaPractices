@@ -4,7 +4,7 @@ package Collections.Set;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-//Can we add null element in HashSet?
+//21.Can we add null element in HashSet?
 public class Assignment_21 {
     public static void main(String[] args) {
         HashSet<Integer> hs=new HashSet<>();

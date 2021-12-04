@@ -2,7 +2,7 @@ package Collections.Map;
 
 import java.util.*;
 
-//List down methods to make collection thread-safe with an examples?
+//22.List down methods to make collection thread-safe with an examples?
 public class Assignment_22 {
     public static void main(String[] args) {
         //Collection -List thread safe

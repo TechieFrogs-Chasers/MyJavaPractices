@@ -11,7 +11,7 @@ public class Assignment_13 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements list1: "+al);
+        System.out.println("Original elements list1: "+al);
         // Converting an ArrayList of String to a String array
         int size=al.size();
         String[] string=al.toArray(new String[size]);

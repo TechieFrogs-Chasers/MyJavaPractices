@@ -2,11 +2,9 @@ package Collections.Map;
 
 import java.util.*;
 
-//WAP to retrieve only values from given HashMap?
+//28.WAP to retrieve only values from given HashMap?
 public class Assignment_28 {
     public static void main(String[] args) {
-
-
             Map<String,String> map=new HashMap<>();
             map.put("Subject-1","English");
             map.put("Subject-2","Maths");
@@ -21,6 +19,5 @@ public class Assignment_28 {
             while (it.hasNext()) {
                 System.out.println(it.next());
             }
-
     }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 
-//How do you sort Linked List in java?
+//37.How do you sort Linked List in java?
 public class Assignment_37 {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
@@ -18,7 +18,7 @@ public class Assignment_37 {
         ll.add(3);
         ll.add(8);
         ll.add(2);
-        System.out.println("Orignial elements list : " + ll);
+        System.out.println("Original elements list : " + ll);
         Collections.sort(ll);
         System.out.println("After sorting list: "+ll);
     }

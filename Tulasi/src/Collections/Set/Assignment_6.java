@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-//Check particular element exist or not in Hash Set?
+//6.Check particular element exist or not in Hash Set?
 public class Assignment_6 {
 	public static void main(String[] args) {
 		HashSet<String> hs=new HashSet<String>();

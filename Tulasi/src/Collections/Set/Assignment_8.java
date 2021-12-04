@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-//Replace particular element in given HashSet?
+//8.Replace particular element in given HashSet?
 public class Assignment_8 {
     public static void main(String[] args) {
         Set<String> set = new LinkedHashSet<String>();

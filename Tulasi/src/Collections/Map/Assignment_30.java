@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//How do you replace a value associated with the given key if and only if it is currently mapped to given value?
+//30.How do you replace a value associated with the given key if and only if it is currently mapped to given value?
 public class Assignment_30 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();

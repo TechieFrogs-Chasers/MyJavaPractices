@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 
-//How to implement generics for Map implemented classes with an example?
+//21.How to implement generics for Map implemented classes with an example?
 public class Assignment_21 {
     public static void main(String[] args) {
         Map<Integer,Integer> s = new HashMap();

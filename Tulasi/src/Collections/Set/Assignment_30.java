@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-//Can we use list-iterator to iterate data in set implemented classes?
+//30.Can we use list-iterator to iterate data in set implemented classes?
 //-No,It is only applicable for List collection implemented classes like ArrayList, LinkedList, etc. It provides bi-directional iteration. ListIterator must be used when we want to enumerate elements of List. This cursor has more functionality(methods) than iterator. ListIterator object can be created by calling listIterator() method present in the List interface.
 
 public class Assignment_30 {
@@ -35,10 +35,8 @@ public class Assignment_30 {
         set.add("Two");
         set.add("Three");
         // ListIterator litr1 = set.listIterator();
-
        // while(litr1.hasNext()) {
          //   System.out.print( litr1.next() + " ");
       //  }
-
     }
 }

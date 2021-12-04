@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//How do you remove a key-value pair from a HashMap if and only if the specified key is currently mapped to given value?
+//31.How do you remove a key-value pair from a HashMap if and only if the specified key is currently mapped to given value?
 public class Assignment_31 {
     public static void main(String[] args) {
         Map<String,String> map=new HashMap<>();

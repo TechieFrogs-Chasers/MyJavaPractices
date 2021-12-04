@@ -18,7 +18,7 @@ public class Assignment_6 {
         al.add(3);
         al.add(8);
         al.add(2);
-        System.out.println("Orignial elements: " + al);
+        System.out.println("Original elements: " + al);
         Collections.reverse(al);
         System.out.println("After reversing Array List-"+al);
 

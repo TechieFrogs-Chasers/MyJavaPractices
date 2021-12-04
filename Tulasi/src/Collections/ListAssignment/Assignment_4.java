@@ -14,7 +14,7 @@ public class Assignment_4 {
         al.add("Red");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
 
         List<String> listal=new ArrayList<>();
         for (String allist: al){

@@ -2,7 +2,7 @@ package Collections.Set;
 
 import java.util.HashSet;
 
-//Display common elements in 2 HashSets?
+//14.Display common elements in 2 HashSets?
 public class Assignment_14 {
     public static void main(String[] args) {
         HashSet<String> hs=new HashSet<String>();
@@ -22,6 +22,5 @@ public class Assignment_14 {
 
         hs.retainAll(hs1);
         System.out.println("Common elements in 2 HashSets: "+hs);
-
     }
 }

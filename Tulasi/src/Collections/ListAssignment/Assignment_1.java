@@ -12,7 +12,7 @@ public class Assignment_1 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
         System.out.println("------------Iterator-------------");
         Iterator<String> iteratorlist=al.iterator();
         while (iteratorlist.hasNext()){

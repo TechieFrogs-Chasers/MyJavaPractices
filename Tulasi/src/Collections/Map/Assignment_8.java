@@ -2,7 +2,7 @@ package Collections.Map;
 
 import java.util.HashMap;
 import java.util.Map;
-//WAP to compare 2 HashMap?
+//8.WAP to compare 2 HashMap?
 public class Assignment_8 {
     public static void main(String[] args) {
         Map<String,Byte> map=new HashMap<>();
@@ -27,8 +27,5 @@ public class Assignment_8 {
 
         //Compare values
         System.out.println("map Values == mp Values: "+map.values().equals(mp.values()));
-
-
-
     }
 }

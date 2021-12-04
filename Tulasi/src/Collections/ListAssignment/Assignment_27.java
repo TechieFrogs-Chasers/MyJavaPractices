@@ -13,7 +13,8 @@ public class Assignment_27 {
         al.add("Blue");
         al.add("Black");
         System.out.println("Orignial elements: "+al);
-        //al.a
-
+        al.add("White");
+        al.add("Pink");
+        System.out.println("Append an element at the end of an Array List:"+al);
     }
 }

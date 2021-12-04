@@ -2,7 +2,7 @@ package Collections.ListAssignment;
 
 import java.util.ArrayList;
 
-//WAP to get first occurrence of an element in given Array List?
+//22.WAP to get first occurrence of an element in given Array List?
 public class Assignment_22 {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();

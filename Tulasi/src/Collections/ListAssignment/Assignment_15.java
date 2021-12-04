@@ -13,7 +13,7 @@ public class Assignment_15 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements list: "+al);
+        System.out.println("Original elements list: "+al);
         LinkedList<String> ll=new LinkedList<>(al);
         System.out.println("Converting Array List to Linked List-"+ll);
 
@@ -23,7 +23,7 @@ public class Assignment_15 {
         lls.add("White");
         lls.add("Brown");
         lls.add("orange");
-        System.out.println("Orignial elements list1: "+lls);
+        System.out.println("Original elements list1: "+lls);
         ArrayList<String> als=new ArrayList<>(lls);
         System.out.println("Converting Linked List to Array List-"+als);
     }

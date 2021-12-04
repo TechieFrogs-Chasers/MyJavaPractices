@@ -2,7 +2,7 @@ package Collections.ListAssignment;
 
 import java.util.LinkedList;
 
-//How to add an element at the middle of the linked list?
+//39.How to add an element at the middle of the linked list?
 public class Assignment_39 {
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class Assignment_39 {
             ll.add(3);
             ll.add(8);
             ll.add(2);
-            System.out.println("Orignial elements list : " + ll);
+            System.out.println("Original elements list : " + ll);
             Integer middle=ll.get(ll.size()/2);
             System.out.println("To get an middle element: "+middle);
             ll.add(5,0);

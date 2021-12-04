@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 
-//How to merge 2 sorted Linked Lists?
+//38.How to merge 2 sorted Linked Lists?
 public class Assignment_38 {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
@@ -18,7 +18,7 @@ public class Assignment_38 {
         ll.add(3);
         ll.add(8);
         ll.add(2);
-        System.out.println("Orignial elements list 1: " + ll);
+        System.out.println("Original elements list 1: " + ll);
         Collections.sort(ll);
         System.out.println("After sorting list1: "+ll);
         LinkedList<Integer> lli = new LinkedList<>();
@@ -32,7 +32,7 @@ public class Assignment_38 {
         lli.add(9);
         lli.add(1);
         lli.add(6);
-        System.out.println("Orignial elements list 2: " + lli);
+        System.out.println("Original elements list 2: " + lli);
         Collections.sort(lli);
         System.out.println("After sorting list2: "+lli);
         ll.addAll(lli);

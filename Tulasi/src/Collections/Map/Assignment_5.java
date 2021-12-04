@@ -3,7 +3,7 @@ package Collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-//WAP to check particular Key exist or not in Hash Map?
+//5.WAP to check particular Key exist or not in Hash Map?
 public class Assignment_5 {
     public static void main(String[] args) {
         Map<String,Byte> map=new HashMap<>();

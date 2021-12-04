@@ -2,7 +2,7 @@ package Collections.Set;
 
 import java.util.*;
 
-//List down methods to make collection thread-safe with an examples?
+//28.List down methods to make collection thread-safe with an examples?
 public class Assignment_28 {
     public static void main(String[] args) {
         //Collection -List thread safe
@@ -57,6 +57,5 @@ public class Assignment_28 {
         Collections.synchronizedSet(ts);
         ts.add(22);
         System.out.println(ts);
-
     }
 }

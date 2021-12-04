@@ -10,7 +10,7 @@ public class Assignment_9 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
         al.set(2,"White");
         System.out.println("After replacing particular element in given Array List-"+al);
     }

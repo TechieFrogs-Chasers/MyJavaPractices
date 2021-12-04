@@ -12,7 +12,7 @@ public class Assignment_14 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements list: "+al);
+        System.out.println("Original elements list: "+al);
         Vector<String> v=new Vector<>(al);
         System.out.println("Converting Array List to Vector-"+v);
 
@@ -22,7 +22,7 @@ public class Assignment_14 {
         vec.add("White");
         vec.add("Brown");
         vec.add("orange");
-        System.out.println("Orignial elements list1: "+vec);
+        System.out.println("Original elements list1: "+vec);
         ArrayList<String> als=new ArrayList<>(vec);
         System.out.println("Converting Vector to Array List-"+als);
     }

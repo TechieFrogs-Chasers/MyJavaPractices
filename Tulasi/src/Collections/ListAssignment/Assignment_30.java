@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-//How to synchronize an Array List in java?
+//30.How to synchronize an Array List in java?
 public class Assignment_30 {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();

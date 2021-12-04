@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.TreeSet;
 
-//Give an example when will get ConcurrentModificationException in Hash Set or Tree Set or Linked Hash Set?--fail-fast
+//24.Give an example when will get ConcurrentModificationException in Hash Set or Tree Set or Linked Hash Set?--fail-fast
 public class Assignment_24 {
     public static void main(String[] args) {
         //HashSet

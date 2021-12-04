@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-//Remove particular element in given HashSet?
+//7.Remove particular element in given HashSet?
 public class Assignment_7 {
 	public static void main(String[] args) {
 		HashSet<String> hs=new HashSet<String>();
@@ -13,5 +13,4 @@ public class Assignment_7 {
 		hs.removeAll(hs);
 		System.out.println("Remove particular element in given HashSet: "+hs);
 	}
-
 }

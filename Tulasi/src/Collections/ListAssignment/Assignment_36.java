@@ -3,7 +3,7 @@ package Collections.ListAssignment;
 import java.util.ArrayList;
 import java.util.Collections;
 
-//WAP to Sort Array list Of Strings in Descending Order?
+//36.WAP to Sort Array list Of Strings in Descending Order?
 public class Assignment_36 {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<String>();

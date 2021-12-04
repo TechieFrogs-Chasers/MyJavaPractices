@@ -10,7 +10,7 @@ public class Assignment_8 {
         al.add("Green");
         al.add("Blue");
         al.add("Black");
-        System.out.println("Orignial elements: "+al);
+        System.out.println("Original elements: "+al);
         boolean exist=al.contains("Blue");
         System.out.println("After checking particular element Blue exist or not-"+exist);
         boolean exists=al.contains("White");

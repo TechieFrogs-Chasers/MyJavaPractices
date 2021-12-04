@@ -2,7 +2,7 @@ package Collections.ListAssignment;
 
 import java.util.ArrayList;
 
-//WAP to find the length of the Array List?
+//33.WAP to find the length of the Array List?
 public class Assignment_33 {
     public static void main(String[] args) {
         ArrayList<String> al=new ArrayList<>();
@@ -13,7 +13,5 @@ public class Assignment_33 {
         System.out.println("Orignial elements list: "+al);
         int size=al.size();
         System.out.println("The length of the Array List: "+size);
-
     }
-
 }
